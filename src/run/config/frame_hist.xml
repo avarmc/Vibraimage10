@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<histogram id="ID_HIST_WND" title="WND_HIST" icon="graph_window.ico" align="bottom" tab="info/bottom" size="100%">
+		<item  group="1" id="histC1"/>
+		<item  group="1" id="histC2"/>
+
+		<item  group="2" id="histN1" width="2" dt="0" />
+		<item  group="2" id="histN2"/>
+
+		<item  group="3" id="histF1"/>
+		<item  group="3" id="histF2"/>
+	</histogram>
+</config>

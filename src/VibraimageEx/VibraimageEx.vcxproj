@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4EFC2B87-F005-4F95-831D-6DCA92F6D5F7}</ProjectGuid>
+    <RootNamespace>VibraimageEx</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\run32\</OutDir>
+    <TargetName>$(ProjectName)_dbg</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\run\</OutDir>
+    <TargetName>$(ProjectName)_dbg</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\run32\</OutDir>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\run\</OutDir>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\share</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Winhttp.lib;Dwrite.lib;Version.lib;ViEngineEx_dbg.lib;odbc32.lib;viamcap.lib;viengine.lib;VISoundDll.lib;Winmm.lib;ddraw.lib;dxguid.lib;htmlhelp.lib;Rpcrt4.lib;setupapi.lib;newdev.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib32</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\inc</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\share</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm113 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Secur32.lib;Winhttp.lib;Dwrite.lib;Version.lib;ViEngineEx_dbg.lib;odbc32.lib;viamcap.lib;viengine.lib;VISoundDll.lib;Winmm.lib;ddraw.lib;dxguid.lib;htmlhelp.lib;Rpcrt4.lib;setupapi.lib;newdev.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib</AdditionalLibraryDirectories>
+      <SetChecksum>false</SetChecksum>
+      <DelayLoadDLLs>ViEngineEx.dll;viPreLogin01.dll;Winhttp.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\inc</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\share</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Winhttp.lib;Dwrite.lib;Version.lib;ViEngineEx.lib;odbc32.lib;viamcap.lib;viengine.lib;VISoundDll.lib;Winmm.lib;ddraw.lib;dxguid.lib;htmlhelp.lib;Rpcrt4.lib;setupapi.lib;newdev.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib32</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>ViEngineEx.dll;DWrite.dll;VIEngine.dll;viamcap.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\inc</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\share</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm113  -Qvec-report:1  -Qpar-report:1 %(AdditionalOptions)</AdditionalOptions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Secur32.lib;Winhttp.lib;Dwrite.lib;Version.lib;ViEngineEx.lib;odbc32.lib;viamcap.lib;viengine.lib;VISoundDll.lib;Winmm.lib;ddraw.lib;dxguid.lib;htmlhelp.lib;Rpcrt4.lib;setupapi.lib;newdev.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib</AdditionalLibraryDirectories>
+      <SetChecksum>true</SetChecksum>
+      <DelayLoadDLLs>ViEngine.dll;ViEngineEx.dll;viPreLogin01.dll;hasp_windows_x64_30788.dll;hasp_windows_x64_30725.dll</DelayLoadDLLs>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <AdditionalManifestDependencies>
+      </AdditionalManifestDependencies>
+      <ManifestFile>.\app.manifest</ManifestFile>
+      <StackReserveSize>268435456</StackReserveSize>
+      <StackCommitSize>8388608</StackCommitSize>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\inc</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreBuildEvent>
+      <Command>NewVersion.exe</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Set New Version</Message>
+    </PreBuildEvent>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\estring.h" />
+    <ClInclude Include="..\inc\htmlhelp.h" />
+    <ClInclude Include="..\inc\inc.h" />
+    <ClInclude Include="..\inc\regdelete.h" />
+    <ClInclude Include="..\inc\resource_cnd.h" />
+    <ClInclude Include="..\inc\VIEngine.h" />
+    <ClInclude Include="..\inc\viengineexsdk_id.h" />
+    <ClInclude Include="..\inc\viFrameVar.h" />
+    <ClInclude Include="..\inc\VIVar.h" />
+    <ClInclude Include="..\inc\VIVarTag.h" />
+    <ClInclude Include="..\share\Cmdl.h" />
+    <ClInclude Include="..\share\ColorProcress.h" />
+    <ClInclude Include="..\share\fileinfo.h" />
+    <ClInclude Include="..\share\NewVarEvent.h" />
+    <ClInclude Include="..\share\pugiconfig.hpp" />
+    <ClInclude Include="..\share\pugixml.hpp" />
+    <ClInclude Include="..\share\ViExFont.h" />
+    <ClInclude Include="..\share\zip.h" />
+    <ClInclude Include="About.h" />
+    <ClInclude Include="CDlgLogin.h" />
+    <ClInclude Include="CDlgStarter.h" />
+    <ClInclude Include="CHTMLResult.h" />
+    <ClInclude Include="CrushCheck.h" />
+    <ClInclude Include="CVideoCheck.h" />
+    <ClInclude Include="CViHTTPStorage.h" />
+    <ClInclude Include="CViLogStorage.h" />
+    <ClInclude Include="CWinAppExReg.h" />
+    <ClInclude Include="LogReport.h" />
+    <ClInclude Include="NewVarEventVI.h" />
+    <ClInclude Include="ProgressDlg.h" />
+    <ClInclude Include="PropertiesPack.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="PropertiesWndBase.h" />
+    <ClInclude Include="PropertiesWndProp.h" />
+    <ClInclude Include="PwdDlg.h" />
+    <ClInclude Include="PwdDlg2.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="UserIdDlg.h" />
+    <ClInclude Include="VibraimageEx.h" />
+    <ClInclude Include="VibraimageExAI.h" />
+    <ClInclude Include="VibraimageExAIT.h" />
+    <ClInclude Include="VibraimageExAIV.h" />
+    <ClInclude Include="VibraimageExDoc.h" />
+    <ClInclude Include="VibraimageExFrame.h" />
+    <ClInclude Include="VibraimageExGraph.h" />
+    <ClInclude Include="VibraimageExHist.h" />
+    <ClInclude Include="VibraimageExHistStat.h" />
+    <ClInclude Include="VibraimageExLD.h" />
+    <ClInclude Include="VibraimageExLDR.h" />
+    <ClInclude Include="VibraimageExMenu.h" />
+    <ClInclude Include="VibraimageExOverview.h" />
+    <ClInclude Include="VibraimageExProp.h" />
+    <ClInclude Include="VibraimageExQT.h" />
+    <ClInclude Include="VibraimageExSV.h" />
+    <ClInclude Include="VibraimageExToolBar.h" />
+    <ClInclude Include="VibraimageExView.h" />
+    <ClInclude Include="VibraimageExVPos.h" />
+    <ClInclude Include="ViEngineExProc.h" />
+    <ClInclude Include="ViEngineExProcDb.h" />
+    <ClInclude Include="ViEngineExProcReg.h" />
+    <ClInclude Include="ViEngineExSupport.h" />
+    <ClInclude Include="ViFTPStorage.h" />
+    <ClInclude Include="ViHTTPLicenseDlg.h" />
+    <ClInclude Include="VIImages.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\share\Cmdl.cpp" />
+    <ClCompile Include="..\share\ColorProcress.cpp" />
+    <ClCompile Include="..\share\NewVarEvent.cpp" />
+    <ClCompile Include="..\share\pugixml.cpp" />
+    <ClCompile Include="..\share\pugixpath.cpp" />
+    <ClCompile Include="..\share\ViExFont.cpp" />
+    <ClCompile Include="About.cpp" />
+    <ClCompile Include="CDlgLogin.cpp" />
+    <ClCompile Include="CDlgStarter.cpp" />
+    <ClCompile Include="CHTMLResult.cpp" />
+    <ClCompile Include="CrushCheck.cpp" />
+    <ClCompile Include="CVideoCheck.cpp" />
+    <ClCompile Include="CViHTTPStorage.cpp" />
+    <ClCompile Include="CViLogStorage.cpp" />
+    <ClCompile Include="CWinAppExReg.cpp" />
+    <ClCompile Include="LogReport.cpp" />
+    <ClCompile Include="NewVarEventVI.cpp" />
+    <ClCompile Include="ProgressDlg.cpp" />
+    <ClCompile Include="PropertiesPack.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="PropertiesWndBase.cpp" />
+    <ClCompile Include="PropertiesWndProp.cpp" />
+    <ClCompile Include="PwdDlg.cpp" />
+    <ClCompile Include="PwdDlg2.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UserIdDlg.cpp" />
+    <ClCompile Include="VibraimageEx.cpp" />
+    <ClCompile Include="VibraimageExAI.cpp" />
+    <ClCompile Include="VibraimageExAIT.cpp" />
+    <ClCompile Include="VibraimageExAIV.cpp" />
+    <ClCompile Include="VibraimageExDoc.cpp" />
+    <ClCompile Include="VibraimageExFrame.cpp" />
+    <ClCompile Include="VibraimageExGraph.cpp" />
+    <ClCompile Include="VibraimageExHist.cpp" />
+    <ClCompile Include="VibraimageExHistStat.cpp" />
+    <ClCompile Include="VibraimageExLD.cpp" />
+    <ClCompile Include="VibraimageExLDR.cpp" />
+    <ClCompile Include="VibraimageExMenu.cpp" />
+    <ClCompile Include="VibraimageExOverview.cpp" />
+    <ClCompile Include="VibraimageExProp.cpp" />
+    <ClCompile Include="VibraimageExQT.cpp" />
+    <ClCompile Include="VibraimageExSV.cpp" />
+    <ClCompile Include="VibraimageExToolBar.cpp" />
+    <ClCompile Include="VibraimageExView.cpp" />
+    <ClCompile Include="VibraimageExVPos.cpp" />
+    <ClCompile Include="ViEngineExProc.cpp" />
+    <ClCompile Include="ViEngineExProcDb.cpp" />
+    <ClCompile Include="ViEngineExProcReg.cpp" />
+    <ClCompile Include="ViEngineExSupport.cpp" />
+    <ClCompile Include="ViFTPStorage.cpp" />
+    <ClCompile Include="ViHTTPLicenseDlg.cpp" />
+    <ClCompile Include="VIImages.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Event_log_Resource.rc" />
+    <ResourceCompile Include="ver.rc" />
+    <ResourceCompile Include="VibraimageEx.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\fileview.bmp" />
+    <Image Include="res\fileview_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\HealthTest.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\mainfram.bmp" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\VibraimageEx.ico" />
+    <Image Include="res\VibraimageExDoc.ico" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CHTMLResult.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="packages.config" />
+    <None Include="res\VibraimageEx.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\Microsoft.Web.WebView2.1.0.992.28\build\native\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.992.28\build\native\Microsoft.Web.WebView2.targets')" />
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties _x007B_6BF52A52-394A-11D3-B153-00C04F79FAA6_x007D_="CPlayer_ctrl" RESOURCE_FILE="VibraimageEx.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.992.28\build\native\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.992.28\build\native\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+</Project>

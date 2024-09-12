@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<sv id="ID_INFO_WND_SV" title="INFO_WND_SV" icon="statistics.ico"  align="bottom" tab="status" size="500,120">
+		<item />
+	</sv>
+</config>

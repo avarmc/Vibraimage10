@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<property id="ID_INFO_WND_M" title="INFO_WND_M" icon="tm.ico" tab="info">
+	
+	<item name="INFO_WND_M_CONFIG" description="" expanded="true">
+		<item id="VI_INFO_M_PROGRESS" name="INFO_STATAVG_PROGRESS" type="float" src="engine" format="%0.0f%%"  scale="100" progress_max="100"/>
+		<item id="VI_INFO_M_PERIOD" name="INFO_STATAVG_PERIOD" type="float" src="engine" edit="true" format="%g"/>
+		<item id="VI_INFO_M_OPEN" name="INFO_STATAVG_OPEN" type="bool" src="engine" edit="true"/>
+	</item>
+
+	<item name="INFO_WND_M_T10" description="" expanded="true">
+		<template tag="#">	
+		<item id2="VI_VAR_STAT_RES_#" name="INFO_STAT_#_TEXT" type="vlist2">
+			<item name="INFO_STATAVG_COL_VAR" id="VI_INFO_M_M" id2="VI_VAR_STAT_RES_#" type="float" src="engine" scale="100" format="%0.1f" />
+			<item name="INFO_STATAVG_COL_S" id="VI_INFO_M_S" id2="VI_VAR_STAT_RES_#" type="float" src="engine" scale="100"  format="%0.1f" />
+			<item name="INFO_STATAVG_COL_PI" id="VI_INFO_M_PI" id2="VI_VAR_STAT_RES_#" type="float" src="engine" scale="100"  format="%0.1f" />
+			<item name="INFO_STATAVG_COL_NMIN" id="VI_INFO_M_BMIN" id2="VI_VAR_STAT_RES_#" type="float" src="engine" scale="100"  format="%0.1f" />
+			<item name="INFO_STATAVG_COL_CMIN" id="VI_INFO_M_CMIN" id2="VI_VAR_STAT_RES_#" type="float" src="engine" scale="100"  format="%0.1f" />
+			<item name="INFO_STATAVG_COL_NMAX" id="VI_INFO_M_BMAX" id2="VI_VAR_STAT_RES_#" type="float" src="engine" scale="100"  format="%0.1f" />
+			<item name="INFO_STATAVG_COL_CMAX" id="VI_INFO_M_CMAX" id2="VI_VAR_STAT_RES_#" type="float" src="engine" scale="100"  format="%0.1f" />
+		</item>
+		</template>	
+			
+		<push id="P7"/>
+		<push id="P6" />
+		<push id="F5X"/>
+		<push id="P19" />
+		<push id="P16" />
+		<push id="P17" />
+		<push id="P8" />
+		<push id="P18" />
+		<push id="F6" />
+		<push id="F9" />
+		<push id="P29" />
+		<push id="P30" />
+
+	</item>
+	
+	<item name="P" description="" expanded="false">
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P1" name="INFO_STAT_P1" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P2" name="INFO_STAT_P2" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P4" name="INFO_STAT_P4" type="float" src="engine" />
+
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P21" name="INFO_STAT_P21_TEXT" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P22" name="INFO_STAT_P22_TEXT" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P23" name="INFO_STAT_P23_TEXT" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P26" name="INFO_STAT_P26_TEXT" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P27" name="INFO_STAT_P27_TEXT" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P29" name="INFO_STAT_P29_TEXT" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_P30" name="INFO_STAT_P30_TEXT" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_II2" name="I" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_IE2" name="E" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_DP5" name="dP5" type="float" src="engine" />
+	</item>
+
+	<item name="A" description="" expanded="false">
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_A1X" name="INFO_STAT_A1X" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_A1" name="INFO_STAT_A1" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_A2" name="INFO_STAT_A2" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_A3" name="INFO_STAT_A3" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_A4X" name="INFO_STAT_A4X" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_A4" name="INFO_STAT_A4" type="float" src="engine" />
+	</item>
+
+	<item name="F" description="" expanded="false">
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F1X" name="INFO_STAT_F1X" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F1D" name="INFO_STAT_F1D" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F1" name="INFO_STAT_F1" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F2" name="INFO_STAT_F2" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F3" name="INFO_STAT_F3" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F4" name="INFO_STAT_F4" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F5X" name="INFO_STAT_F5X" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F5" name="INFO_STAT_F5" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F6" name="INFO_STAT_F6" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F7" name="INFO_STAT_F7" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_F8" name="INFO_STAT_F8" type="float" src="engine" />
+		<item id="VI_INFO_M_M" id2="VI_VAR_STAT_RES_F9" name="INFO_STAT_F9" type="float" src="engine" />
+	</item>
+
+	<item name="S" description="" expanded="false">
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_S1" name="INFO_STAT_S1" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_S2" name="INFO_STAT_S2" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_S3" name="INFO_STAT_S3" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_S4" name="INFO_STAT_S4" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_S5" name="INFO_STAT_S5" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_S6" name="INFO_STAT_S6" type="float" src="engine" />
+		<item id="VI_INFO_M_M"  id2="VI_VAR_STAT_RES_S7" name="INFO_STAT_S7" type="float" src="engine" />
+	</item>
+	
+		
+	</property>
+</config>

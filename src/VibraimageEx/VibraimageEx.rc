@@ -1,0 +1,810 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource_cnd.h"
+#include "resource.h"
+#include "viengineexsdk_id.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource_cnd.h"
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""resource_cnd.h""\r\n"
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\r\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#include ""res\\VibraimageEx.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""      // Standard components\r\n"
+    "#include ""afxprint.rc""    // printing/print preview resources\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxribbon.rc""        // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    MENUITEM "File",                        0
+END
+
+IDR_MENU_TMP MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "SAVESETTINGS",                ID_FILE_SAVESETTINGS
+        MENUITEM "LOADSETTINGS",                ID_FILE_LOADSETTINGS
+        MENUITEM "AVICAPTURE",                  ID_FILE_AVICAPTURE
+        MENUITEM "IMAGECAPTURE",                ID_FILE_IMAGECAPTURE
+    END
+    POPUP "Command"
+    BEGIN
+        MENUITEM "REG_SAVE",                    ID_COMMAND_REG_SAVE
+        MENUITEM "CHECK_ID",                    ID_COMMAND_CHECKID
+    END
+    POPUP "Settings"
+    BEGIN
+        POPUP "Video Settings0"
+        BEGIN
+            MENUITEM "0",                           ID_VIDEOSETTINGS0_0
+            MENUITEM "1",                           ID_VIDEOSETTINGS0_1
+            MENUITEM "2",                           ID_VIDEOSETTINGS0_2
+            MENUITEM "3",                           ID_VIDEOSETTINGS0_3
+            MENUITEM "4",                           ID_VIDEOSETTINGS0_4
+            MENUITEM "5",                           ID_VIDEOSETTINGS0_5
+            MENUITEM "6",                           ID_VIDEOSETTINGS0_6
+            MENUITEM "7",                           ID_VIDEOSETTINGS0_7
+            MENUITEM "8",                           ID_VIDEOSETTINGS0_8
+            MENUITEM "9",                           ID_VIDEOSETTINGS0_9
+            MENUITEM "10",                          ID_VIDEOSETTINGS0_10
+            MENUITEM "11",                          ID_VIDEOSETTINGS0_11
+            MENUITEM "12",                          ID_VIDEOSETTINGS0_12
+            MENUITEM "13",                          ID_VIDEOSETTINGS0_13
+            MENUITEM "14",                          ID_VIDEOSETTINGS0_14
+            MENUITEM "15",                          ID_VIDEOSETTINGS0_15
+            MENUITEM "RBG8FILTER",                  ID_VIDEOSETTINGS0_RBG8FILTER
+            MENUITEM "device0",                     ID_VIDEOSETTINGS0_DEVICE0
+            MENUITEM "Stop",                        ID_VIDEOSETTINGS0_STOP
+            MENUITEM "AVI",                         ID_VIDEOSETTINGS0_AVI
+            MENUITEM "AVINOSOUND",                  ID_VIDEOSETTINGS0_AVINOSOUND
+            MENUITEM "Any cam",                     ID_VIDEOSETTINGS0_ANYCAM
+            MENUITEM "Stop",                        ID_VIDEOSETTINGS0_STOP
+            MENUITEM "mirror X",                    ID_VIDEOSETTINGS0_MIRROR_X
+            MENUITEM "mirror Y",                    ID_VIDEOSETTINGS0_MIRROR_Y
+        END
+        POPUP "Language"
+        BEGIN
+            MENUITEM "0",                           ID_LANGUAGE_0
+        END
+        MENUITEM "ENABLE_QT",                   ID_SETTINGS_ENABLE_QT
+    END
+    POPUP "Action"
+    BEGIN
+        MENUITEM "RESETTIMER",                  ID_ACTION_RESETTIMER
+        MENUITEM "RESETVI",                     ID_ACTION_RESETVI
+        MENUITEM "PAUSE",                       ID_ACTION_PAUSE
+        MENUITEM "LDRESULT",                    ID_ACTION_LDRESULT
+    END
+    POPUP "PANE"
+    BEGIN
+        MENUITEM "HIST",                        ID_PANE_HIST
+        MENUITEM "VIEW",                        ID_PANE_VIEW
+    END
+    POPUP "View"
+    BEGIN
+        POPUP "View Preset"
+        BEGIN
+            MENUITEM "VI",                          ID_VIEWPRESET_VI
+            MENUITEM "AV",                          ID_VIEWPRESET_AV
+            MENUITEM "AR",                          ID_VIEWPRESET_AR
+            MENUITEM "LD",                          ID_VIEWPRESET_LD
+            MENUITEM "Relax",                       ID_VIEWPRESET_RELAX
+        END
+        MENUITEM "LD Bar",                      ID_VIEW_LDBAR
+        MENUITEM "Simple",                      ID_VIEW_SIMPLE
+        MENUITEM "HistR",                       ID_VIEW_HISTR
+        MENUITEM "HistG",                       ID_VIEW_HISTG
+        MENUITEM "Overview",                    ID_VIEW_OVERVIEW
+        MENUITEM "Reset View",                  ID_VIEW_RESETVIEW
+    END
+    POPUP "Button"
+    BEGIN
+        MENUITEM "Scan",                        IDC_BUTTON_SCAN
+        MENUITEM "LD_YES",                      ID_BUTTON_LD_YES
+        MENUITEM "LD_NO",                       ID_BUTTON_LD_NO
+        MENUITEM "LD_RESET",                    ID_BUTTON_LD_RESET
+    END
+    POPUP "LD"
+    BEGIN
+        MENUITEM "Audio",                       ID_LD_AUDIO
+        MENUITEM "Manual",                      ID_LD_MANUAL
+        MENUITEM "Auto",                        ID_LD_AUTO
+    END
+    POPUP "Command"
+    BEGIN
+        MENUITEM "UpdateLang",                  ID_COMMAND_UPDATELANG
+        MENUITEM "RemoveHist",                  ID_COMMAND_REMOVEHIST
+        MENUITEM "Start",                       ID_COMMAND_START
+        MENUITEM "Stop",                        ID_COMMAND_STOP
+        MENUITEM "L",                           ID_COMMAND_L
+        MENUITEM "Lite LD Result",              ID_COMMAND_LITELDRESULT
+        MENUITEM "Menu",                        ID_COMMAND_MENU
+        MENUITEM "EnableInput",                 ID_COMMAND_ENABLEINPUT
+        MENUITEM "Crop Center",                 ID_COMMAND_CROPCENTER
+        MENUITEM "UpdateAll",                   ID_COMMAND_UPDATEALL
+        MENUITEM "OpenArchiveFolder",           ID_COMMAND_OPENARCHIVEFOLDER
+        MENUITEM "LiteLog",                     ID_COMMAND_LITELOG
+        MENUITEM "BtnLDReset",                  ID_BUTTON_LD_RESET
+    END
+    POPUP "Help"
+    BEGIN
+		MENUITEM "Help", ID_HELP_HELP
+        MENUITEM "About",                       ID_HELP_ABOUT
+    END
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "&About VibraimageEx...",      ID_APP_ABOUT
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (&Blue Style)",   ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (B&lack Style)",  ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (&Silver Style)", ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (&Aqua Style)",   ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Win&dows 7",                  ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+IDR_POPUP_SORT MENU
+BEGIN
+    POPUP "Sorting"
+    BEGIN
+        MENUITEM "&Sort Alphabeticaly",         ID_SORTING_SORTALPHABETIC
+        MENUITEM "Sort by &Type",               ID_SORTING_SORTBYTYPE
+        MENUITEM "Sort by Acc&ess",             ID_SORTING_SORTBYACCESS
+        MENUITEM "Group by t&ype",              ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "Explorer"
+    BEGIN
+        MENUITEM "&Open",                       ID_OPEN
+        MENUITEM "Open &With....",              ID_OPEN_WITH
+        MENUITEM SEPARATOR
+        MENUITEM "&Compile",                    ID_DUMMY_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Remove",                     ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...",              ID_PROPERTIES
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_PROGRESS DIALOGEX 0, 0, 316, 25
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "Arial Unicode MS", 400, 0, 0xCC
+BEGIN
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,0,0,315,25
+END
+
+IDD_DIALOG_INETKEY DIALOGEX 0, 0, 316, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "License Key"
+FONT 8, "Arial Unicode MS", 400, 0, 0xCC
+BEGIN
+    EDITTEXT        IDC_EDIT_REQUEST,93,7,216,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CODE,93,24,216,14,ES_UPPERCASE | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_ANSWER,93,41,216,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Get Answer code using HTTP",IDC_BTN_GET_AUTHCODE_HTTP,7,64,270,14,WS_DISABLED
+    DEFPUSHBUTTON   "OK",IDOK,106,82,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,160,82,50,14
+    LTEXT           "Code",IDC_STATIC_CODE,7,27,58,10
+    LTEXT           "Answer",IDC_STATIC_ANSWER,7,44,58,10
+    LTEXT           "Request",IDC_STATIC_REQUEST,7,10,58,10
+    PUSHBUTTON      "Web",IDC_BUTTON_WEB,281,64,28,14,WS_DISABLED
+END
+
+IDD_DGBAR_LD_LITE DIALOGEX 0, 0, 454, 63
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 275, 119
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Version 10.0",IDC_ABOUT0,42,14,226,8,SS_NOPREFIX
+    LTEXT           VALUE_LegalCopyright,IDC_STATIC_COPYRIGHT,42,26,226,8
+    DEFPUSHBUTTON   "OK",IDOK,218,98,50,14,WS_GROUP
+    EDITTEXT        IDC_ABOUT1,46,46,219,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_ABOUT2,46,61,219,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_ABOUT3,46,75,219,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    PUSHBUTTON      "Unregister",IDC_BUTTON_UNREGISTER,7,98,191,14,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_ID DIALOGEX 0, 0, 237, 28
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ID"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_ID,7,7,162,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,180,7,50,14
+END
+
+IDD_DIALOG_PWD DIALOGEX 0, 0, 247, 28
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PWD,7,7,177,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,190,7,50,14
+END
+
+IDD_DIALOG_PWD2 DIALOGEX 0, 0, 297, 58
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PWD,95,7,140,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD2,95,22,140,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD3,95,38,140,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,240,7,50,44,WS_DISABLED
+    LTEXT           "Password:",IDC_STATIC_PWD1,7,9,73,8
+    LTEXT           "New password:",IDC_STATIC_PWD2,7,25,73,8
+    LTEXT           "Retype password:",IDC_STATIC_PWD3,7,41,73,8
+END
+
+IDD_DIALOG_INETKEY_SIMPLE DIALOGEX 0, 0, 343, 28
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "License Key"
+FONT 8, "Arial Unicode MS", 400, 0, 0xCC
+BEGIN
+    EDITTEXT        IDC_EDIT_REQUEST,63,7,220,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CODE,127,2,28,14,ES_UPPERCASE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_ANSWER,137,2,13,14,ES_UPPERCASE | ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "Get Answer code using HTTP",IDC_BTN_GET_AUTHCODE_HTTP,126,4,22,6,NOT WS_VISIBLE | WS_DISABLED
+    DEFPUSHBUTTON   "OK",IDOK,286,7,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,126,2,50,14,NOT WS_VISIBLE
+    LTEXT           "Code",IDC_STATIC_CODE,126,6,22,10,NOT WS_VISIBLE
+    LTEXT           "Answer",IDC_STATIC_ANSWER,126,4,11,10,NOT WS_VISIBLE
+    LTEXT           "Request",IDC_STATIC_REQUEST,7,10,58,10
+    PUSHBUTTON      "Web",IDC_BUTTON_WEB,187,2,28,14,NOT WS_VISIBLE | WS_DISABLED
+END
+
+IDD_HT_RESULT_HTML DIALOGEX 0, 0, 397, 238
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_STARTER DIALOGEX 0, 0, 157, 45
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Vibraimage"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_LOGIN DIALOGEX 0, 0, 247, 44
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login/Password"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_LOGIN,7,7,177,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,7,23,177,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,190,7,50,30
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_PROGRESS, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG_INETKEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_DGBAR_LD_LITE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 446
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_DIALOG_ID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
+    END
+
+    IDD_DIALOG_PWD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
+    END
+
+    IDD_DIALOG_PWD2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_DIALOG_INETKEY_SIMPLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
+    END
+
+    IDD_HT_RESULT_HTML, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG_STARTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_DIALOG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 37
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_INETKEY AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_ID AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_PWD AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_PWD2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_INETKEY_SIMPLE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_HT_RESULT_HTML AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_STARTER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_LOGIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+
+IDR_MAINFRAME_257       BITMAP                  "res\\mainfram.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME_256 TOOLBAR 31, 31
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_PROPERTIES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+IDR_MAINFRAME_257 TOOLBAR 12, 11
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+#if defined(SEQ_ICON_VI)
+		IDR_MAINFRAME           ICON                    "res\\VibraimageEx.ico"
+#elif defined(SEQ_ICON_HT)
+		IDR_MAINFRAME           ICON                    "res\\HealthTest.ico"
+#else
+		IDR_MAINFRAME           ICON                    "res\\VibraimageEx.ico"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDS_ERROR_AVX           "AVX is not supported!"
+    IDS_ERROR_SSE           "SSE is not supported!"
+    IDS_ERROR_EXCEL         "This software requires installation of the Microsoft Excel 2010 or newer"
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Vibraimage\n\nVibraimage10\n\n\nVibraimageEx.Document\nVibraimageEx.Document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUTTON_LD_YES        "Y"
+    ID_BUTTON_LD_NO         "N"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "VibraimageEx"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_DIRECT    "Print the active document using current options\nQuick Print"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "Pane 1"
+    IDS_STATUS_PANE2        "Pane 2"
+    IDS_TOOLBAR_STANDARD    "Standard"
+    IDS_TOOLBAR_CUSTOMIZE   "Customize..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EXPLORER            "Explorer"
+    IDS_EDIT_MENU           "Edit"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#include "res\VibraimageEx.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"      // Standard components
+#include "afxprint.rc"    // printing/print preview resources
+#if !defined(_AFXDLL)
+#include "afxribbon.rc"        // MFC ribbon and control bar resources
+#endif
+#endif
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<popup name="MENU_FILE">
+		<item id="ID_FILE_OPEN" name="MENU_FILE_OPEN" />
+		<item id="ID_FILE_SAVESETTINGS" name="MENU_FILE_SAVE_SETTINGS" />
+		<item id="ID_FILE_LOADSETTINGS" name="MENU_FILE_LOAD_SETTINGS" />
+		
+		<popup name="MENU_LD_LOAD">
+			<item id="ID_LOAD_LD*" />
+		</popup>
+		<separator />
+		<rem_item id="ID_FILE_PRINT" name="MENU_FILE_PRINT" />
+		<rem_item id="ID_FILE_PRINT_PREVIEW" name="MENU_FILE_PRINT_PREVIEW" />
+		<rem_item id="ID_FILE_PRINT_SETUP" name="MENU_FILE_PRINT_SETUP" />
+		<item id="ID_FILE_AVICAPTURE" name="MENU_FILE_AVI_CAPTURE1" cname="MENU_FILE_AVI_CAPTURE2" />
+		<item id="ID_FILE_IMAGECAPTURE" name="MENU_FILE_IMAGE_CAPTURE" />
+		<item id="ID_APP_EXIT" name="MENU_FILE_EXIT" />
+	</popup>
+	<popup name="MENU_VIEW">
+		<popup name="MENU_VIEW_TOOLBARS">
+			<item id="ID_VIEW_TOOLBAR" name="<placeholder>" />
+		</popup>
+		<popup name="MENU_VIEW_APPLOOK">
+			<item id="ID_VIEW_APPLOOK_WIN_2000" name="Windows &2000" />
+			<item id="ID_VIEW_APPLOOK_OFF_XP" name="Office &XP" />
+			<item id="ID_VIEW_APPLOOK_WIN_XP" name="&Windows XP" />
+			<item id="ID_VIEW_APPLOOK_OFF_2003" name="Office 200&3" />
+			<item id="ID_VIEW_APPLOOK_VS_2005" name="Visual Studio 200&5" />
+			<item id="ID_VIEW_APPLOOK_VS_2008" name="Visual Studio 200&8" />
+			<popup name="Office 200&7">
+				<item id="ID_VIEW_APPLOOK_OFF_2007_BLUE" name="&Blue Style" />
+				<item id="ID_VIEW_APPLOOK_OFF_2007_BLACK" name="B&lack Style" />
+				<item id="ID_VIEW_APPLOOK_OFF_2007_SILVER" name="&Silver Style" />
+				<item id="ID_VIEW_APPLOOK_OFF_2007_AQUA" name="&Aqua Style" />
+			</popup>
+		</popup>
+		
+		<popup name="MENU_VIEW_MODE">
+			<popup name="MENU_VIEW_MODE_SRC">
+				<item id="ID_VIEWMODESRC_AURA0" name="MENU_VIEW_MODE_AURA_0" />
+				<item id="ID_VIEWMODESRC_AURAA" name="MENU_VIEW_MODE_AURA_A" />
+				<item id="ID_VIEWMODESRC_AURAB" name="MENU_VIEW_MODE_AURA_B" />
+			</popup>
+
+			<popup name="MENU_VIEW_MODE_VI2A">
+				<item id="ID_VIEWMODEVI2A_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEVI2A_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEVI2A_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>
+			<popup name="MENU_VIEW_MODE_VI2B">
+				<item id="ID_VIEWMODEVI2B_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEVI2B_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEVI2B_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>
+
+			<popup name="MENU_VIEW_MODE_VI1A">
+				<item id="ID_VIEWMODEVI1A_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEVI1A_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEVI1A_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>
+			<popup name="MENU_VIEW_MODE_VI1B">
+				<item id="ID_VIEWMODEVI1B_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEVI1B_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEVI1B_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>
+
+			<popup name="MENU_VIEW_MODE_VI0A">
+				<item id="ID_VIEWMODEVI0A_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEVI0A_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEVI0A_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>
+			<popup name="MENU_VIEW_MODE_VI0B">
+				<item id="ID_VIEWMODEVI0B_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEVI0B_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEVI0B_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>			
+			
+			<popup name="MENU_VIEW_MODE_DELTA_A">
+				<item id="ID_VIEWMODEDELTA_A_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEDELTA_A_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEDELTA_A_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>
+			<popup name="MENU_VIEW_MODE_DELTA_B">
+				<item id="ID_VIEWMODEDELTA_B_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEDELTA_B_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEDELTA_B_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>
+			<popup name="MENU_VIEW_MODE_DELTA_FA">
+				<item id="ID_VIEWMODEDELTA_FA_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEDELTA_FA_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEDELTA_FA_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>
+			<popup name="MENU_VIEW_MODE_DELTA_FB">
+				<item id="ID_VIEWMODEDELTA_FB_SHOW" name="MENU_VIEW_MODE_SHOW" />
+				<item id="ID_VIEWMODEDELTA_FB_AURA" name="MENU_VIEW_MODE_AURA" />
+				<item id="ID_VIEWMODEDELTA_FB_WBG" name="MENU_VIEW_MODE_WHITEBG" />
+			</popup>
+
+			<separator />
+			
+			<item id="ID_VIEWMODE_MODEA" name="MENU_VIEW_MODE_A" />
+			<item id="ID_VIEWMODE_MODEB" name="MENU_VIEW_MODE_B" />
+			<item id="ID_VIEWMODE_TITLE" name="MENU_VIEW_MODE_TITLE" />
+			<item id="ID_VIEWMODE_TOOLTIPS" name="MENU_VIEW_MODE_TOOLTIPS" />
+		</popup>
+
+		<popup name="MENU_VIEW_PRESET">
+			<item id="ID_VIEWPRESET_VI" name="MENU_VIEW_PRESET_VI" />
+			<item id="ID_VIEWPRESET_AV" name="MENU_VIEW_PRESET_AV" />
+			<item id="ID_VIEWPRESET_AR" name="MENU_VIEW_PRESET_AR" />
+			<item id="ID_VIEWPRESET_LD" name="MENU_VIEW_PRESET_LD" />
+		</popup>
+
+		<item id="ID_VIEW_OVERVIEW" name="MENU_VIEW_OVERVIEW" />
+	</popup>
+	<popup name="MENU_SETTINGS">
+		<popup name="MENU_SETTINGS_VIDEO0">
+			<item id="ID_VIDEOSETTINGS0*" />
+			<item id="ID_VIDEOSETTINGS0_RBG8FILTER" name="MENU_SETTINGS_VIDEO0_RGB8FLT" />
+			<item id="ID_VIDEOSETTINGS0_STOP" name="MENU_SETTINGS_VIDEO0_STOP" />
+			<item id="ID_VIDEOSETTINGS0_AVI" name="MENU_SETTINGS_VIDEO0_AVI" />
+			<item id="ID_VIDEOSETTINGS0_AVINOSOUND" name="MENU_SETTINGS_VIDEO0_AVI_NOSOUND" />
+			<item id="ID_VIDEOSETTINGS0_ROTATECW"  name="MENU_SETTINGS_VIDEO0_ROTATE_CW" />
+			<item id="ID_VIDEOSETTINGS0_ROTATECCW"  name="MENU_SETTINGS_VIDEO0_ROTATE_CCW" />
+			<item id="ID_VIDEOSETTINGS0_MIRROR_X"  name="MENU_SETTINGS_VIDEO0_MIRROR_X" />
+			<item id="ID_VIDEOSETTINGS0_MIRROR_Y"  name="MENU_SETTINGS_VIDEO0_MIRROR_Y" />
+			<item id="ID_VIDEOSETTINGS0_SAVESETTINGS" name="MENU_SETTINGS_VIDEO0_SAVE" />
+			<separator />
+			<item id="ID_VIDEOSETTINGS0_DEVICE*" />
+		</popup>
+		<popup name="MENU_SETTINGS_AUDIO0">
+			<item id="ID_AUDIOSETTINGS0*" />
+			<item id="ID_AUDIOSETTINGS0_DEVICE*" />
+			<item id="ID_AUDIOSETTINGS0_DISABLE" name="MENU_SETTINGS_AUDIO0_DISABLE" />
+		</popup>
+		<popup name="MENU_SETTINGS_LANG">
+			<item id="ID_LANGUAGE*" />
+		</popup>
+		<popup name="MENU_SETTINGS_DEFAULTS">
+			<item id="ID_SETTINGS_DEFAULTS*" />
+		</popup>
+		<popup name="MENU_SETTINGS_AI">
+			<item id="ID_AICFG*" />
+		</popup>
+		<popup name="MENU_SETTINGS_MASK">
+			<item id="ID_SETTINGS_MASK_LOAD"  name="MENU_SETTINGS_MASK_LOAD" />
+			<item id="ID_SETTINGS_MASK_EXPORT"  name="MENU_SETTINGS_MASK_EXPORT" />
+			<item id="ID_SETTINGS_MASK_RESET"  name="MENU_SETTINGS_MASK_RESET" />
+			<item id="ID_SETTINGS_MASK_EDIT"  name="MENU_SETTINGS_MASK_EDIT" />
+		</popup>
+		<item id="ID_SETTINGS_AUTOSTART" name="MENU_SETTINGS_AUTOSTART" />
+		<item id="ID_SETTINGS_SAVE_PHOTO" name="MENU_SETTINGS_SAVE_PHOTO" />
+		<item id="ID_SETTINGS_LOCK" name="MENU_SETTINGS_LOCK" />		
+	</popup>
+	<popup name="MENU_ACTION">
+			<item id="ID_ACTION_PAUSE" name="MENU_ACTION_PAUSE" />
+			<item id="ID_ACTION_RESETVI" name="MENU_ACTION_RESET" />
+			<item id="ID_ACTION_RESETTIMER" name="MENU_ACTION_RESETTIMER" />
+			<item id="ID_ACTION_MEASUREMENT" name="MENU_ACTION_MEASUREMENT" />
+			<item id="ID_ACTION_HIST10" name="MENU_ACTION_HIST_STARTA10" />
+			<item id="ID_ACTION_HIST" name="MENU_ACTION_HIST_STARTA" />
+			<item id="ID_ACTION_LDSTART" name="MENU_ACTION_LD_START" />
+			<item id="ID_ACTION_LDRESULT" name="MENU_ACTION_LD_RESULT" />
+			
+			<popup name="MENU_ACTION_MARKERS">
+				<item id="ID_MARKERS_Q0" name="MENU_ACTION_MARKERS_Q0" />
+				<item id="ID_MARKERS_Q1" name="MENU_ACTION_MARKERS_Q1" />
+				<item id="ID_MARKERS_Q2" name="MENU_ACTION_MARKERS_Q2" />
+				<separator />
+				<item id="ID_MARKERS_S0" name="0" />
+				<item id="ID_MARKERS_S1" name="1" />
+				<item id="ID_MARKERS_S2" name="2" />
+				<item id="ID_MARKERS_S3" name="3" />
+				<item id="ID_MARKERS_S4" name="4" />
+				<item id="ID_MARKERS_S5" name="5" />
+				<item id="ID_MARKERS_S6" name="6" />
+				<item id="ID_MARKERS_S7" name="7" />
+				<item id="ID_MARKERS_S8" name="8" />
+				<item id="ID_MARKERS_S9" name="9" />
+			</popup>
+	</popup>
+	<popup name="MENU_HELP" help="true">
+			<item id="ID_HELP_ABOUT" name="MENU_HELP_ABOUT" />
+	</popup>
+
+</menu>

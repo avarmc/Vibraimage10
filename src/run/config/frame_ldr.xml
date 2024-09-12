@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<ldr id="ID_INFO_WND_LDR" title="INFO_WND_LDR" icon="start_ld_block.ico"  align="left"  size="50,220">
+		<item />
+	</ldr>
+</config>

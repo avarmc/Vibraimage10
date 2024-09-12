@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<ld id="ID_LDW_WND" title="WND_LDW" icon="start_ld_block.ico" align="bottom" tab="status" size="500,120">
+	</ld>
+</config>

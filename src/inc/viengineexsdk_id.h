@@ -1,0 +1,300 @@
+#pragma once
+#define ID_SETTINGS_LOCK				1029
+
+#define ID_VI_MENUID_START				44000
+#define ID_FILE_SAVESETTINGS			44002
+#define ID_FILE_LOADSETTINGS            44003   // 32775
+#define ID_FILE_AVICAPTURE              44005   // 32777
+#define ID_FILE_IMAGECAPTURE            44006   // 32778
+#define ID_SETTINGS_VIDEOSETTINGS0      44007   // 32779
+#define ID_VIDEOSETTINGS0_0             44009   // 32780
+#define ID_VIDEOSETTINGS0_1             44010   // 32781
+#define ID_VIDEOSETTINGS0_2             44011   // 32782
+#define ID_VIDEOSETTINGS0_3             44012   // 32783
+#define ID_VIDEOSETTINGS0_4             44013   // 32784
+#define ID_VIDEOSETTINGS0_5             44014   // 32785
+#define ID_VIDEOSETTINGS0_6             44015   // 32786
+#define ID_VIDEOSETTINGS0_7             44016   // 32787
+#define ID_VIDEOSETTINGS0_8             44017   // 32788
+#define ID_VIDEOSETTINGS0_9             44018   // 32789
+#define ID_VIDEOSETTINGS0_10            44019   // 32790
+#define ID_VIDEOSETTINGS0_11            44020   // 32791
+#define ID_VIDEOSETTINGS0_12            44021   // 32792
+#define ID_VIDEOSETTINGS0_13            44022   // 32793
+#define ID_VIDEOSETTINGS0_14            44023   // 32794
+#define ID_VIDEOSETTINGS0_15            44024   // 32795
+#define ID_VIDEOSETTINGS0_RBG8FILTER    44036   // 32807
+#define ID_VIDEOSETTINGS0_STOP          44037   // 32808
+#define ID_VIDEOSETTINGS0_AVI           44038   // 32809
+#define ID_VIDEOSETTINGS0_AVINOSOUND    44039   // 32810
+#define ID_VIDEOSETTINGS0_ANYCAM        44040   // 32834
+#define ID_VIDEOSETTINGS0_LIST			44378   // 
+
+#define ID_VIDEOSETTINGS0_ROTATECW      44041   // 32834
+#define ID_VIDEOSETTINGS0_ROTATECCW     44042   // 32834
+#define ID_VIDEOSETTINGS0_SAVESETTINGS  44043   // 32834
+
+#define ID_SETTINGS_AUTOSTART			44044
+#define ID_SETTINGS_LDQ_MIX				44045
+#define ID_SETTINGS_SETPASSWORD			44046
+
+#define ID_SETTINGS_MASK_EXPORT			44047
+#define ID_SETTINGS_MASK_RESET			44048
+#define ID_SETTINGS_MASK_EDIT			44049
+#define ID_SETTINGS_MASK_LOAD			44050
+
+#define ID_VIEWPRESET_RELAX             44051
+#define ID_VIEWPRESET_AV                44052   // 32830
+#define ID_VIEWPRESET_VI                44053   // 32831
+#define ID_VIEWPRESET_AR                44054   // 32832
+#define ID_VIEWPRESET_LD                44055   // 32833
+#define ID_VIEW_CUSTOMIZE               44058   // 126
+#define ID_PANE_HIST                    44059   // 32827
+
+#define ID_VIDEOSETTINGS0_MIRROR_Y      44060
+#define ID_VIDEOSETTINGS0_MIRROR_X      44061
+
+#define ID_SETTINGS_AI20                44062   
+
+#define ID_VIEW_APPLOOK_WIN_2000        44070   // 205
+#define ID_VIEW_APPLOOK_OFF_XP          44071   // 206
+#define ID_VIEW_APPLOOK_WIN_XP          44072   // 207
+#define ID_VIEW_APPLOOK_OFF_2003        44073   // 208
+#define ID_VIEW_APPLOOK_VS_2005         44074   // 209
+#define ID_VIEW_APPLOOK_VS_2008         44075   // 210
+#define ID_VIEW_APPLOOK_OFF_2007_BLUE   44076   // 215
+#define ID_VIEW_APPLOOK_OFF_2007_BLACK  44077   // 216
+#define ID_VIEW_APPLOOK_OFF_2007_SILVER 44078   // 217
+#define ID_VIEW_APPLOOK_OFF_2007_AQUA   44079   // 218
+#define ID_VIEW_APPLOOK_WINDOWS_7       44080   // 219
+
+#define ID_ACTION_RESETTIMER            44090   // 32824
+#define ID_ACTION_RESETVI               44091   // 32825
+#define ID_ACTION_LDSTART				44093
+#define ID_ACTION_PAUSE                 44094   // 32846
+#define ID_ACTION_BROWSEFORRESULTS		44095
+#define ID_ACTION_HIST10				44096
+#define ID_ACTION_LDRESULT              44097
+#define ID_ACTION_BROWSEFORRESULTS1     44098
+#define ID_ACTION_HIST					44099
+
+#define ID_LANGUAGE_0                   44100
+#define ID_LANGUAGE_1                   44101
+#define ID_LANGUAGE_2                   44102
+#define ID_LANGUAGE_3                   44103
+#define ID_LANGUAGE_4                   44104
+#define ID_LANGUAGE_5                   44105
+#define ID_LANGUAGE_6                   44106
+#define ID_LANGUAGE_7                   44107
+#define ID_LANGUAGE_8                   44108
+#define ID_LANGUAGE_9                   44109
+#define ID_LANGUAGE_10                  44110
+#define ID_LANGUAGE_11                  44111
+#define ID_LANGUAGE_12                  44112
+#define ID_LANGUAGE_13                  44113
+#define ID_LANGUAGE_14                  44114
+#define ID_LANGUAGE_15                  44115
+#define ID_LANGUAGE_16                  44116
+#define ID_LANGUAGE_17                  44117
+#define ID_LANGUAGE_18                  44118
+#define ID_LANGUAGE_19                  44119
+
+#define ID_VI_EVENT_UPDATE_MENU_VIDEO	44200
+#define ID_VI_EVENT_UPDATE_MENU_AUDIO	44201
+#define ID_VI_EVENT_UPDATE_MENU			44202
+#define ID_VI_EVENT_UPDATE_DB			44203
+
+#define ID_CAPTURE_SRC                  44250
+#define ID_CAPTURE_SRCA                 44251
+#define ID_CAPTURE_SRCB                 44252
+#define ID_CAPTURE_VI0                  44253
+#define ID_CAPTURE_VI1                  44254
+#define ID_CAPTURE_VI2                  44255
+#define ID_CAPTURE_VI0B                 44256
+#define ID_CAPTURE_VI1B                 44257
+#define ID_CAPTURE_VI2B                 44258
+#define ID_CAPTURE_DELTA                44259
+#define ID_CAPTURE_DELTAB               44260
+#define ID_CAPTURE_DELTAF               44261
+#define ID_CAPTURE_DELTAFB              44262
+#define ID_CAPTURE_FFT                  44263
+
+#define ID_VIEW_MODE_TOOLBAR_VI			41001
+#define ID_VIEW_MODE_TOOLBAR			41002
+#define ID_HELP_ABOUT                   41003
+#define ID_HELP_HELP					41004
+
+#define ID_VIEWMODEFFT_AURA0            44301
+#define ID_VIEWMODESRC_AURA0			44302
+#define ID_VIEWMODESRC_AURAA			44303
+#define ID_VIEWMODESRC_AURAB			44304
+#define ID_VIEWMODEVI2A_SHOW			44305
+#define ID_VIEWMODEVI2A_AURA			44306
+#define ID_VIEWMODEVI2A_WBG				44307
+#define ID_VIEWMODEVI2B_SHOW			44308
+#define ID_VIEWMODEVI2B_AURA			44309
+#define ID_VIEWMODEVI2B_WBG				44310
+#define ID_VIEWMODEVI1A_SHOW			44311
+#define ID_VIEWMODEVI1A_AURA			44312
+#define ID_VIEWMODEVI1A_WBG				44313
+#define ID_VIEWMODEVI1B_SHOW			44314
+#define ID_VIEWMODEVI1B_AURA			44315
+#define ID_VIEWMODEVI1B_WBG				44316
+#define ID_VIEWMODEVI0A_SHOW			44317
+#define ID_VIEWMODEVI0A_AURA			44318
+#define ID_VIEWMODEVI0A_WBG				44319
+#define ID_VIEWMODEVI0B_SHOW			44320
+#define ID_VIEWMODEVI0B_AURA			44321
+#define ID_VIEWMODEVI0B_WBG				44322
+#define ID_VIEWMODEDELTA_A_SHOW			44323
+#define ID_VIEWMODEDELTA_A_AURA			44324
+#define ID_VIEWMODEDELTA_A_WBG			44325
+#define ID_VIEWMODEDELTA_B_SHOW			44326
+#define ID_VIEWMODEDELTA_B_AURA			44327
+#define ID_VIEWMODEDELTA_B_WBG			44328
+#define ID_VIEWMODEDELTA_FA_SHOW		44329
+#define ID_VIEWMODEDELTA_FA_AURA		44330
+#define ID_VIEWMODEDELTA_FA_WBG			44331
+#define ID_VIEWMODEDELTA_FB_SHOW		44332
+#define ID_VIEWMODEDELTA_FB_AURA		44333
+#define ID_VIEWMODEDELTA_FB_WBG			44334
+#define ID_VIEWMODE_MODEA				44335
+#define ID_VIEWMODE_MODEB				44336
+#define ID_VIEWMODE_TITLE				44337
+#define ID_VIEWMODE_TOOLTIPS			44338
+#define ID_VIEW_OVERVIEW				44339
+
+#define ID_MARKERS_Q0					44340
+#define ID_MARKERS_Q1					44341
+#define ID_MARKERS_Q2					44342
+#define ID_MARKERS_Q3					44343
+#define ID_MARKERS_Q4					44344
+#define ID_MARKERS_Q5					44345
+#define ID_MARKERS_Q6					44346
+#define ID_MARKERS_Q7					44347
+#define ID_MARKERS_Q8					44348
+#define ID_MARKERS_Q9					44349
+
+#define ID_MARKERS_S0					44350
+#define ID_MARKERS_S1					44351
+#define ID_MARKERS_S2					44352
+#define ID_MARKERS_S3					44353
+#define ID_MARKERS_S4					44354
+#define ID_MARKERS_S5					44355
+#define ID_MARKERS_S6					44356
+#define ID_MARKERS_S7					44357
+#define ID_MARKERS_S8					44358
+#define ID_MARKERS_S9					44359
+
+#define ID_VIEW_HISTR                   44361
+#define ID_VIEW_HISTG                   44362
+#define ID_SETTINGS_ENABLE_QT           44363
+
+#define ID_ACTION_MEASUREMENT			44364
+#define ID_ACTION_MEASUREMENT1			44365
+#define ID_ACTION_MEASUREMENT2			44366
+#define ID_ACTION_MEASUREMENT_AI		44367
+
+#define ID_SETTINGS_MEASURE_FAST        44368
+#define ID_SETTINGS_SMART_MEASURE_MIN	44369
+#define ID_SETTINGS_SMART_MEASURE_MAX	44370
+
+#define ID_SETTINGS_N25					44371
+#define ID_SETTINGS_N50					44372
+#define ID_SETTINGS_N100				44373
+
+#define ID_SETTINGS_USER_INFO	        44374
+
+#define ID_SETTINGS_OPEN_XLSM			44375
+#define ID_SETTINGS_OPEN_HTML			44376
+#define ID_SETTINGS_SAVE_PHOTO			44377
+
+#define ID_SETTINGS_DEFAULTS_0			44400
+#define ID_SETTINGS_DEFAULTS_X			44606
+
+#define ID_LOAD_LD_0					44500
+
+#define ID_AUDIOSETTINGS0_DISABLE      44607   // 32806
+
+#define ID_AUDIOSETTINGS0_0             44608   // 32780
+#define ID_AUDIOSETTINGS0_1             44610   // 32781
+#define ID_AUDIOSETTINGS0_2             44611   // 32782
+#define ID_AUDIOSETTINGS0_3             44612   // 32783
+#define ID_AUDIOSETTINGS0_4             44613   // 32784
+#define ID_AUDIOSETTINGS0_5             44614   // 32785
+#define ID_AUDIOSETTINGS0_6             44615   // 32786
+#define ID_AUDIOSETTINGS0_7             44616   // 32787
+#define ID_AUDIOSETTINGS0_8             44617   // 32788
+#define ID_AUDIOSETTINGS0_9             44618   // 32789
+#define ID_AUDIOSETTINGS0_10            44619   // 32790
+#define ID_AUDIOSETTINGS0_11            44620   // 32791
+#define ID_AUDIOSETTINGS0_12            44621   // 32792
+#define ID_AUDIOSETTINGS0_13            44622   // 32793
+#define ID_AUDIOSETTINGS0_14            44623   // 32794
+#define ID_AUDIOSETTINGS0_15            44624   // 32795
+#define ID_AUDIOSETTINGS0_DEVICE0       44625   // 32796
+#define ID_AUDIOSETTINGS0_DEVICE1       44626   // 32797
+#define ID_AUDIOSETTINGS0_DEVICE2       44627   // 32798
+#define ID_AUDIOSETTINGS0_DEVICE3       44628   // 32799
+#define ID_AUDIOSETTINGS0_DEVICE4       44629   // 32800
+#define ID_AUDIOSETTINGS0_DEVICE5       44630   // 32801
+#define ID_AUDIOSETTINGS0_DEVICE6       44631   // 32802
+#define ID_AUDIOSETTINGS0_DEVICE7       44632   // 32803
+#define ID_AUDIOSETTINGS0_DEVICE8       44633   // 32804
+#define ID_AUDIOSETTINGS0_DEVICE9       44634   // 32805
+#define ID_AUDIOSETTINGS0_DEVICE10      44635   // 32806
+
+
+#define ID_AUDIO_TH00      44720   
+#define ID_AUDIO_TH01      44721   
+#define ID_AUDIO_TH02      44722   
+#define ID_AUDIO_TH03      44723   
+#define ID_AUDIO_TH04      44724   
+#define ID_AUDIO_TH05      44725   
+#define ID_AUDIO_TH06      44726   
+#define ID_AUDIO_TH07      44727   
+#define ID_AUDIO_TH08      44728   
+#define ID_AUDIO_TH09      44729   
+#define ID_AUDIO_TH10      44730   
+#define ID_AUDIO_TH11      44731   
+#define ID_AUDIO_TH12      44732   
+#define ID_AUDIO_TH13      44733   
+#define ID_AUDIO_TH14      44734   
+#define ID_AUDIO_TH15      44735   
+
+#define ID_VIEW_RESETVIEW	44740
+
+#define ID_SETTINGS_CORES_0		44800
+
+#define ID_VIDEOSETTINGS0_DEVICE0       44900   
+#define ID_VIDEOSETTINGS0_DEVICE99      44999   
+
+
+#define ID_BUTTON_LD_YES	47001
+#define ID_BUTTON_LD_NO		47002
+#define ID_BUTTON_LD_RESET	47003
+#define ID_EDIT_LD_NAME		47004
+#define ID_BUTTON_LD_RANGE	47050
+
+#define ID_AICFG_0       47100
+#define ID_AICFG_1       47101
+#define ID_AICFG_2       47102
+#define ID_AICFG_3       47103
+#define ID_AICFG_4       47104
+#define ID_AICFG_5       47105
+#define ID_AICFG_6       47106
+#define ID_AICFG_7       47107
+#define ID_AICFG_8       47108
+#define ID_AICFG_9       47109
+#define ID_AICFG_10      47110
+#define ID_AICFG_11      47111
+#define ID_AICFG_12      47112
+#define ID_AICFG_13      47113
+#define ID_AICFG_14      47114
+#define ID_AICFG_15      47115
+#define ID_AICFG_16      47116
+#define ID_AICFG_17      47117
+#define ID_AICFG_18      47118
+#define ID_AICFG_19      47119
+
+#define ID_VI_MENUID_END 48000

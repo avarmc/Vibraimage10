@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<ai id="ID_INFO_WND_AUTOIMAGE" title="INFO_WND_AUTOIMAGE" icon="info.ico"  align="right" tab="autoimage" size="160,120">
+		<item />
+	</ai>
+</config>

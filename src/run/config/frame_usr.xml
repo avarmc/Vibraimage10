@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<property id="ID_INFO_WND_USER" title="INFO_WND_USER" icon="tdb.ico" tab="info">
+		<item id="VI_INFO_PATH_DB" name="INFO_USER_DB_PATH" type="path" src="app" value="" edit="true"/>
+		<item id="VI_INFO_DB_MODE" name="INFO_USER_DB_MODE" type="bool" src="app" edit="true" />
+		<item id="VI_INFO_USER_CURRENT_STR" name="INFO_USER_CURRENT" type="string" src="app"/>
+		<item type="empty"/>
+		<item id="VI_INFO_USER_NEW" name="INFO_USER_NEW" type="string" src="app" edit="true"/>
+		<item type="empty"/>
+		<item id="VI_INFO_USER_DB" id2="*" name="*" type="string" src="app"/>
+	</property>
+</config>

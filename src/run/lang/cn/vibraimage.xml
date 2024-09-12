@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+		<lang_name>Chinese(简体中文) (cn)</lang_name>
+		<lang>cn</lang>
+		<str id="NULL">*empty*</str>
+		<str id="EMPTY"></str>
+	
+		<str id="BUTTON_OK">确定</str>
+		<str id="BUTTON_CANCEL">取消</str>
+		<str id="BUTTON_APPLY">应用</str>
+		<str id="BUTTON_SAVE">保存</str>
+		<str id="BUTTON_SAVE_AS">保存为...</str>
+		<str id="BUTTON_DELETE">删除</str>
+		<str id="BUTTON_BROWSE">查找</str>
+		<str id="BUTTON_CREATE">创建</str>
+		<str id="BUTTON_CAPTURE">截图</str>
+		<str id="BUTTON_START_READY">重启</str>
+		<str id="BUTTON_START_LIVE">运行</str>
+		<str id="BUTTON_STOP_MEASUREMENT">实际情况</str>
+
+		<str id="BUTTON_YES">是</str>
+		<str id="BUTTON_NO">否</str>
+
+		<str id="BUTTON_ALL">全部</str>
+
+		<str id="BUTTON_ON">开</str>
+		<str id="BUTTON_OFF">关</str>
+		<str id="BUTTON_HIDE">隐藏</str>
+
+		<str id="BUTTON_OPEN">打开...</str>
+		<str id="BUTTON_SET">设置</str>
+
+		<str id="BUTTON_RESET">重置</str>
+		<str id="BUTTON_UNREGISTER">注销键</str>
+
+		<str id="BUTTON_SETTINGS">设置...</str>
+		<str id="BUTTON_DEFAULTS">默认</str>
+
+		<str id="BUTTON_0">0</str>
+		<str id="BUTTON_1">1</str>
+		<str id="BUTTON_2">2</str>
+		<str id="BUTTON_3">3</str>
+		<str id="BUTTON_4">4</str>
+		<str id="BUTTON_5">5</str>
+		<str id="BUTTON_6">6</str>
+		<str id="BUTTON_7">7</str>
+		<str id="BUTTON_8">8</str>
+		<str id="BUTTON_9">9</str>
+
+		<str id="MENU_FILE">文件</str>
+		<str id="MENU_FILE_AVI_SETTINGS">AVI: 设置...</str>
+		<str id="MENU_FILE_AVI_CAPTURE1">AVI: 开始录像</str>
+		<str id="MENU_FILE_AVI_CAPTURE2">AVI: 停止录像</str>
+		<str id="MENU_FILE_AVI_TMP_CAPTURE1">AVI: 开始截屏</str>
+		<str id="MENU_FILE_AVI_TMP_CAPTURE2">AVI: 停止截屏</str>
+		<str id="MENU_FILE_IMAGE_CAPTURE">截图</str>
+		<str id="MENU_FILE_SAVE_IMAGE">图片保存为...</str>
+
+		<str id="MENU_FILE_DBFOLDER">文件保存...</str>
+		<str id="MENU_FILE_EXIT">退出</str>
+		<str id="MENU_FILE_PRINT">打印</str>
+		<str id="MENU_FILE_PRINT_PREVIEW">打印浏览</str>
+		<str id="MENU_FILE_PRINT_SETUP">打印设置...</str>
+		<str id="MENU_FILE_PAGE_SETUP">页面设置...</str>
+		<str id="MENU_FILE_OPEN_LOG">打开视图日志...</str>
+		<str id="MENU_FILE_OPEN">打开...</str>
+		<str id="MENU_FILE_SET_ARCHIVE_FOLDER">设置存档...</str>
+		<str id="MENU_FILE_DELETE">删除...</str>
+		<str id="MENU_FILE_NEW_RECORD">创建...</str>
+		<str id="MENU_FILE_SAVE_AS_TABLE">保存表格...</str>
+		<str id="MENU_FILE_SAVE_SETTINGS">保存设置...</str>
+		<str id="MENU_FILE_LOAD_SETTINGS">载入设置...</str>
+
+		<str id="MENU_VIEW">查看</str>
+		<str id="MENU_VIEW_SIMPLE">Simple view</str>
+
+		<str id="MENU_VIEW_TOOLBAR">工具栏</str>
+		<str id="MENU_VIEW_APPLOOK">Application Look</str>
+		<str id="MENU_VIEW_STATUSBAR">状态窗</str>
+		<str id="MENU_VIEW_INFOBAR">信息窗</str>
+		<str id="MENU_VIEW_LDBAR">LD窗</str>
+		<str id="MENU_VIEW_BUTTONS">按钮</str>
+		<str id="MENU_VIEW_GRAPHS">图表</str>
+		<str id="MENU_VIEW_HISTS">频率分析结果</str>
+		<str id="MENU_VIEW_HISTS_BT">生物检测结果</str>
+
+		<str id="MENU_VIEW_VIDEOWINDOW">视频窗</str>
+		<str id="MENU_VIEW_STATUSWINDOW">状态窗</str>
+		<str id="MENU_VIEW_LDWINDOW">LD窗</str>
+
+		<str id="MENU_VIEW_OVERVIEW">Overview</str>
+		<str id="MENU_VIEW_MODE">模式</str>
+		<str id="MENU_VIEW_MODE_TOOLBAR">工具栏</str>
+
+		<str id="MENU_VIEW_MODE_VI0A">VI (N Am)</str>
+		<str id="MENU_VIEW_MODE_VI1A">VI (10 Am)</str>
+		<str id="MENU_VIEW_MODE_VI2A">VI (2 Am)</str>
+
+		<str id="MENU_VIEW_MODE_VI0B">VI (N F)</str>
+		<str id="MENU_VIEW_MODE_VI1B">VI (10 F)</str>
+		<str id="MENU_VIEW_MODE_VI2B">VI (2 F)</str>
+
+		<str id="MENU_VIEW_MODE_SRC">SRC</str>
+		<str id="MENU_VIEW_MODE_SRC_A">SRC Am</str>
+		<str id="MENU_VIEW_MODE_SRC_B">SRC F</str>
+
+		<str id="MENU_VIEW_MODE_DELTA_A">DELTA Am</str>
+		<str id="MENU_VIEW_MODE_DELTA_B">DELTA F</str>
+		<str id="MENU_VIEW_MODE_DELTA_FA">DELTA FAm</str>
+		<str id="MENU_VIEW_MODE_DELTA_FB">DELTA FF</str>
+
+		<str id="MENU_VIEW_MODE_A">Am模式</str>
+		<str id="MENU_VIEW_MODE_B">F模式</str>
+		<str id="MENU_VIEW_MODE_MFN">Mouse fn.</str>
+		<str id="MENU_VIEW_MODE_MHIST">Mouse line</str>
+		<str id="MENU_VIEW_MODE_SHIST">Sum line</str>
+
+		<str id="MENU_VIEW_MODE_SHOW">显示</str>
+
+		<str id="MENU_VIEW_MODE_AURA">Aura</str>
+		<str id="MENU_VIEW_MODE_AURA_A">Aura A</str>
+		<str id="MENU_VIEW_MODE_AURA_B">Aura F</str>
+		<str id="MENU_VIEW_MODE_AURA_0">解除Aura</str>
+
+		<str id="MENU_VIEW_MODE_WHITEBG">白色背景</str>
+		<str id="MENU_VIEW_MODE_AVITIMER">AVI定时器</str>
+		<str id="MENU_VIEW_MODE_CENTER">中心</str>
+		<str id="MENU_VIEW_MODE_TITLE">标题</str>
+
+		<str id="MENU_VIEW_PRESET">图像设置</str>
+		<str id="MENU_VIEW_PRESET_VI">VI</str>
+		<str id="MENU_VIEW_PRESET_AV">AV</str>
+		<str id="MENU_VIEW_PRESET_R">R</str>
+		<str id="MENU_VIEW_PRESET_AR">AR</str>
+		<str id="MENU_VIEW_PRESET_LD">LD</str>
+		<str id="MENU_VIEW_PRESET_RELAX">Relax</str>
+
+		<str id="MENU_VIEW_LOCK_POS">锁定区域</str>
+
+		<str id="MENU_VIEW_ZOOM_IN">放大</str>
+		<str id="MENU_VIEW_ZOOM_OUT">缩小</str>
+		<str id="MENU_VIEW_ZOOM_NX_IN">X [1:%i] 放大</str>
+		<str id="MENU_VIEW_ZOOM_NX_OUT">X [1:%i] 缩小</str>
+		<str id="MENU_VIEW_ZOOM_Y_IN">Y 放大</str>
+		<str id="MENU_VIEW_ZOOM_Y_OUT">Y 缩小</str>
+		<str id="MENU_VIEW_ZOOM_X_IN">X 放大</str>
+		<str id="MENU_VIEW_ZOOM_X_OUT">X 缩小</str>
+
+
+		<str id="MENU_EDIT">编辑</str>
+
+		<str id="MENU_SETTINGS">设置</str>
+		<str id="MENU_SETTINGS_VIDEO0">视频</str>
+		<str id="MENU_SETTINGS_VIDEO0_AVI">打开AVI文件...</str>
+		<str id="MENU_SETTINGS_VIDEO0_AVI_NOSOUND">打开AVI文件(无声)...</str>
+		<str id="MENU_SETTINGS_VIDEO0_AVI_RECOMPRESS">打开AVI文件(+无压缩)...</str>
+		<str id="MENU_SETTINGS_VIDEO0_RGB8FLT">RGB8压缩器</str>
+		<str id="MENU_SETTINGS_VIDEO0_STOP">停止</str>
+		<str id="MENU_SETTINGS_VIDEO0_CAPTUREMODE">截图模式</str>
+		<str id="MENU_SETTINGS_VIDEO0_ROTATE_CW">顺时针</str>
+		<str id="MENU_SETTINGS_VIDEO0_ROTATE_CCW">逆时针</str>
+		<str id="MENU_SETTINGS_VIDEO0_MIRROR_X">Mirror X</str>
+		<str id="MENU_SETTINGS_VIDEO0_MIRROR_Y">Mirror Y</str>
+		<str id="MENU_SETTINGS_VIDEO0_SAVE">Save settings</str>
+		<str id="MENU_SETTINGS_AUDIO0">音频</str>
+		<str id="MENU_SETTINGS_AUDIO0_CONFIG">设置</str>
+		<str id="MENU_SETTINGS_AUDIO0_LEVEL">阈值</str>
+		<str id="MENU_SETTINGS_AUDIO0_DISABLE">禁用音频</str>
+		<str id="MENU_SETTINGS_LANG">语言</str>
+		<str id="MENU_SETTINGS_AI">AI</str>
+		<str id="MENU_SETTINGS_RECORD_GROUP">记录组设置</str>
+		<str id="MENU_SETTINGS_RECORD_GROUP_DEFAULT">默认</str>
+		<str id="MENU_SETTINGS_SKYPESTATUS">Skype模式</str>
+		<str id="MENU_SETTINGS_VIDEVICE">VI设备</str>
+		<str id="MENU_SETTINGS_LOCK">锁定系统</str>
+		<str id="MENU_SETTINGS_UNLOCK">解锁系统</str>
+		<str id="MENU_SETTINGS_MITSAREEG">Mitsar EEG</str>
+		<str id="MENU_SETTINGS_AI20">AI 20s/5s</str>
+		<str id="MENU_SETTINGS_SAVE_PHOTO">Save photo</str>
+
+		<str id="MENU_SETTINGS_MASK">视频屏蔽</str>
+		<str id="MENU_SETTINGS_MASK_LOAD">加载视频屏蔽...</str>
+		<str id="MENU_SETTINGS_MASK_EXPORT">导出视频屏蔽...</str>
+		<str id="MENU_SETTINGS_MASK_RESET">初始化视频屏蔽</str>
+		<str id="MENU_SETTINGS_MASK_EDIT">编辑模式</str>
+
+		<str id="MENU_SETTINGS_CAPTURE">截屏频道</str>
+		<str id="MENU_SETTINGS_SKIN">皮肤</str>
+		<str id="MENU_SETTINGS_SKIN_DEFAULT">默认视图</str>
+
+		<str id="MENU_SETTINGS_AUTOSTART">Auto start</str>
+		<str id="MENU_SETTINGS_SETPASSWORD">Set password</str>
+		<str id="MENU_SETTINGS_ENABLE_QT">Quality test</str>
+		<str id="MENU_SETTINGS_MEASURE_FAST">Fast measure</str>
+		<str id="MENU_SETTINGS_SMART_MEASURE">Smart measure</str>
+		
+		<str id="MENU_ACTION">运行</str>
+		<str id="MENU_ACTION_PAUSE">停止</str>
+		<str id="MENU_ACTION_RESET">重置</str>
+		<str id="MENU_ACTION_PLAY">播放</str>
+		<str id="MENU_ACTION_RESETTIMER">重置时间</str>
+		<str id="MENU_ACTION_MEASUREMENT">测量</str>
+
+		<str id="MENU_ACTION_HIST">图表分析</str>
+		<str id="MENU_ACTION_HIST_STARTA">运行H</str>
+		<str id="MENU_ACTION_HIST_STARTA10">运行H 10秒</str>
+		<str id="MENU_ACTION_HIST_STARTF">运行S</str>
+		<str id="MENU_ACTION_HIST_STARTF10">运行S 10秒</str>
+		<str id="MENU_ACTION_HIST_STARTT">运行T</str>
+		<str id="MENU_ACTION_HIST_STARTT10">运行T 10秒</str>
+		<str id="MENU_ACTION_HIST_STOP">停止</str>
+
+		<str id="MENU_ACTION_MARKERS">标识</str>
+		<str id="MENU_ACTION_MARKERS_Q0">RQ</str>
+		<str id="MENU_ACTION_MARKERS_Q1">CQ</str>
+		<str id="MENU_ACTION_MARKERS_Q2">GQ</str>
+
+		<str id="MENU_ACTION_LD_START">LD区间运行</str>
+		<str id="MENU_ACTION_LD_STOP">LD区间停止</str>
+		<str id="MENU_ACTION_LD_CMP_START">LD区间运行对比</str>
+		<str id="MENU_ACTION_LD_CMP_STOP">LD区间停止对比</str>
+		<str id="MENU_ACTION_LITELOG">写日志</str>
+
+		<str id="MENU_LD_AUTO">LD自动</str>
+		<str id="MENU_LD_AUDIO">LD音频</str>
+		<str id="MENU_LD_MANUAL">LD手动</str>
+		<str id="MENU_LD_TEXT">LD文本</str>
+		<str id="MENU_LD_LOAD">LD载入文本...</str>
+
+		<str id="MENU_HELP">帮助</str>
+
+		<str id="MENU_HELP_ABOUT">关于Vibraimage...</str>
+
+		<str id="MENU_HELP_HELP">帮助...</str>
+		<str id="MENU_HELP_HELP_FILE">manual.pdf</str>
+
+		<str id="VIDEO_FRAME_TITLE">视频</str>
+		<str id="STATUS_FRAME_TITLE">状态</str>
+		<str id="LD_FRAME_TITLE">LD</str>
+
+		<str id="INFO_DEFAULTS">设置默认</str>
+		<str id="INFO_DEFAULT_MICRO">Micro微观模式</str>
+		<str id="INFO_DEFAULT_MACRO">Macro宏观模式</str>
+		<str id="INFO_DEFAULT_LD">LD模式</str>
+
+		<str id="INFO_V4_FRAME_RATE">帧率</str>
+		<str id="INFO_V4_FRAME_RATE_IN">每秒帧率</str>
+		<str id="INFO_V4_FRAME_RATE_IN_FPS">每秒输入帧率</str>
+
+		<str id="INFO_V4_FRAME_RATE_OUTF">输出帧率</str>
+		<str id="INFO_V4_FRAME_RATE_OUTF_FPS">每秒输出帧率</str>
+		<str id="INFO_V4_FRAME_RATE_DROPF">掉帧率</str>
+		<str id="INFO_V4_FRAME_RATE_MAXF">最大帧率</str>
+
+		<str id="INFO_V4_FRAME_RATE_OUTR">实际帧率</str>
+		<str id="INFO_V4_FRAME_RATE_OUTR_FPS">实际每秒输出帧率</str>
+		<str id="INFO_V4_FRAME_RATE_DROPR">实际掉帧率</str>
+		<str id="INFO_V4_FRAME_RATE_MAXR">实际最大帧率</str>
+		<str id="INFO_V4_FRAME_RATE_PERIOD">每秒传输帧率处理长度</str>
+
+		<str id="INFO_V4_FRAME_TIME_VIDEO">视频时间</str>
+		<str id="INFO_V4_FRAME_TIME_AUDIO">音频时间</str>
+
+		<str id="INFO_V4_MAIN">信息</str> 
+		<str id="INFO_V4_N">N</str>
+		<str id="INFO_V4_K">K</str>
+		<str id="INFO_V4_TH">L</str>
+		<str id="INFO_V4_NDROP">流错误</str>
+		<str id="INFO_V4_MEMORY_USAGE">RAM</str>
+
+		<str id="INFO_V4_STAT">统计</str> 
+		<str id="INFO_V4_INTEGR0A">IntegratedN(Am)</str> 
+		<str id="INFO_V4_INTEGR1A">Integrated10(Am)</str> 
+		<str id="INFO_V4_INTEGR2A">Integrated2(Am)</str> 
+		<str id="INFO_V4_INTEGR0B">IntegratedN(F)</str> 
+		<str id="INFO_V4_INTEGR1B">Integrated10(F)</str> 
+		<str id="INFO_V4_INTEGR2B">Integrated2(F)</str> 
+
+		<str id="INFO_V4_ANGER">攻击性</str> 
+		<str id="INFO_V4_STRESS">压力</str> 
+		<str id="INFO_V4_TENSION">紧张</str> 
+		<str id="INFO_V4_SUSPICIOUS">可疑</str> 
+		<str id="INFO_V4_STATUS">Status</str> 
+
+		<str id="INFO_V4_AUDIO">音频</str>
+		<str id="INFO_V4_AUDIO_LEVEL">等级</str>
+		<str id="INFO_V4_AUDIO_TH">阈值</str>
+		<str id="INFO_V4_AUDIO_DELAY">延迟(秒)</str>
+		<str id="INFO_V4_AUDIO_PERIOD">音频时长(ms)</str>
+		<str id="INFO_V4_AVI_OVERLOAD">AVI截图过载</str>
+
+		<str id="INFO_V4_SIZE_W">宽度</str>
+		<str id="INFO_V4_SIZE_H">高度</str>
+
+		<str id="INFO_AUDIO_LEVEL">音频等级</str>
+		<str id="INFO_AUDIO_LEVEL25">音频等级(25fps)</str>
+
+		<str id="INFO_CFG_MAIN">主界面</str> 
+		<str id="INFO_CFG_N">N</str> 
+		<str id="INFO_CFG_N1">N(10)</str> 
+		<str id="INFO_CFG_N2">N(2)</str> 
+		<str id="INFO_CFG_K">K</str> 
+		<str id="INFO_CFG_TH">L</str> 
+		<str id="INFO_CFG_ENGINE_THREAD_RQST">并行处理</str> 
+		<str id="INFO_CFG_ENGINE_GPU">图形处理器加速</str> 
+		<str id="INFO_CFG_CORES">Cores</str> 
+		<str id="INFO_AI_LIVE">AI Corona</str> 
+
+		<str id="INFO_CFG_FLT">过滤</str> 
+		<str id="INFO_CFG_FLT_SP">单点</str> 
+		<str id="INFO_CFG_FLT_DL">扩展</str> 
+		<str id="INFO_CFG_FLT_DLF">扩展(快速)</str> 
+		<str id="INFO_CFG_FLT_STR">拉伸</str> 
+		<str id="INFO_CFG_FLT_MSCONT">最大速度轮廓</str> 
+		<str id="INFO_CFG_FLT_FPS2IN">缩小</str> 
+		<str id="INFO_CFG_FLT_AM">Am测量</str> 
+		<str id="INFO_CFG_FLT_CT">空间</str> 
+		<str id="INFO_CFG_FLT_BTFAST">BT div</str> 
+		<str id="INFO_CFG_FLT_DIS_A">禁用Am</str> 
+		<str id="INFO_CFG_FLT_DIS_B">禁用F</str> 
+		<str id="INFO_CFG_FLT_DIS_2X">禁用2x(快速)</str> 
+		<str id="INFO_CFG_FLT_DIS_VI0">禁用VI(N)</str> 
+		<str id="INFO_CFG_FLT_DIS_VI1">禁用VI(10)</str> 
+		<str id="INFO_CFG_FLT_DIS_VI2">禁用VI(2)</str> 
+		<str id="INFO_CFG_FLT_DIS_FFTU">禁用FFT</str> 
+		<str id="INFO_CFG_FLT_DIS_ENTR">禁用Entropy</str> 
+		<str id="INFO_CFG_FLT_DIS_AUDIO">禁用音频</str> 
+		<str id="INFO_CFG_FLT_DIS_PROCF">disable ProcF</str> 
+
+		<str id="INFO_CFG_FLT_MOTION">运动探测器</str>
+		<str id="INFO_CFG_FLT_MOTION_10X">使用10x</str>
+		<str id="INFO_CFG_FLT_MOTION_LEVEL">等级</str>
+		<str id="INFO_CFG_FLT_MOTION_AUTO_RESET">自动初始化</str>
+		<str id="INFO_CFG_FLT_NSKIP">跳帧</str>
+		<str id="INFO_CFG_FLT_AUTODOWNRATE">自动缩小</str> 
+		<str id="INFO_CFG_FLT_CONTOUR">固定轮廓</str> 
+		<str id="INFO_CFG_FLT_CONTOUR_FACE">Face only</str> 
+		<str id="INFO_CFG_FLT_CONTOUR_FACE10">10 faces</str> 
+		<str id="INFO_CFG_FLT_CONTOUR_VIBRA">Vibra</str> 
+		<str id="INFO_CFG_FLT_STABX">Stab. X</str> 
+		<str id="INFO_CFG_FLT_STABY">Stab. Y</str> 
+		<str id="INFO_CFG_FLT_GLOBAL">应用全局过滤</str> 
+		<str id="INFO_GEOVISION_PATH">GV路径</str> 
+		<str id="INFO_STATE_LEVEL">状态等级</str>
+		<str id="INFO_STATE_LEVEL_AG">Ag</str>
+		<str id="INFO_STATE_LEVEL_ST">St</str>
+		<str id="INFO_STATE_LEVEL_TN">Tn</str>
+		<str id="INFO_STORE_LEN">存储大小</str> 
+		<str id="INFO_CFG_EEG_TEST_MODE">EEG 测试模式</str> 
+
+		<str id="INFO_CFG_FLT_HISTNW">Hist A</str>
+
+		<str id="INFO_CFG_MODE_COLOR">彩色图像</str>
+		<str id="INFO_CFG_FLT_CROPX">crop X</str>
+		<str id="INFO_CFG_FLT_CROPY">crop Y</str>
+		<str id="INFO_CFG_FLT_CROPX_POS">crop X pos</str>
+		<str id="INFO_CFG_FLT_CROPY_POS">crop Y pos</str>
+	
+		<str id="INFO_CFG_AVG">AVG过滤器</str> 
+		<str id="INFO_CFG_AVG_ANGER">攻击性</str> 
+		<str id="INFO_CFG_AVG_STRESS">压力</str> 
+		<str id="INFO_CFG_AVG_TENSION">紧张</str> 
+		<str id="INFO_CFG_AVG_STATE_SRC">可疑</str> 
+		<str id="INFO_CFG_AVG_ENERGY">活力</str> 
+		<str id="INFO_CFG_AVG_COMPAT">亲和性</str> 
+		<str id="INFO_CFG_AVG_DANGER">可疑</str> 
+		<str id="INFO_CFG_AVG_BALANCE">平衡</str> 
+		<str id="INFO_CFG_AVG_CHARMING">魅力</str> 
+		
+
+		<str id="INFO_CFG_ALERTS">警告</str> 
+		<str id="INFO_CFG_ALERT_SUSP_SND">声音提示(可疑)</str> 
+		<str id="INFO_CFG_ALERT_CUST_SND">声音提示(Cust)</str> 
+		<str id="INFO_CFG_ALERT_A_SND">声音提示(攻击性)</str> 
+		<str id="INFO_CFG_ALERT_S_SND">声音提示(压力)</str> 
+		<str id="INFO_CFG_ALERT_T_SND">声音提示(紧张)</str> 
+		<str id="INFO_CFG_ALERT_IMAGE">Auto capture image</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO">自动截图(秒)</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_TIME">Hide after (s)</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FILE">Save image files</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FILE_XML">Save face XML</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FACE">Save faces</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_PRINT">Print suspect</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_GROUP_BY">Group by state%</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_ORIGINAL">Save original</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FACE_VALIDATE">Validate face</str>
+		<str id="INFO_CFG_ALERT_IMAGE_COUNT">显示N张图</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_FORMAT">Image format</str>
+ 		<str id="INFO_CFG_SND_PATH">Audio file</str>
+
+		<str id="INFO_CFG_MACRO_ENABLE">Macro宏观模式</str> 
+		<str id="INFO_CFG_MACRO_LEVEL_L">L等级</str> 
+		<str id="INFO_CFG_MACRO_LEVEL_S">S等级</str> 
+		<str id="INFO_CFG_MACRO_AURA">aura模式</str> 
+		<str id="INFO_CFG_MACRO_FACE">macro宏观模式+</str> 
+
+		<str id="INFO_CFG_FACE_ENABLE">脸部识别</str> 
+		<str id="INFO_CFG_FACE_QUALITY">识别品质[1..4]</str> 
+		<str id="INFO_CFG_FACE_SCALE">Scale 1:X</str> 
+		<str id="INFO_CFG_FACE_QUALITY_SIZE_MIN">最小尺寸</str> 
+		<str id="INFO_CFG_FACE_QUALITY_SIZE_MAX">最大尺寸</str> 
+		<str id="INFO_CFG_FACE_DRAW">绘图</str>
+		<str id="INFO_CFG_FACE_PATH">配置</str>
+		<str id="INFO_CFG_FACE_MODE_SYNC">Sync mode</str>
+
+		<str id="INFO_CFG_SND">振动-声音</str>
+		<str id="INFO_CFG_SND_KILL">禁用声音基础值</str>
+		<str id="INFO_CFG_SND_NONE">无声音</str>
+		<str id="INFO_CFG_SND_CR">CG</str>
+		<str id="INFO_CFG_SND_CG">CR</str>
+		<str id="INFO_CFG_SND_HR">HG</str>
+		<str id="INFO_CFG_SND_HG">HR</str>
+		<str id="INFO_CFG_SND_SR">SR</str>
+		<str id="INFO_CFG_SND_SG">SG</str>
+		<str id="INFO_CFG_SND_TITLE">脑声</str>
+
+		<str id="INFO_CFG_VI_DEVICE">VI设备</str>
+		<str id="INFO_CFG_VI_DEVICE_INDICATION">设备标识</str>
+
+		<str id="INFO_CORRELATION_ENABLE">启用关联</str>
+		<str id="INFO_CORRELATION_T">Period</str>
+		<str id="INFO_CORRELATION_TAUTO">自动切换</str>
+		<str id="INFO_CORRELATION_SORT">排序</str>
+
+		<str id="INFO_LD_GROUP">LD全局设置 </str>
+		<str id="INFO_LD_ENABLE">禁用</str>
+		<str id="INFO_LD_PERIOD">统计周期(秒)</str>
+		<str id="INFO_LD_PERIOD_BASE">基本周期(秒)</str>
+		<str id="INFO_LD_LTH">测谎阈值</str>
+		<str id="INFO_LD_AUDIO_SENSITIVITY">音频敏感度(秒)</str>
+		<str id="INFO_LD_NAME">测谎</str>
+		<str id="INFO_LD_MODE">LD模式</str>
+		<str id="INFO_LD_MODE_AUTO">自动</str>
+		<str id="INFO_LD_MODE_AUDIO">音频</str>
+		<str id="INFO_LD_MODE_MANUAL">手动</str>
+		<str id="INFO_LD_MODE_CMP">对比</str>
+		<str id="INFO_LD_MODE_OPPOSITE">对照分析模式</str>
+		<str id="INFO_LD_MODE_TEXT">文本</str>
+
+		<str id="INFO_AVI_GROUP">AVI截图</str>
+		<str id="INFO_AVI_SETTINGS">设置...</str>
+		<str id="INFO_AVI_CAPTURE">截图</str>
+		<str id="INFO_AVI_PATH">写入文件夹</str>
+
+		<str id="INFO_GRAPH_GROUP">图表</str> 
+		<str id="INFO_GRAPH_PERIOD">时期(秒)</str> 
+		<str id="INFO_GRAPH_DIF_PERIOD">Diff时间(秒)</str> 
+		<str id="INFO_GRAPH_HIST_PERIOD">Hist时间(秒)</str> 
+
+		<str id="INFO_HIST_A_PERIOD">Hist. H smooth (秒)</str> 
+		<str id="INFO_HIST_F_PERIOD">Hist. S smooth (秒)</str> 
+		<str id="INFO_HIST_C_PERIOD">Hist. C smooth (秒)</str> 
+
+		<str id="INFO_STAT_SUB_SHOW">显示</str>
+		<str id="INFO_STAT_SUB_SHOW2">图表2</str>
+		<str id="INFO_STAT_SUB_CALC">计算</str>
+		<str id="INFO_STAT_SUB_DIF">Diff模式</str>
+		<str id="INFO_STAT_SUB_VMIN">vMin</str>
+		<str id="INFO_STAT_SUB_VMAX">vMax</str>
+		<str id="INFO_STAT_SUB_GMIN">gMin</str>
+		<str id="INFO_STAT_SUB_GMAX">gMax</str>
+		<str id="INFO_STAT_SUB_RATE1">Rate1 V</str>
+		<str id="INFO_STAT_SUB_RATE2">Rate2 V</str>
+		<str id="INFO_STAT_SUB_RATE1V">Rate1 C</str>
+		<str id="INFO_STAT_SUB_RATE2V">Rate2 C</str>
+		<str id="INFO_STAT_SUB_LEVEL">等级</str>
+		<str id="INFO_STAT_SUB_GFLTLFAVG">HF平均</str>
+		<str id="INFO_STAT_SUB_GFLTLF">HF过滤</str>
+		<str id="INFO_STAT_SUB_GFLTHF">LF过滤</str>
+
+		<str id="INFO_STAT_COL_NAME">名称</str>
+		<str id="INFO_STAT_COL_VAR">V</str>
+		<str id="INFO_STAT_COL_CMIN">cMin</str>
+		<str id="INFO_STAT_COL_CMAX">cMax</str>
+		<str id="INFO_STAT_COL_BMIN">bMin</str>
+		<str id="INFO_STAT_COL_BMAX">bMax</str>
+
+		<str id="INFO_STATAVG_COL_NAME">名称</str>
+		<str id="INFO_STATAVG_COL_VAR">V</str>
+		<str id="INFO_STATAVG_COL_S">S</str>
+		<str id="INFO_STATAVG_COL_PI">Vi</str>
+		<str id="INFO_STATAVG_COL_CMIN">cMin</str>
+		<str id="INFO_STATAVG_COL_CMAX">cMax</str>
+		<str id="INFO_STATAVG_COL_BMIN">bMin</str>
+		<str id="INFO_STATAVG_COL_BMAX">bMax</str>
+		<str id="INFO_STATAVG_COL_NMIN">N Min</str>
+		<str id="INFO_STATAVG_COL_NMAX">N Max</str>
+		<str id="INFO_STATAVG_PROGRESS">进度条</str>
+		<str id="INFO_STATAVG_PERIOD">持续时间(秒)</str>
+		<str id="INFO_STATAVG_OPEN">Open result</str>
+
+
+		<str id="INFO_STAT_A1X">A1 (fast)</str> 
+		<str id="INFO_STAT_A4X">A4 (fast)</str> 
+
+		<str id="INFO_STAT_A1">A1</str> 
+		<str id="INFO_STAT_A2">A2</str> 
+		<str id="INFO_STAT_A3">A3</str> 
+		<str id="INFO_STAT_A4">A4</str> 
+		<str id="INFO_STAT_A5">A5</str> 
+		<str id="INFO_STAT_A6">A6</str> 
+		<str id="INFO_STAT_A7">A7</str> 
+		<str id="INFO_STAT_A8">A8</str> 
+		<str id="INFO_STAT_A9">A9</str> 
+
+		<str id="INFO_STAT_F1X">F1 (快速)</str> 
+
+		<str id="INFO_STAT_F1">F1</str> 
+		<str id="INFO_STAT_F2">F2</str> 
+		<str id="INFO_STAT_F3">F3</str> 
+		<str id="INFO_STAT_F4">F4</str> 
+		<str id="INFO_STAT_F5XT">F5 tens.</str> 
+		<str id="INFO_STAT_F5X">F5 (fast)</str> 
+		<str id="INFO_STAT_F5X_TEXT">紧张/焦虑 (F5X)</str> 
+		<str id="INFO_STAT_F5">F5</str> 
+		<str id="INFO_STAT_F6">F6</str> 
+		<str id="INFO_STAT_F6_TEXT">抑郁(F6)</str> 
+		<str id="INFO_STAT_F7">F7</str> 
+		<str id="INFO_STAT_F8">F8</str> 
+		<str id="INFO_STAT_F9">F9</str> 
+		<str id="INFO_STAT_F9_TEXT">神经质或情绪不稳定(F9)</str> 
+
+		<str id="INFO_STAT_S1">S1</str> 
+		<str id="INFO_STAT_S2">S2</str> 
+		<str id="INFO_STAT_S3">S3</str> 
+		<str id="INFO_STAT_S4">S4</str> 
+		<str id="INFO_STAT_S5">S5</str> 
+		<str id="INFO_STAT_S6">S6</str> 
+		<str id="INFO_STAT_S7">S7</str> 
+		<str id="INFO_STAT_S8">S8</str> 
+		<str id="INFO_STAT_S9">S9</str> 
+
+		<str id="INFO_STAT_IP">P</str>
+		<str id="INFO_STAT_DP5">dP5</str>
+<str id="INFO_STAT_II2">I</str>
+<str id="INFO_STAT_IE2">E</str>
+<str id="INFO_STAT_P1">P1</str> 
+		<str id="INFO_STAT_P2">P2</str> 
+		<str id="INFO_STAT_P3">P3</str> 
+		<str id="INFO_STAT_P4">P4</str> 
+		<str id="INFO_STAT_P5">P5 lie</str> 
+		<str id="INFO_STAT_P6">P6 str.</str> 
+		<str id="INFO_STAT_P6_TEXT">压力(P6)</str> 
+		<str id="INFO_STAT_P7">P7 ang.</str> 
+		<str id="INFO_STAT_P7_TEXT">攻击性(P7)</str> 
+		<str id="INFO_STAT_P6A">P6A str.</str> 
+		<str id="INFO_STAT_P7A">P7A ang.</str> 
+		<str id="INFO_STAT_P6F">P6F str.</str> 
+		<str id="INFO_STAT_P7F">P7F ang.</str> 
+		<str id="INFO_STAT_P8">P8 en.</str> 
+		<str id="INFO_STAT_P8_TEXT">活力(P8)</str> 
+		<str id="INFO_STAT_P8A">P8A en.</str> 
+		<str id="INFO_STAT_P8F">P8F en.</str> 
+		<str id="INFO_STAT_P9">P9 H</str> 
+		<str id="INFO_STAT_P9A">P9A H</str> 
+		<str id="INFO_STAT_P9F">P9F H</str> 
+		<str id="INFO_STAT_P10">P10 Δ</str> 
+		<str id="INFO_STAT_P10A">P10A Δ</str> 
+		<str id="INFO_STAT_P10F">P10F Δ</str> 
+		<str id="INFO_STAT_P11">P11 æ</str> 
+		<str id="INFO_STAT_P11A">P11A æ</str> 
+		<str id="INFO_STAT_P11F">P11F æ</str> 
+		<str id="INFO_STAT_P12">P12 S</str> 
+		<str id="INFO_STAT_P12A">P12A S</str> 
+		<str id="INFO_STAT_P12F">P12F S</str> 
+		<str id="INFO_STAT_P13">P13</str> 
+		<str id="INFO_STAT_P14">P14</str> 
+		<str id="INFO_STAT_P15">P15</str> 
+		<str id="INFO_STAT_P16">P16 CN</str> 
+		<str id="INFO_STAT_P16_TEXT">平衡(P16)</str> 
+		<str id="INFO_STAT_P17">P17 CS</str> 
+		<str id="INFO_STAT_P17_TEXT">魅力(P17)</str> 
+		<str id="INFO_STAT_P18">P18 Com</str> 
+		<str id="INFO_STAT_P18_TEXT">自我调节(P18)</str> 
+		<str id="INFO_STAT_P19">P19 St</str> 
+		<str id="INFO_STAT_P19_TEXT">可疑(P19)</str> 
+		<str id="INFO_STAT_P20">P20 LD</str> 
+		<str id="INFO_STAT_P20_TEXT">LD (P20)</str> 
+		<str id="INFO_STAT_P21">P21健康</str> 
+		<str id="INFO_STAT_P21_TEXT">健康 (P21)</str> 
+		<str id="INFO_STAT_P22">P22健康'</str> 
+		<str id="INFO_STAT_P22_TEXT">健康' (P22)</str> 
+		<str id="INFO_STAT_P23">P23 ΣVi</str> 
+		<str id="INFO_STAT_P23_TEXT">ΣVi (P23)</str> 
+		<str id="INFO_STAT_P24">P24 Slp</str> 
+		<str id="INFO_STAT_P24_TEXT">睡意(P24)</str> 
+		<str id="INFO_STAT_P25">P25 VSlp</str> 
+		<str id="INFO_STAT_P25_TEXT">VSlp (P25)</str> 
+		<str id="INFO_STAT_P26">P26外向型</str> 
+		<str id="INFO_STAT_P26_TEXT">外向性(P26)</str> 
+		<str id="INFO_STAT_P27">P27 Stab</str> 
+		<str id="INFO_STAT_P27_TEXT">稳定性(P27)</str> 
+
+		<str id="INFO_STAT_P29">DP</str> 
+		<str id="INFO_STAT_P29_TEXT">Depression (P29)</str> 
+		<str id="INFO_STAT_P30">HP</str> 
+		<str id="INFO_STAT_P30_TEXT">Happiness (P30)</str> 
+		<str id="INFO_STAT_P36">AI</str> 
+		<str id="INFO_STAT_P36_TEXT">AI(P36)</str> 
+		<str id="INFO_STAT_P37">AIc</str> 
+		<str id="INFO_STAT_P37_TEXT">AI current (P36)</str> 
+		<str id="INFO_STAT_P38">AIf</str> 
+		<str id="INFO_STAT_P38_TEXT">AI final(P36)</str>
+<str id="INFO_STAT_P41">AI</str>
+ <str id="INFO_STAT_P41_TEXT">AI value(P41)</str>
+
+		<str id="INFO_STAT_C1">C1</str> 
+		<str id="INFO_STAT_C2">C2</str> 
+		<str id="INFO_STAT_C3">C3</str> 
+		<str id="INFO_STAT_C4">C4</str> 
+
+		<str id="INFO_STAT_HISTFN">HC.功能</str> 
+		<str id="INFO_STAT_SIN">sin(t*2*pi*n)</str> 
+		<str id="INFO_ENGINE_MSND">标识音效</str> 
+		<str id="INFO_ENGINE_RSND">初始化音效</str> 
+
+		<str id="INFO_CFG_FLT_F6_HI">F6 LF</str> 
+		<str id="INFO_CFG_FLT_F6_LO">F6 HF</str> 
+		<str id="INFO_CFG_FLT_F6_N">F6 N</str> 
+
+		<str id="INFO_CFG_FLT_CAMPOS">Stab.过滤</str> 
+
+		<str id="INFO_CFG_FLT_FPSDIV">每秒传输帧率过滤</str> 
+		<str id="INFO_CFG_FLT_DISTORTION">E-Monster</str> 
+		
+		<str id="INFO_CFG_FTP">Network Storage</str> 
+		<str id="INFO_CFG_FTP_ENABLE">enable FTP</str> 
+		<str id="INFO_CFG_FTP_PATH">configuration file</str> 
+		<str id="INFO_CFG_HTTP_URL">HTTP url</str>
+		
+		<str id="INFO_STAT_FN01">X1</str> 
+		<str id="INFO_STAT_FN02">X2</str> 
+		<str id="INFO_STAT_FN03">X3</str> 
+		<str id="INFO_STAT_FN04">X4</str> 
+		<str id="INFO_STAT_FN05">X5</str> 
+		<str id="INFO_STAT_FN06">X6</str> 
+		<str id="INFO_STAT_FN07">X7</str> 
+		<str id="INFO_STAT_FN08">X8</str> 
+		<str id="INFO_STAT_FN09">X9</str> 
+		<str id="INFO_STAT_FN10">X10</str> 
+
+		<str id="INFO_USER_CURRENT">选择记录</str>
+		<str id="INFO_USER_NEW">创建...</str>
+		<str id="INFO_USER_NEW_NAME">姓名</str>
+		<str id="INFO_USER_NEW_BD">生日</str>
+		<str id="INFO_USER_NEW_ADD">说明</str>
+		<str id="INFO_USER_DB_PATH">保存路径...</str>
+		<str id="INFO_USER_DB_MODE">DB mode</str>
+		<str id="DB_MODE_MANUAL">manual</str>
+		<str id="DB_MODE_KEY_ONLY">key only</str>
+		<str id="INFO_USER_AVI_GROUP">截图</str>
+		<str id="INFO_USER_AVI_TMAX">最大长度(秒)</str>
+		<str id="INFO_USER_AVI_PURGE">清理旧文件(Mb)</str>
+
+		<str id="INFO_USER_INFO">Personal information</str>
+		<str id="INFO_USER_INFO_NAME">姓名</str>
+		<str id="INFO_USER_INFO_ID">ID</str>
+		<str id="INFO_USER_INFO_BD">生日</str>
+		<str id="INFO_USER_INFO_GENDER">Gender</str>
+		<str id="INFO_USER_INFO_AGE">Age</str>
+		<str id="INFO_USER_INFO_COMMENTS">说明</str>
+		
+		<str id="INFO_USER_AUTO_MARKERS_CQ">CQ标识 </str>
+		<str id="INFO_USER_AUTO_MARKERS_RQ">RQ标识</str>
+		<str id="INFO_USER_AUTO_MARKERS_SET">设置标识 </str>
+
+		<str id="INFO_CAPTURE_TIMER">时间</str>
+		<str id="INFO_CAPTURE_STOP_IN">结束后停止</str>
+		<str id="INFO_CAPTURE_STOP_AT">中途停止</str>
+		<str id="INFO_CAPTURE_START_AT">中途运行</str>
+		<str id="INFO_CAPTURE_EXTRA_SRC">增加记录保存</str>
+		<str id="INFO_CAPTURE_EXTRA">增加信息保存</str>
+		<str id="INFO_CAPTURE_XML">保存为XML</str>
+		<str id="INFO_CAPTURE_TXT">保存为TXT</str>
+		<str id="INFO_CAPTURE_DTF">保存为DTF</str>
+		<str id="INFO_CAPTURE_LD">保存为LD</str>
+		<str id="INFO_CAPTURE_HTTP">HTTP状态</str>
+		<str id="INFO_CAPTURE_FACE_IMG">保存脸部</str>
+		<str id="INFO_CAPTURE_IS">截图模式</str>
+		<str id="INFO_CAPTURE_IS_AVI">AVI</str>
+		<str id="INFO_CAPTURE_IS_IMG">IMG</str>
+
+		<str id="INFO_NET_ENABLE">网络服务</str>
+		<str id="INFO_NET_STATE_CRITICAL">可疑等级预警%</str>
+		<str id="INFO_NET_STATE_CUSTOMER">Customer level %</str>
+		<str id="INFO_NET_STATE_CRITICAL_S">阈值区间 %</str>
+		<str id="INFO_NET_STATE_CRITICAL_K">等级区间 %</str>
+		<str id="INFO_NET_DIRECT_VIDEO">全视频流</str>
+		<str id="INFO_NET_LOCAL_TCP">本地TCP端口</str>
+		<str id="INFO_NET_HOST_GR">远程连接服务器</str>
+		<str id="INFO_NET_HOST_IP">IP</str>
+		<str id="INFO_NET_HOST_ENABLED">启动</str>
+		<str id="INFO_NET_PORT_TCP">TCP端口</str>
+		<str id="INFO_NET_PORT_UDP">UDP端口</str>
+		<str id="INFO_NET_COMPRESSION">压缩</str>
+
+		<str id="LOGLD_LIE_DETECTED">测谎分析</str>
+		<str id="LOGLD_LIE_TIME_FROM">开始时间</str>
+		<str id="LOGLD_LIE_TIME_TO">结束时间</str>
+		<str id="LOGLD_LIE_TIME_FROM_VIDEO">视频计时器(启动)</str>
+		<str id="LOGLD_LIE_TIME_TO_VIDEO">视频计时器(停止)</str>
+		<str id="LOGLD_LIE_TIME">LD时间</str>
+		<str id="LOGLD_LIE_TIME_VIDEO">LD视频计时器</str>
+		<str id="LOGLD_LIE_QUESTION">Question N</str>
+
+		<str id="HINT_GRAPH_ENABLE">图表</str> 
+		<str id="HINT_STAT_CALC">计算</str> 
+		<str id="HINT_HIST_R">红色hist.</str> 
+		<str id="HINT_HIST_G">绿色hist.</str> 
+		<str id="HINT_CORREL_ENABLE">关联性</str> 
+
+		<str id="HINT_RECT_VI0">VI N(%i)</str>
+		<str id="HINT_RECT_VI1">VI 10(%i)</str>
+		<str id="HINT_RECT_VI2">VI 2(%i)</str>
+		<str id="HINT_RECT_SRC">SRC</str>
+		<str id="HINT_RECT_DELTA">DELTA</str>
+
+		<str id="HINT_RECT_VI0_A">VI N A(%i)</str>
+		<str id="HINT_RECT_VI1_A">VI 10 A(%i)</str>
+		<str id="HINT_RECT_VI2_A">VI 2 A(%i)</str>
+		<str id="HINT_RECT_SRC_A">SRC A</str>
+		<str id="HINT_RECT_DELTA_A">DELTA A</str>
+		<str id="HINT_RECT_DELTA_FA">DELTA FA</str>
+
+
+		<str id="HINT_RECT_VI0_B">VI N F(%i)</str>
+		<str id="HINT_RECT_VI1_B">VI 10 F(%i)</str>
+		<str id="HINT_RECT_VI2_B">VI 2 F(%i)</str>
+		<str id="HINT_RECT_SRC_B">SRC F</str>
+		<str id="HINT_RECT_DELTA_B">DELTA F</str>
+		<str id="HINT_RECT_DELTA_FB">DELTA FF</str>
+
+		<str id="HINT_RECT_HIST_X">Hist. X</str>
+		<str id="HINT_RECT_HIST_Y">Hist. Y</str>
+
+		<str id="MESSAGE_ERROR">错误!</str> 
+		<str id="MESSAGE_WARNING">警告!</str> 
+		<str id="MESSAGE_BROWSE_FOR_DB">保存文件夹</str> 
+		<str id="MESSAGE_CANT_CREATE_AVI_FILE">无法创建AVI文件!</str> 
+		<str id="MESSAGE_CANT_START_AVI_FILE">无法运行AVI文件!\n%s</str> 
+		<str id="MESSAGE_NEED_RESTART">你需要从新启动程序!</str> 
+		<str id="MESSAGE_CANT_CREATE_FOLDER">无法创建文件夹!\n%s</str> 
+		<str id="MESSAGE_CANT_WRITE_FILE">写入文件错误!</str> 
+		<str id="MESSAGE_DELETE_SELECTED_RECORDS">确定要删除选定的记录?</str> 
+		<str id="MESSAGE_AVI_PURGE_STOP">磁盘空间不足!\n停止记录.</str> 
+		<str id="MESSAGE_CANT_RECOMPRESS">无法启动重新压缩!</str> 
+		<str id="MESSAGE_EXCEL_VERSION">This software requires installation of the Microsoft Excel 2010 or newer</str>
+
+		<str id="STR_FRAME_CAPTION">Vibraimage</str>
+
+		<str id="STR_FILE_FILTER_AVI_VI">所有格式(*.avi;*.asf;*.mp4;*.xml)|*.xml;*.avi;*.asf;*.mp4|AVI文件 (*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|VI log文件 (*.xml)|*.xml|所有文件(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_VI">VI log文件(*.xml)|*.xml|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_AVI">AVI文件(*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_AVI_ZIP">All formats (*.avi;*.asf;*.mp4;*.zip)|*.zip;*.avi;*.asf;*.mp4|AVI文件(*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|ZIP文件(*.zip)|*.zip|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_HIST">VI文件(*.xml)|*.xml|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_IMG_ALL">All formats (*.png;*.bmp;*.jpg;*.gif)|*.png;*.bmp;*.jpg;*.gif|PNG文件(*.png)|*.png|BMP文件(*.bmp)|*.bmp|JPG文件(*.jpg)|*.jpg|GIF文件(*.gif)|*.gif|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_ALL">所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_XML">XML文件(*.xml)|*.xml|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_XML_TXT">XML文件(*.xml)|*.xml|Text文件(*.txt)|*.txt|*.xml|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_TXT_AVI">Text文件(*.txt)|*.txt|AVI文件(*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_XML_AVI">XML文件(*.xml)|*.xml|AVI文件(*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_LDQ">LD文件(*.ldq)|*.ldq|所有文件 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_REG">Reg文件(*.reg)|*.reg|所有文件 (*.*)|*.*|</str>
+		<str id="STR_UNITS_PSY">Psy</str>
+		<str id="STR_UNITS_EKKAL">E [kcal/min]</str>
+		<str id="STR_UNITS_FPS">fps</str>
+		<str id="STR_UNITS_S">秒</str>
+
+		<str id="STR_AURAVI">Aura VI</str>
+		<str id="STR_MONSTER">Monster VI</str>
+		<str id="STR_BIOTESTER">生物测试</str>
+		<str id="STR_SLEEPINESS">睡意</str>
+		
+		<str id="SEQ_OWNER">所有者:</str>
+		<str id="SEQ_SERIAL">序列号:</str>
+		<str id="SEQ_TYPE">注册号:</str>
+		<str id="SEQ_DEMO">试用版</str>
+		<str id="SEQ_PROF">专业版</str>
+		<str id="SEQ_LIMITED">限量版</str>
+		<str id="SEQ_UNLIMITED">非限量版</str>
+
+		<str id="NETSTATUS_IMAGE">图片</str>
+		<str id="NETSTATUS_CONFIG">设置</str>
+		<str id="NETSTATUS_CFG_MODL">模块</str>
+		<str id="NETSTATUS_CFG_MODL_IP">IP</str>
+		<str id="NETSTATUS_CFG_MODL_PORT_TCP">TCP端口</str>
+		<str id="NETSTATUS_CFG_LOCAL">本地</str>
+		<str id="NETSTATUS_CFG_LOCAL_PORT_TCP">TCP端口</str>
+		<str id="NETSTATUS_CFG_LOCAL_PORT_UDP">UDP端口</str>
+
+		<str id="NETSTATUS_CFG_ALERTS">警告</str>
+		<str id="NETSTATUS_CFG_ALERT_SOUND">声音</str>
+		<str id="NETSTATUS_CFG_ALERT_IMAGE">图片</str>
+
+
+		<str id="AMCAP_DLG_VIDEO_FORMAT">视频格式...</str>
+		<str id="AMCAP_DLG_VIDEO_SOURCE">视频源...</str>
+		<str id="AMCAP_DLG_VIDEO_DISPLAY">视频显示...</str>
+		<str id="AMCAP_DLG_AUDIO_CAP_FILTER">音频采集过滤器...</str>
+		<str id="AMCAP_DLG_VIDEO_CAP_FILTER">视频采集过滤器...</str>
+		<str id="AMCAP_DLG_VIDEO_CAP_FORMAT">视频截图格式...</str>
+		<str id="AMCAP_DLG_VIDEO_PREVIEW_FORMAT">视频浏览格式...</str>
+		<str id="AMCAP_DLG_VIDEO_CROSSBAR">视频交叉开关...</str>
+		<str id="AMCAP_DLG_VIDEO_CROSSBAR2">第二交叉开关...</str>
+		<str id="AMCAP_DLG_TV_TUNER">TV调试器...</str>
+		<str id="AMCAP_DLG_AUDIO_CAP_FORMAT">音频采集格式...</str>
+		<str id="AMCAP_DLG_TV_AUDIO">TV音频...</str>
+
+		<str id="STR_ARCHIVE_FOLDER">存档文件夹...</str>
+
+		<str id="NETAVIS_TITLE">网络AVI服务</str>
+
+		<str id="VI_GRAPH_AVG_ALL">Pulse AVG_ALL</str>
+		<str id="VI_GRAPH_SIGMA_ALL">Pulse SIGMA_ALL</str>
+
+		<str id="VI_GRAPH_AVG_ZONE">Pulse AVG_ZONE1</str>
+		<str id="VI_GRAPH_SIGMA_ZONE">Pulse SIGMA_ZONE1</str>
+
+		<str id="VI_GRAPH_AVG_ZONE2">Pulse AVG_ZONE2</str>
+		<str id="VI_GRAPH_SIGMA_ZONE2">Pulse SIGMA_ZONE2</str>
+
+		<str id="VI_GRAPH_AVG_LINE1">Pulse AVG_LINE1</str>
+		<str id="VI_GRAPH_SIGMA_LINE1">Pulse SIGMA_LINE1</str>
+
+		<str id="VI_GRAPH_AVG_LINE2">Pulse AVG_LINE2</str>
+		<str id="VI_GRAPH_SIGMA_LINE2">Pulse SIGMA_LINE2</str>
+
+		<str id="VI_GRAPH_AVG_LINE3">Pulse AVG_LINE3</str>
+		<str id="VI_GRAPH_SIGMA_LINE3">Pulse SIGMA_LINE3</str>
+
+		<str id="VI_GRAPH_SIN">Pulse SIN</str>
+
+		<str id="VI_GRAPH_PHASE_T">Pulse PHASE_T</str>
+		<str id="VI_GRAPH_PHASE_A">Pulse PHASE_A</str>
+		<str id="VI_GRAPH_PULSE10">Pulse PULSE10</str>
+
+		<str id="VI_GRAPH_AVG_X0">Pulse AVG_X0</str>
+		<str id="VI_GRAPH_AVG_X1">Pulse AVG_X1</str>
+		<str id="VI_GRAPH_AVG_X2">Pulse AVG_X2</str>
+		<str id="VI_GRAPH_AVG_X3">Pulse AVG_X3</str>
+		<str id="VI_GRAPH_AVG_X4">Pulse AVG_X4</str>
+		<str id="VI_GRAPH_AVG_X5">Pulse AVG_X5</str>
+		<str id="VI_GRAPH_AVG_X6">Pulse AVG_X6</str>
+		<str id="VI_GRAPH_AVG_X7">Pulse AVG_X7</str>
+		<str id="VI_GRAPH_AVG_X8">Pulse AVG_X8</str>
+		<str id="VI_GRAPH_AVG_X9">Pulse AVG_X9</str>
+		<str id="VI_GRAPH_SIGMA_X0">Pulse SIGMA_X0</str>
+		<str id="VI_GRAPH_SIGMA_X1">Pulse SIGMA_X1</str>
+		<str id="VI_GRAPH_SIGMA_X2">Pulse SIGMA_X2</str>
+		<str id="VI_GRAPH_SIGMA_X3">Pulse SIGMA_X3</str>
+		<str id="VI_GRAPH_SIGMA_X4">Pulse SIGMA_X4</str>
+		<str id="VI_GRAPH_SIGMA_X5">Pulse SIGMA_X5</str>
+		<str id="VI_GRAPH_SIGMA_X6">Pulse SIGMA_X6</str>
+		<str id="VI_GRAPH_SIGMA_X7">Pulse SIGMA_X7</str>
+		<str id="VI_GRAPH_SIGMA_X8">Pulse SIGMA_X8</str>
+		<str id="VI_GRAPH_SIGMA_X9">Pulse SIGMA_X9</str>
+
+		<str id="MESSAGE_LD_WARNING_FACE">警告：低品质(1) !</str> 
+		<str id="MESSAGE_LD_WARNING_LIGHT">警告：低品质(2) !</str> 
+		<str id="MESSAGE_LD_WARNING_FPS">警告：低品质(3) !</str> 
+
+		<str id="INFO_CORRELATION_MEDIAN">平均相关</str>
+		<str id="INFO_CORRELATION_HIPASS">高通滤波器</str>
+		<str id="INFO_CORRELATION_LOPASS">低通滤波器</str>
+		<str id="INFO_CORRELATION_AVG">平均过滤器</str>
+
+		<str id="VI_INFO_STARTUP">Startup</str>
+		<str id="VI_INFO_PWD1">Password</str>
+		<str id="VI_INFO_PWD2">Retype password</str>
+		<str id="VI_INFO_PWD_NEW">New password</str>
+		<str id="VI_INFO_PWD0">Current password</str>
+
+<str id="INFO_CAMERA_LOCK">Lock camera</str>
+</config>

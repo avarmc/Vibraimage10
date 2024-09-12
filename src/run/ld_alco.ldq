@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ld>
+	<nographs />
+	
+	<GQ delay="10" length="7" text_delay="1" text_length="0" img="images/alco/01.jpg">Вы любите пиццу?</GQ>
+	<GQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/02.jpg">Рядом с Вашим домом есть скамейка?</GQ>
+
+	<GQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/03.jpg">Вам нравиться спортивная одежда?</GQ>
+	<CQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/04.jpg">Домашние девочки не для уличных мальчиков.</CQ>
+	<RQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/05.jpg">Отсутствие денег не повод  отказаться  выпить.</RQ>
+
+	<GQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/06.jpg">Вы любите смотреть телевизор?</GQ>
+	<CQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/07.jpg">Если человек  неудачник , то сам виноват.</CQ>
+	<RQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/08.jpg">Вы одалживали деньги на выпивку ?</RQ>
+
+	<GQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/09.jpg">Программа «Новости» - это хорошая программа.</GQ>
+	<CQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/10.jpg">Вор должен сидеть в тюрьме.</CQ>
+	<RQ delay="5" length="7" text_delay="1" text_length="0" img="images/alco/11.jpg">Вы часто выпиваете? </RQ>
+
+	<GQ delay="5" length="1" text_delay="1" text_length="0">Спасибо, за Ваши искренние ответы!</GQ>
+
+</ld>

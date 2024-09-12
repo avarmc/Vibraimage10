@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<histstat id="ID_HISTS_H" title="H" icon="graph.ico" tab="view" tag="H" />
+	<histstat id="ID_HISTS_T" title="T" icon="graph.ico" tab="view" tag="T" />
+</config>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolbar w="48" h="48">
+		<rem_button id="ID_FILE_PRINT" name="MENU_FILE_PRINT"  img="print"/>
+		<rem_separator />
+		<button id="ID_FILE_IMAGECAPTURE" name="MENU_FILE_IMAGE_CAPTURE"  img="image_capture"/>
+		<button id="ID_FILE_AVICAPTURE" name="MENU_FILE_AVI_CAPTURE1"  img="avi_start_capture"/>
+		<separator />
+		<button id="ID_VIDEOSETTINGS0_AVI" name="MENU_SETTINGS_VIDEO0_AVI" img="avi_file"/>
+		<button id="ID_VIDEOSETTINGS0_ANYCAM" name="MENU_SETTINGS_VIDEO0"  img="video"/>
+		<separator />
+		<button id="ID_ACTION_PAUSE" name="MENU_ACTION_PAUSE" img="pause"/>
+		<separator />
+		<button id="ID_VIEWPRESET_VI" name="MENU_VIEW_PRESET_VI" img="vi"/>
+		<button id="ID_VIEWPRESET_AV" name="MENU_VIEW_PRESET_AV" img="av"/>
+		<button id="ID_VIEWPRESET_AR" name="MENU_VIEW_PRESET_AR" img="ar"/>
+		<button id="ID_VIEWPRESET_LD" name="MENU_VIEW_PRESET_LD" img="ld"/>
+		<separator />
+		<button id="ID_ACTION_RESETTIMER" name="MENU_ACTION_RESETTIMER" img="reset_timers2"/>
+		<button id="ID_ACTION_RESETVI" name="MENU_ACTION_RESET" img="reset"/>
+		<button id="ID_ACTION_MEASUREMENT" name="MENU_ACTION_MEASUREMENT" img="measurement"/>
+		<button id="ID_ACTION_LDSTART" name="MENU_ACTION_LD_START"  img="start_ld_block"/>
+		<separator />
+		<button id="ID_MARKERS_Q0" name="MENU_ACTION_MARKERS_Q0"  img="rq"/>
+		<button id="ID_MARKERS_Q1" name="MENU_ACTION_MARKERS_Q1"  img="cq"/>
+		<button id="ID_MARKERS_Q2" name="MENU_ACTION_MARKERS_Q2"  img="gq"/>
+		<separator />
+		<button id="ID_ACTION_BROWSEFORRESULTS" name="MENU_ACTION_RESULTS"  img="dots"/>
+
+</toolbar>

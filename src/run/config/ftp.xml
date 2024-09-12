@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftp>
+	<host>127.0.0.1</host>
+	<user>anonymous</user>
+	<pwd>a@a.com</pwd>
+	<path>/d/tmp</path>
+</ftp>

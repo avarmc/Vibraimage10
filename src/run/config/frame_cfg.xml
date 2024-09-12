@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<property id="ID_INFO_WND_CONFIG" title="INFO_WND_CONFIG" icon="ts.ico" tab="info">
+		<item name="INFO_V4_FRAME_RATE" description="">
+			<item id="VI_VAR_FPSMAXF" name="INFO_V4_FRAME_RATE_MAXF" type="float" src="engine" edit="true" format="%0.1f"/>
+			<item id="VI_VAR_FPSMAXR" name="INFO_V4_FRAME_RATE_MAXR" type="float" src="engine" edit="true" format="%0.1f"/>
+			<item id="VI_VAR_FPS_PERIOD" name="INFO_V4_FRAME_RATE_PERIOD" type="float" src="engine" edit="true" format="%0.2f"/>
+			<item id="VI_FILTER_FPS2IN" name="INFO_CFG_FLT_FPS2IN" type="int" src="engine" edit="true"/>
+		</item>
+		<item name="INFO_CFG_MAIN" description="">
+			<item id="VI_VAR_N2_RQST" name="INFO_CFG_N2" type="int" src="engine" edit="true"/>
+			<item id="VI_VAR_N1_RQST" name="INFO_CFG_N1" type="int" src="engine" edit="true"/>
+			<item id="VI_VAR_N0_RQST" name="INFO_CFG_N" type="int" src="engine" edit="true"/>
+			<rem_item id="VI_VAR_K" name="INFO_CFG_K" type="float" src="engine" edit="true" format="%0.2f"/>
+			<item id="VI_VAR_TH" name="INFO_CFG_TH" type="float" src="engine" edit="true" format="%0.2f"/>
+			<item id="VI_FILTER_GLOBAL" name="INFO_CFG_FLT_GLOBAL" type="bool" src="engine" edit="true"/>
+			<item id="VI_INFO_CORE_USE" name="INFO_CFG_CORES" type="int" src="engine" edit="true"/>
+			<item id="VI_INFO_AI_LIVE" name="INFO_AI_LIVE" type="bool" src="engine" edit="true"/>
+			<item id="VI_INFO_AI_AVG20" name="AI (t)" type="int" src="engine" edit="true"/>
+		</item>
+		<item name="INFO_CFG_FLT" description="" expanded="false">
+			<item id="VI_FILTER_SP" name="INFO_CFG_FLT_SP" type="bool" src="engine" edit="true"/>
+			<item id="VI_FILTER_DELTA_LO" name="INFO_CFG_FLT_DL" type="float" src="engine" edit="true" format="%.0f"/>
+			<item id="VI_FILTER_DELTA_LOF" name="INFO_CFG_FLT_DLF" type="float" src="engine" edit="true" format="%.0f"/>
+			<item id="VI_FILTER_DELTA_STRETCH" name="INFO_CFG_FLT_STR" type="bool" src="engine" edit="true"/>
+			<item id="VI_FILTER_DELTA_MSCONT" name="INFO_CFG_FLT_MSCONT" type="bool" src="engine" edit="true"/>
+			<item id="VI_FILTER_AM" name="INFO_CFG_FLT_AM" type="float" src="engine" edit="true" format="%g"/>
+			<item id="VI_FILTER_CT" name="INFO_CFG_FLT_CT" type="float" src="engine" edit="true" format="%g"/>
+			<item id="VI_MODE_COLOR" name="INFO_CFG_MODE_COLOR" type="bool" src="engine" edit="true"/>
+			<item id="VI_FILTER_BTFAST" name="INFO_CFG_FLT_BTFAST" type="int" src="engine" edit="true"/>
+			
+			<item name="INFO_CFG_FLT_CROP" description="" expanded="false">
+				<item id="VI_FILTER_CROP" name="INFO_CFG_FLT_CROPX" type="int1" src="engine" edit="true"/>
+				<item id="VI_FILTER_CROP" name="INFO_CFG_FLT_CROPY" type="int2" src="engine" edit="true"/>
+				<item id="VI_FILTER_CROP_POS" name="INFO_CFG_FLT_CROPX_POS" type="int1" src="engine" edit="true"/>
+				<item id="VI_FILTER_CROP_POS" name="INFO_CFG_FLT_CROPY_POS" type="int2" src="engine" edit="true"/>
+			</item>
+			
+			<item name="F6" description="" expanded="false">
+				<item id="VI_FILTER_BWT_F6_LO" name="INFO_CFG_FLT_F6_LO" type="int" src="engine" edit="true"/>
+				<item id="VI_FILTER_BWT_F6_HI" name="INFO_CFG_FLT_F6_HI" type="int" src="engine" edit="true"/>
+				<item id="VI_FILTER_F6_N" name="INFO_CFG_FLT_F6_N" type="int" src="engine" edit="true"/>
+			</item>
+			
+			<item id="VI_FILTER_FPSDIV_RQST" name="INFO_CFG_FLT_FPSDIV" type="bool" src="engine" edit="true"/>
+			<item id="VI_FILTER_DISTORTION" name="INFO_CFG_FLT_DISTORTION" type="bool" src="engine" edit="true"/>
+			<item id="VI_FILTER_AUTODOWNRATE" name="INFO_CFG_FLT_AUTODOWNRATE" type="bool" src="engine" edit="true"/>
+			<item id="VI_FILTER_CONTOUR" name="INFO_CFG_FLT_CONTOUR" type="select" src="engine" edit="true">
+				<option title="BUTTON_OFF" id="0" />
+				<option title="BUTTON_YES" id="1" />
+				<option title="INFO_CFG_FLT_CONTOUR_FACE" id="2" />
+				<option title="INFO_CFG_FLT_CONTOUR_FACE10" id="4" />
+				<option title="INFO_CFG_FLT_CONTOUR_VIBRA" id="3" />
+				<option title="R" id="5" />
+			</item>
+			<item id="VI_FILTER_STAB_X" name="INFO_CFG_FLT_STABX" type="bool" src="engine" edit="true"/>
+			<item id="VI_FILTER_STAB_Y" name="INFO_CFG_FLT_STABY" type="bool" src="engine" edit="true"/>
+			<item id="VI_FILTER_DPT" name="dPt" type="float" src="engine" edit="true" format="%g" scale="1"/>
+			
+			<item name="INFO_STATE_LEVEL" description="" expanded="false">
+				<item id="VI_VAR_STAT_RES_P7_LEVEL" name="INFO_STATE_LEVEL_AG" type="float" src="engine" edit="true" format="%g" scale="100"/>
+				<item id="VI_VAR_STAT_RES_P6_LEVEL" name="INFO_STATE_LEVEL_ST" type="float" src="engine" edit="true" format="%g" scale="100"/>
+				<item id="VI_VAR_STAT_RES_F5X_LEVEL" name="INFO_STATE_LEVEL_TN" type="float" src="engine" edit="true" format="%g" scale="100"/>
+			</item>
+			
+			<item name="INFO_CFG_FLT_DIS" description="" expanded="false">
+				<item id="VI_FILTER_DISABLE_A" name="INFO_CFG_FLT_DIS_A" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_DISABLE_B" name="INFO_CFG_FLT_DIS_B" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_DISABLE_2X" name="INFO_CFG_FLT_DIS_2X" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_DISABLE_VI1" name="INFO_CFG_FLT_DIS_VI1" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_DISABLE_VI2" name="INFO_CFG_FLT_DIS_VI2" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_DISABLE_FFT_UNUSED" name="INFO_CFG_FLT_DIS_FFTU" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_DISABLE_ENTR" name="INFO_CFG_FLT_DIS_ENTR" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_DISABLE_AUDIO" name="INFO_CFG_FLT_DIS_AUDIO" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_DISABLE_PROCF" name="INFO_CFG_FLT_DIS_PROCF" type="bool" src="engine" edit="true"/>
+
+			</item>
+			
+
+			
+			<item name="INFO_CFG_FLT_MOTION" description="" expanded="false">
+				<item id="VI_FILTER_MOTION" name="INFO_CFG_FLT_MOTION" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_MOTION_LEVEL" name="INFO_CFG_FLT_MOTION_LEVEL" type="float" src="engine" edit="true" format="%g"/>
+				<item id="VI_FILTER_MOTION_AUTO_RESET" name="INFO_CFG_FLT_MOTION_AUTO_RESET" type="bool" src="engine" edit="true"/>
+				<item id="VI_FILTER_NSKIP" name="INFO_CFG_FLT_NSKIP" type="int" src="engine" edit="true"/>
+			</item>
+		</item>
+
+		<item name="INFO_LD_GROUP" description="" expanded="false">
+			<item id="VI_VAR_LD_ENABLE" name="INFO_LD_ENABLE" type="bool" src="engine" edit="true"/>
+			<item id="VI_VAR_LD_PERIOD" name="INFO_LD_PERIOD" type="float" src="engine" edit="true" format="%g"/>
+			<item id="VI_VAR_LD_PERIOD_BASE" name="INFO_LD_PERIOD_BASE" type="float" src="engine" edit="true" format="%g"/>
+			<item id="VI_VAR_LD_LTH" name="INFO_LD_LTH" type="float" src="engine" edit="true" format="%g" scale="100"/>
+			<item id="VI_VAR_AUDIO_SENSITIVITY" name="INFO_LD_AUDIO_SENSITIVITY" type="float" src="engine" edit="true" format="%g"/>
+			<item id="VI_VAR_AUDIO_TH" name="INFO_AUDIO_LEVEL" type="float" src="engine" edit="true" format="%g" scale="100"/>
+			<item id="VI_VAR_LD_MODE_OPPOSITE" name="INFO_LD_MODE_OPPOSITE" type="bool" src="engine" edit="true"/>
+			<item id="VI_VAR_LD_MODE" name="INFO_LD_MODE" type="select" src="engine" edit="true">
+				<option title="INFO_LD_MODE_AUDIO" id="VI_MODE_LD_AUDIO" />
+				<option title="INFO_LD_MODE_MANUAL" id="VI_MODE_LD_MANUAL" />
+				<option title="INFO_LD_MODE_AUTO" id="VI_MODE_LD_AUTO" />
+			</item>
+			<item id="VI_VAR_LD_MODE_CMP" name="INFO_LD_MODE_CMP" type="select" src="engine" edit="true">
+				<option title="BUTTON_OFF" id="VI_MODE_LD_CMP_DISABLED" />
+				<option title="BUTTON_ON" id="VI_MODE_LD_CMP" />
+				<option title="BUTTON_CAPTURE" id="VI_MODE_LD_CMP_CAP" />
+			</item>
+			<item id="VI_INFO_LD_TEXT" name="INFO_LD_MODE_TEXT" type="bool" src="app" edit="true"/>
+		</item>
+
+		<item name="INFO_CFG_AVG" description="" expanded="false">
+			<item id="VI_INFO_AVG" id2="VI_VAR_STAT_RES_P7" name="INFO_CFG_AVG_ANGER" type="int" src="app" edit="true"/>
+			<item id="VI_INFO_AVG" id2="VI_VAR_STAT_RES_P6" name="INFO_CFG_AVG_STRESS" type="int" src="app" edit="true"/>
+			<item id="VI_INFO_AVG" id2="VI_VAR_STAT_RES_F5X" name="INFO_CFG_AVG_TENSION" type="int" src="app" edit="true"/>
+			<item id="VI_INFO_AVG" id2="VI_VAR_STATE_VAR_SRC" name="INFO_CFG_AVG_STATE_SRC" type="int" src="app" edit="true"/>
+		</item>
+
+		<item name="INFO_CFG_MACRO_ENABLE" description="" expanded="false" type="vlist1">
+			<item id="VI_MACRO_ENABLE" name="INFO_CFG_MACRO_ENABLE" type="bool" src="engine" edit="true"/>
+			<item id="VI_MACRO_LEVEL_L" name="INFO_CFG_MACRO_LEVEL_L" type="int" src="engine" edit="true"/>
+			<item id="VI_MACRO_LEVEL_S" name="INFO_CFG_MACRO_LEVEL_S" type="float" src="engine" edit="true"/>
+			<item id="VI_MACRO_AURA" name="INFO_CFG_MACRO_AURA" type="bool" src="engine" edit="true"/>
+			<item id="VI_MACRO_FACE" name="INFO_CFG_MACRO_FACE" type="select" src="engine" edit="true">
+				<option title="BUTTON_OFF" id="0" />
+				<option title="INFO_CFG_MACRO_FACE1" id="1" />
+				<option title="INFO_CFG_MACRO_FACE2" id="2" />
+			</item>
+		</item>
+
+		<item name="INFO_CFG_FACE_ENABLE" description="" expanded="false" type="vlist1">
+			<item id="VI_FACE_ENABLE" name="INFO_CFG_FACE_ENABLE" type="bool" src="engine" edit="true"/>
+			<item id="VI_FACE_QUALITY" name="INFO_CFG_FACE_QUALITY" type="int" src="engine" edit="true"/>
+			<item id="VI_FACE_SCALE" name="INFO_CFG_FACE_SCALE" type="float" src="engine" edit="true"/>
+			<item id="VI_FACE_QUALITY_SIZE_MIN" name="INFO_CFG_FACE_QUALITY_SIZE_MIN" type="int" src="engine" edit="true"/>
+			<item id="VI_FACE_QUALITY_SIZE_MAX" name="INFO_CFG_FACE_QUALITY_SIZE_MAX" type="int" src="engine" edit="true"/>
+			<item id="VI_FACE_PATH" name="INFO_CFG_FACE_PATH" type="file" src="engine" ext="xml" mask="STR_FILE_FILTER_XML" edit="true"/>
+			<item id="VI_FACE_PATH2" name="INFO_CFG_FACE_PATH" type="file" src="engine" ext="xml" mask="STR_FILE_FILTER_XML" edit="true"/>
+			<item id="VI_FACE_MODE_SYNC" name="INFO_CFG_FACE_MODE_SYNC" type="bool" src="engine" edit="true"/>
+			<item id="VI_FACE_DRAW" name="INFO_CFG_FACE_DRAW" type="select" src="engine" edit="true">
+				<option title="BUTTON_OFF" id="VI_MODE_FACE_DRAW_DISABLED" />
+				<option title="BUTTON_YES" id="VI_MODE_FACE_DRAW_YES" />
+				<option title="BUTTON_ALL" id="VI_MODE_FACE_DRAW_ALL" />
+			</item>
+		</item>
+
+		<item name="INFO_CFG_QTEST" description="" expanded="false" type="vlist1">
+			<item id="VI_INFO_QTEST" name="INFO_CFG_QTEST_ENABLE" type="bool" src="app" edit="true"/>
+			<item id="VI_INFO_QTEST_LEVEL_LIGHT" name="INFO_CFG_QTEST_LEVEL_LIGHT" type="float" src="app" edit="true" format="%g"/>
+			<item id="VI_INFO_QTEST_FPS_MAX" name="VI_INFO_QTEST_FPS_MAX" type="float" src="app" edit="true" format="%g"/>
+			<item id="VI_INFO_QTEST_FPS_MIN" name="VI_INFO_QTEST_FPS_MIN" type="float" src="app" edit="true" format="%g"/>
+			<item id="VI_INFO_QTEST_FACE_DELAY" name="VI_INFO_QTEST_FACE_DELAY" type="float" src="app" edit="true" format="%g"/>
+		</item>
+
+		<item name="INFO_CFG_ALERTS" description="" expanded="false">
+			<item id="VI_VAR_STATE_CRITICAL_LEV" name="INFO_NET_STATE_CRITICAL" type="float" src="engine" edit="true" scale="100" format="%g"/>
+			<item id="VI_VAR_STATE_CUSTOMER_LEV" name="INFO_NET_STATE_CUSTOMER" type="float" src="engine" edit="true" scale="100" format="%g"/>
+			<item id="VI_VAR_STATE_CRITICAL_S" name="INFO_NET_STATE_CRITICAL_S" type="float" src="engine" edit="true" scale="100" format="%g"/>
+			<item id="VI_VAR_STATE_CRITICAL_K" name="INFO_NET_STATE_CRITICAL_K" type="float" src="engine" edit="true" scale="100" format="%g"/>
+			
+			<item name="INFO_CFG_ALERT_IMAGE" description="" expanded="false">
+				<item id="VI_INFO_IMAGE_AUTO" name="INFO_CFG_ALERT_IMAGE_AUTO" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_IMAGE_AUTO_TIME" name="INFO_CFG_ALERT_IMAGE_AUTO_TIME" type="int" src="app" edit="true"/>
+				<item id="VI_INFO_IMAGE_AUTO_FILE" name="INFO_CFG_ALERT_IMAGE_AUTO_FILE" type="bool" src="app" edit="true"/>
+				<item id="VI_INFO_IMAGE_AUTO_FILE_XML" name="INFO_CFG_ALERT_IMAGE_AUTO_FILE_XML" type="bool" src="app" edit="true"/>
+				<item id="VI_INFO_IMAGE_AUTO_FACE" name="INFO_CFG_ALERT_IMAGE_AUTO_FACE" type="bool" src="app" edit="true"/>
+				<item id="VI_INFO_IMAGE_AUTO_PRINT" name="INFO_CFG_ALERT_IMAGE_AUTO_PRINT" type="bool" src="app" edit="true"/>				
+				<item id="VI_INFO_IMAGE_AUTO_ORIGINAL" name="INFO_CFG_ALERT_IMAGE_AUTO_ORIGINAL" type="bool" src="app" edit="true"/>
+				<item id="VI_INFO_IMAGE_AUTO_FACE_VALIDATE" name="INFO_CFG_ALERT_IMAGE_AUTO_FACE_VALIDATE" type="bool" src="app" edit="true"/>
+				<item id="VI_INFO_IMAGE_FORMAT" name="INFO_CFG_ALERT_IMAGE_FORMAT" type="select" src="app" edit="true">
+					<option title="INFO_COMPRESSION_PNG" id="png" />
+					<option title="INFO_COMPRESSION_JPG" id="jpg" />
+					<option title="INFO_COMPRESSION_BMP" id="bmp" />
+				</item>				
+			</item>
+			
+			<item id="VI_INFO_IMAGE_COUNT" name="INFO_CFG_ALERT_IMAGE_COUNT" type="int" src="app" edit="true"/>
+			<item id="VI_INFO_ALERT_SUSP_SND" name="INFO_CFG_ALERT_SUSP_SND" type="bool" src="app" edit="true"/>
+			<item id="VI_INFO_ALERT_A_SND" name="INFO_CFG_ALERT_A_SND" type="float" src="app" edit="true" scale="100" format="%g"/>
+			<item id="VI_INFO_ALERT_S_SND" name="INFO_CFG_ALERT_S_SND" type="float" src="app" edit="true" scale="100" format="%g"/>
+			<item id="VI_INFO_ALERT_T_SND" name="INFO_CFG_ALERT_T_SND" type="float" src="app" edit="true" scale="100" format="%g"/>
+			<item id="VI_INFO_ENGINE_MSND" name="INFO_ENGINE_MSND" type="bool" src="app" edit="true"/>
+			<item id="VI_INFO_ENGINE_RSND" name="INFO_ENGINE_RSND" type="bool" src="app" edit="true"/>
+			<item id="VI_INFO_ALERT_SND_PATH" name="INFO_CFG_SND_PATH" type="file" src="app" ext="*" mask="STR_FILE_FILTER_ALL" edit="true"/>
+		</item>
+
+		<item name="INFO_CFG_FTP" description="" expanded="false">
+			<item id="VI_FTP_STORAGE_ENABLE" name="INFO_CFG_FTP_ENABLE" type="bool" src="app" edit="true"/>
+			<item id="VI_FTP_STORAGE_PATH" name="INFO_CFG_FTP_PATH" type="file" src="app" edit="true"/>
+			<item id="VI_HTTP_STORAGE_URL" name="INFO_CFG_HTTP_URL" type="string" src="app" edit="true"/>
+		</item>
+		
+		<item name="Fn" description="" expanded="false">
+			<item id="VI_VAR_STAT_RES_FN01" name="INFO_STAT_FN01" type="string" src="engine" edit="true"/>
+			<item id="VI_VAR_STAT_RES_FN02" name="INFO_STAT_FN02" type="string" src="engine" edit="true"/>
+			<item id="VI_VAR_STAT_RES_FN03" name="INFO_STAT_FN03" type="string" src="engine" edit="true"/>
+			<item id="VI_VAR_STAT_RES_FN04" name="INFO_STAT_FN04" type="string" src="engine" edit="true"/>
+			<item id="VI_VAR_STAT_RES_FN05" name="INFO_STAT_FN05" type="string" src="engine" edit="true"/>
+		</item>
+
+		<item name="INFO_CFG_SND" description="" expanded="false">
+			<item id="VI_INFO_SOUND_KILL" name="INFO_CFG_SND_KILL" type="bool" src="app" edit="true"/>
+			<item id="VI_INFO_SOUND_MODE" name="INFO_CFG_SND" type="select" src="app" edit="true">
+				<option title="INFO_CFG_SND_NONE" id="SNDM_OFF" />
+				<option title="INFO_CFG_SND_CR" id="SNDM_CR" />
+				<option title="INFO_CFG_SND_CG" id="SNDM_CG" />
+				<option title="INFO_CFG_SND_HR" id="SNDM_HR" />
+				<option title="INFO_CFG_SND_HG" id="SNDM_HG" />
+				<option title="INFO_CFG_SND_SG" id="SNDM_SG" />
+				<option title="INFO_CFG_SND_SR" id="SNDM_SR" />
+			</item>
+		</item>
+
+		<item name="INFO_NET_GROUP" description="" expanded="false">
+			<item id="VI_NETSTATUS_ENABLED" name="INFO_NET_ENABLE" type="bool" src="app" edit="true"/>
+			<item id="VI_VAR_STATE_CRITICAL_LEV" name="INFO_NET_STATE_CRITICAL" type="float" scale="100" src="app" edit="true"/>
+			<item id="VI_VAR_STATE_CUSTOMER_LEV" name="INFO_NET_STATE_CUSTOMER" type="float" scale="100" src="app" edit="true"/>
+			<item id="VI_NETSTATUS_DIRECT_VIDEO" name="INFO_NET_DIRECT_VIDEO" type="bool" src="app" edit="true"/>
+			<item id="VI_NETSTATUS_COMPRESSION" name="INFO_NET_COMPRESSION" type="select" src="app" edit="true">
+				<option title="BUTTON_NO" id="0" />
+				<option title="INFO_COMPRESSION_PNG" id="2" />
+				<option title="INFO_COMPRESSION_JPG" id="1" />
+			</item>
+		
+			<item id="VI_NETSTATUS_LOCAL_PORT_TCP" name="INFO_NET_LOCAL_TCP" type="int" src="app" edit="true"/>
+			
+			<item name="INFO_NET_HOST_GR" description="" expanded="true">
+				<item id="VI_NETSTATUS_HOST_IP" name="INFO_NET_HOST_IP" type="string" src="app" edit="true"/>
+				<item id="VI_NETSTATUS_HOST_PORT_TCP" name="INFO_NET_PORT_TCP" type="int" src="app" edit="true"/>
+				<item id="VI_NETSTATUS_HOST_PORT_UDP" name="INFO_NET_PORT_UDP" type="int" src="app" edit="true"/>
+			</item>
+		</item>
+		
+		<item name="INFO_USER_AVI_GROUP" description="" expanded="false">
+			<item id="VI_INFO_AVI_TMAX" name="INFO_USER_AVI_TMAX" type="float" src="app" edit="true" format="%g"/>
+			<item id="VI_INFO_AVI_PURGE" name="INFO_USER_AVI_PURGE" type="float" src="app" edit="true" format="%g"/>
+			<item name="INFO_CAPTURE_TIMER" description="" expanded="false">
+				<item id="VI_INFO_CAPTURE_TIMER" name="INFO_CAPTURE_TIMER" type="bool" src="app" edit="true"/>
+				<item id="VI_INFO_CAPTURE_TIMER_START_AT" name="INFO_CAPTURE_START_AT" type="string" src="app" edit="true"/>
+				<item id="VI_INFO_CAPTURE_TIMER_STOP_AT" name="INFO_CAPTURE_STOP_AT" type="string" src="app" edit="true"/>
+				<item id="VI_INFO_CAPTURE_TIMER_STOP_IN" name="INFO_CAPTURE_STOP_IN" type="string" src="app" edit="true"/>
+			</item>
+			
+			<item id="VI_INFO_CAPTURE_MODE" name="MENU_SETTINGS_CAPTURE" type="select" src="app" edit="true">
+				<option title="MENU_VIEW_MODE_SRC" id="VI_RESULT_SRC_0" />
+				<option title="MENU_VIEW_MODE_SRC_A" id="VI_RESULT_SRC_A" />
+				<option title="MENU_VIEW_MODE_SRC_B" id="VI_RESULT_SRC_B" />
+				<option title="MENU_VIEW_MODE_VI2A" id="VI_RESULT_VI2_A" />
+				<option title="MENU_VIEW_MODE_VI2B" id="VI_RESULT_VI2_B" />
+				<option title="MENU_VIEW_MODE_VI1A" id="VI_RESULT_VI1_A" />
+				<option title="MENU_VIEW_MODE_VI1B" id="VI_RESULT_VI1_B" />
+				<option title="MENU_VIEW_MODE_VI0A" id="VI_RESULT_VI0_A" />
+				<option title="MENU_VIEW_MODE_VI0B" id="VI_RESULT_VI0_B" />
+				<option title="MENU_VIEW_MODE_DELTA_A" id="VI_RESULT_DELTA_A" />
+				<option title="MENU_VIEW_MODE_DELTA_B" id="VI_RESULT_DELTA_B" />
+				<option title="MENU_VIEW_MODE_DELTA_FA" id="VI_RESULT_DELTA_FA" />
+				<option title="MENU_VIEW_MODE_DELTA_FB" id="VI_RESULT_DELTA_FB" />
+			</item>			
+			<item id="VI_INFO_CAPTURE_LOG" name="Log" type="bool" src="app" edit="true"/>
+		</item>
+
+		<item name="Test" description="" expanded="false" type="vlist1">
+			<item id="VI_INFO_TEST_MODE" name="Test mode" type="int" src="app" edit="true"/>
+			<item id="VI_INFO_TEST_BG" name="bg" type="float" src="app" edit="true" format="%g"/>
+			<item id="VI_INFO_TEST_R" name="r" type="float" src="app" edit="true" format="%g"/>
+
+			<item name="X" description="">
+				<item id="VI_INFO_TEST_X_ACTION" name="X + - * /" type="string" src="app" edit="true"/>
+				<item id="VI_INFO_TEST_X_K" name="kX" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_X1_D" name="X1 dx" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_X1_T" name="X1 f" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_X1_POW" name="X1 pow" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_X2_D" name="X2 dx" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_X2_T" name="X2 f" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_X2_POW" name="X2 pow" type="float" src="app" edit="true" format="%g"/>
+			</item>
+			
+			<item name="Y" description="">
+				<item id="VI_INFO_TEST_Y_ACTION" name="Y + - * /" type="string" src="app" edit="true"/>
+				<item id="VI_INFO_TEST_Y_K" name="kY" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_Y1_D" name="Y1 dy" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_Y1_T" name="Y1 f" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_Y1_POW" name="Y1 pow" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_Y2_D" name="Y2 dy" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_Y2_T" name="Y2 f" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_Y2_POW" name="Y2 pow" type="float" src="app" edit="true" format="%g"/>
+			</item>
+
+			<item name="A" description="">
+				<item id="VI_INFO_TEST_A1_Y" name="A y" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_A1_D" name="A d" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_A1_T" name="A f" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_A1_POW" name="A pow" type="float" src="app" edit="true" format="%g"/>
+			</item>
+
+			<item name="C" description="">
+				<item id="VI_INFO_TEST_C1_D" name="C d" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_C1_T" name="C f" type="float" src="app" edit="true" format="%g"/>
+				<item id="VI_INFO_TEST_C1_POW" name="C pow" type="float" src="app" edit="true" format="%g"/>
+			</item>
+			
+		</item>
+	</property>
+
+</config>

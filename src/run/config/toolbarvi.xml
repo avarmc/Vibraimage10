@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolbar w="24" h="24">
+		<button id="ID_VIEWMODESRC_AURA0" name="MENU_VIEW_MODE_AURA_0" img="vi_src"/>
+		<button id="ID_VIEWMODESRC_AURAA" name="MENU_VIEW_MODE_AURA_A" img="vi_srcA"/>
+		<button id="ID_VIEWMODESRC_AURAB" name="MENU_VIEW_MODE_AURA_B" img="vi_srcF"/>
+
+		<button id="ID_VIEWMODEVI2A_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_2A"/>
+		<button id="ID_VIEWMODEVI2B_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_2F"/>
+		<button id="ID_VIEWMODEVI1A_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_10A"/>
+		<button id="ID_VIEWMODEVI1B_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_10F"/>
+		<button id="ID_VIEWMODEVI0A_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_NA"/>
+		<button id="ID_VIEWMODEVI0B_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_NF"/>
+		<button id="ID_VIEWMODEDELTA_A_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_DA"/>
+		<button id="ID_VIEWMODEDELTA_B_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_DF"/>
+		<button id="ID_VIEWMODEDELTA_FA_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_FDA"/>
+		<button id="ID_VIEWMODEDELTA_FB_SHOW" name="MENU_VIEW_MODE_SHOW" img="vi_FDF"/>
+</toolbar>

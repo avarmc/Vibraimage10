@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<qt id="ID_INFO_WND_QT" title="INFO_WND_QT" icon="main_info.ico"  align="right" tab="qt" size="70,300">
+		<item />
+	</qt>
+</config>

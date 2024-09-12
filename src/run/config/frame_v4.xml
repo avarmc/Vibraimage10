@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<property id="ID_INFO_WND_V4" title="INFO_WND_V4" icon="tvi.ico" tab="info">
+		<item id="VI_VAR_FPSIN" name="INFO_V4_FRAME_RATE" type="float" format="%0.2f"  description="" src="engine" />
+		<item id="VI_VAR_FPSOUTF" name="INFO_V4_FRAME_RATE_OUTF" type="float" format="%0.2f" src="engine" />
+		<item id="VI_VAR_FPSOUTR" name="INFO_V4_FRAME_RATE_OUTR" type="float" format="%0.2f" src="engine" />
+		<item id="VI_INFO_TIME_VIDEO" name="INFO_V4_FRAME_TIME_VIDEO" type="string" src="app" />
+		<item id="VI_VAR_NDROP" name="INFO_V4_NDROP" type="int" src="engine" />
+		<item id="VI_VAR_MEMORY_USAGE" name="INFO_V4_MEMORY_USAGE" type="float" format="%0.3f Mb" src="engine" />
+		
+		<item type="empty"/>
+		
+		<item name="INFO_V4_MAIN" description="">
+			<item id="VI_VAR_N0_RQST" name="INFO_V4_N" type="int" src="engine" edit="true"/>
+			<item id="VI_VAR_TH" name="INFO_V4_TH" type="float" src="engine"  format="%0.0f" edit="true"/>
+			<item id="VI_VAR_SIZE" name="INFO_V4_SIZE_W" type="int 1" src="engine" edit="false"/>
+			<item id="VI_VAR_SIZE" name="INFO_V4_SIZE_H" type="int 2" src="engine" edit="false"/>
+		</item>
+		
+		<item name="INFO_V4_STAT" description="">
+			<item id="VI_VAR_STAT_INTEGR0A" name="INFO_V4_INTEGR0A" type="float" src="engine" edit="false"/>
+			<item id="VI_VAR_STAT_INTEGR0B" name="INFO_V4_INTEGR0B" type="float" src="engine" edit="false"/>
+			<item type="empty"/>
+			<item id="VI_VAR_STATE_CRITICAL_LEV" name="INFO_NET_STATE_CRITICAL" type="float" src="engine" format="%0.1f %%" edit="true" scale="100"/>
+			<item id="VI_INFO_AVG" id2="VI_VAR_STATE_VAR" name="INFO_V4_SUSPICIOUS" type="float" src="engine" edit="false" format="%0.1f" scale="100"/>
+			<item id="VI_INFO_AVG" id2="VI_VAR_STAT_RES_P7" name="INFO_V4_ANGER" type="float" src="engine" edit="false" format="%0.1f" scale="100"/>
+			<item id="VI_INFO_AVG" id2="VI_VAR_STAT_RES_P6" name="INFO_V4_STRESS" type="float" src="engine" edit="false" format="%0.1f" scale="100"/>
+			<item id="VI_INFO_AVG" id2="VI_VAR_STAT_RES_F5X" name="INFO_V4_TENSION" type="float" src="engine" edit="false" format="%0.1f" scale="100"/>
+		</item>
+
+		<item name="INFO_V4_AUDIO" description="">
+			<item id="VI_VAR_AUDIO_LEVEL" name="INFO_V4_AUDIO_LEVEL" type="float" src="engine" edit="false"  format="%0.1f" scale="100" progress_max="100"/>
+		</item>
+
+	</property>
+</config>

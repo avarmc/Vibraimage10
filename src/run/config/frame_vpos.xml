@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<vpos id="ID_INFO_WND_VPOS" title="INFO_WND_VPOS" icon="avi_file.ico"  align="bottom"  size="1000,70"  tab="vpos">
+		<item />
+	</vpos>
+</config>

@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+		<lang_name>日本語 (jp)</lang_name>
+		<lang>jp</lang>
+		<str id="NULL">*empty*</str>
+		<str id="EMPTY"></str>
+		
+		<str id="BUTTON_OK">OK</str>
+		<str id="BUTTON_CANCEL">キャンセル</str>
+		<str id="BUTTON_APPLY">適用</str>
+		<str id="BUTTON_SAVE">保存</str>
+		<str id="BUTTON_SAVE_AS">名前を付けて保存…</str>
+		<str id="BUTTON_DELETE">削除</str>
+		<str id="BUTTON_BROWSE">参照…</str>
+		<str id="BUTTON_CREATE">作成</str>
+		<str id="BUTTON_CAPTURE">キャプチャ</str>
+		<str id="BUTTON_START_READY">再スタート</str>
+		<str id="BUTTON_START_LIVE">スタート</str>
+		<str id="BUTTON_STOP_MEASUREMENT">ライブ</str>
+
+		<str id="BUTTON_YES">はい</str>
+		<str id="BUTTON_NO">いいえ</str>
+
+		<str id="BUTTON_ALL">すべて選択</str>
+
+		<str id="BUTTON_ON">On</str>
+		<str id="BUTTON_OFF">Off</str>
+		<str id="BUTTON_HIDE">隠す</str>
+
+		<str id="BUTTON_OPEN">開く…</str>
+		<str id="BUTTON_SET">設定</str>
+
+		<str id="BUTTON_RESET">リセット</str>
+		<str id="BUTTON_UNREGISTER">キーの解除</str>
+
+		<str id="BUTTON_SETTINGS">設定…</str>
+		<str id="BUTTON_DEFAULTS">デフォルト</str>
+
+		<str id="BUTTON_QUALITY">Quality</str>
+
+
+		<str id="BUTTON_0">0</str>
+		<str id="BUTTON_1">1</str>
+		<str id="BUTTON_2">2</str>
+		<str id="BUTTON_3">3</str>
+		<str id="BUTTON_4">4</str>
+		<str id="BUTTON_5">5</str>
+		<str id="BUTTON_6">6</str>
+		<str id="BUTTON_7">7</str>
+		<str id="BUTTON_8">8</str>
+		<str id="BUTTON_9">9</str>
+
+		<str id="MENU_FILE">ファイル</str>
+		<str id="MENU_FILE_AVI_SETTINGS">AVI:設定…</str>
+		<str id="MENU_FILE_AVI_CAPTURE1">AVI:キャプチャ開始</str>
+		<str id="MENU_FILE_AVI_CAPTURE2">AVI:キャプチャ停止</str>
+		<str id="MENU_FILE_AVI_TMP_CAPTURE1">AVI:画面キャプチャ開始</str>
+		<str id="MENU_FILE_AVI_TMP_CAPTURE2">AVI:画面キャプチャ停止</str>
+		<str id="MENU_FILE_IMAGE_CAPTURE">画像キャプチャ</str>
+		<str id="MENU_FILE_SAVE_IMAGE">名前を付けて保存</str>
+
+		<str id="MENU_FILE_DBFOLDER">データベースフォルダ…</str>
+		<str id="MENU_FILE_EXIT">閉じる(X)</str>
+		<str id="MENU_FILE_PRINT">印刷(P)</str>
+		<str id="MENU_FILE_PRINT_PREVIEW">印刷プレビュー</str>
+		<str id="MENU_FILE_PRINT_SETUP">印刷設定…</str>
+		<str id="MENU_FILE_PAGE_SETUP">ページ設定…</str>
+		<str id="MENU_FILE_OPEN_LOG">VIログを開く…</str>
+		<str id="MENU_FILE_OPEN">開く…</str>
+		<str id="MENU_FILE_SET_ARCHIVE_FOLDER">アーカイブフォルダ設定…</str>
+		<str id="MENU_FILE_DELETE">削除…</str>
+		<str id="MENU_FILE_NEW_RECORD">新規レコード…</str>
+		<str id="MENU_FILE_SAVE_AS_TABLE">表にして保存…</str>
+		<str id="MENU_FILE_SAVE_SETTINGS">設定の保存…</str>
+		<str id="MENU_FILE_LOAD_SETTINGS">設定の読み込み…</str>
+
+		<str id="MENU_VIEW">表示</str>
+		<str id="MENU_VIEW_SIMPLE">シンプルビュー</str>
+
+		<str id="MENU_VIEW_TOOLBAR">ツールバー</str>
+		<str id="MENU_VIEW_APPLOOK">Application Look</str>
+		<str id="MENU_VIEW_STATUSBAR">ステータスバー</str>
+		<str id="MENU_VIEW_INFOBAR">インフォメーションバー</str>
+		<str id="MENU_VIEW_LDBAR">LDバー</str>
+		<str id="MENU_VIEW_BUTTONS">ボタン</str>
+		<str id="MENU_VIEW_GRAPHS">グラフ</str>
+		<str id="MENU_VIEW_HISTS">周波数分析結果</str>
+		<str id="MENU_VIEW_HISTS_BT">バイオテスター結果</str>
+
+		<str id="MENU_VIEW_VIDEOWINDOW">ビデオウィンドウ</str>
+		<str id="MENU_VIEW_STATUSWINDOW">ステータスウィンドウ</str>
+		<str id="MENU_VIEW_LDWINDOW">LDウィンドウ</str>
+
+		<str id="MENU_VIEW_OVERVIEW">Overview</str>
+		<str id="MENU_VIEW_MODE">モード</str>
+		<str id="MENU_VIEW_MODE_TOOLBAR">ツールバー</str>
+
+		<str id="MENU_VIEW_MODE_VI0A">VI (N Am)</str>
+		<str id="MENU_VIEW_MODE_VI1A">VI (10 Am)</str>
+		<str id="MENU_VIEW_MODE_VI2A">VI (2 Am)</str>
+
+		<str id="MENU_VIEW_MODE_VI0B">VI (N F)</str>
+		<str id="MENU_VIEW_MODE_VI1B">VI (10 F) </str>
+		<str id="MENU_VIEW_MODE_VI2B">VI (2 F)</str>
+
+		<str id="MENU_VIEW_MODE_SRC">ソース</str>
+		<str id="MENU_VIEW_MODE_SRC_A">SRC Am</str>
+		<str id="MENU_VIEW_MODE_SRC_B">SRC F</str>
+
+		<str id="MENU_VIEW_MODE_DELTA_A">DELTA Am</str>
+		<str id="MENU_VIEW_MODE_DELTA_B">DELTA F</str>
+		<str id="MENU_VIEW_MODE_DELTA_FA">DELTA FAm</str>
+		<str id="MENU_VIEW_MODE_DELTA_FB">DELTA FF</str>
+
+		<str id="MENU_VIEW_MODE_A">Amモード</str>
+		<str id="MENU_VIEW_MODE_B">Fモード</str>
+		<str id="MENU_VIEW_MODE_MFN">マウス機能</str>
+		<str id="MENU_VIEW_MODE_MHIST">マウスライン</str>
+		<str id="MENU_VIEW_MODE_SHIST">集計ライン</str>
+
+		<str id="MENU_VIEW_MODE_SHOW">表示</str>
+
+		<str id="MENU_VIEW_MODE_AURA">オーラ</str>
+		<str id="MENU_VIEW_MODE_AURA_A">オーラA</str>
+		<str id="MENU_VIEW_MODE_AURA_B">オーラF</str>
+		<str id="MENU_VIEW_MODE_AURA_0">オーラなし</str>
+
+		<str id="MENU_VIEW_MODE_WHITEBG">背景白</str>
+		<str id="MENU_VIEW_MODE_AVITIMER">AVIタイマー</str>
+		<str id="MENU_VIEW_MODE_CENTER">センター</str>
+		<str id="MENU_VIEW_MODE_TITLE">タイトル</str>
+
+		<str id="MENU_VIEW_PRESET">プリセット</str>
+		<str id="MENU_VIEW_PRESET_VI">VI</str>
+		<str id="MENU_VIEW_PRESET_AV">AV </str>
+		<str id="MENU_VIEW_PRESET_R">R</str>
+		<str id="MENU_VIEW_PRESET_AR">AR</str>
+		<str id="MENU_VIEW_PRESET_LD">LD</str>
+		<str id="MENU_VIEW_PRESET_RELAX">Relax</str>
+
+		<str id="MENU_VIEW_LOCK_POS">ロックポジション</str>
+
+		<str id="MENU_VIEW_ZOOM_IN">ズームイン</str>
+		<str id="MENU_VIEW_ZOOM_OUT">ズームアウト</str>
+		<str id="MENU_VIEW_ZOOM_NX_IN">ズームイン X [1:%i]</str>
+		<str id="MENU_VIEW_ZOOM_NX_OUT">ズームアウト X [1:%i]</str>
+		<str id="MENU_VIEW_ZOOM_Y_IN">ズームイン Y</str>
+		<str id="MENU_VIEW_ZOOM_Y_OUT">ズームアウト Y</str>
+		<str id="MENU_VIEW_ZOOM_X_IN">ズームイン X</str>
+		<str id="MENU_VIEW_ZOOM_X_OUT">ズームアウト X</str>
+
+
+		<str id="MENU_EDIT">編集</str>
+
+		<str id="MENU_SETTINGS">設定</str>
+		<str id="MENU_SETTINGS_LDQ_MIX">LD mix questions</str>
+		<str id="MENU_SETTINGS_DEFAULTS">デフォルト</str>
+		<str id="MENU_SETTINGS_VIDEO0">ビデオ</str>
+		<str id="MENU_SETTINGS_VIDEO0_AVI">AVIファイル…</str>
+		<str id="MENU_SETTINGS_VIDEO0_AVI_NOSOUND">AVIファイル（サウンドなし）…</str>
+		<str id="MENU_SETTINGS_VIDEO0_AVI_RECOMPRESS">AVI ファイル(+再圧縮) …</str>
+		<str id="MENU_SETTINGS_VIDEO0_RGB8FLT">RGB8圧縮</str>
+		<str id="MENU_SETTINGS_VIDEO0_STOP">切断</str>
+		<str id="MENU_SETTINGS_VIDEO0_CAPTUREMODE">キャプチャモード</str>
+		<str id="MENU_SETTINGS_VIDEO0_ROTATE_CW">右に回転</str>
+		<str id="MENU_SETTINGS_VIDEO0_ROTATE_CCW">左に回転</str>
+		<str id="MENU_SETTINGS_VIDEO0_SAVE">設定の保存</str>
+		<str id="MENU_SETTINGS_AUDIO0">オーディオ</str>
+		<str id="MENU_SETTINGS_AUDIO0_CONFIG">設定…</str>
+		<str id="MENU_SETTINGS_AUDIO0_LEVEL">しきい値</str>
+		<str id="MENU_SETTINGS_AUDIO0_DISABLE">オーディオ無効</str>
+		<str id="MENU_SETTINGS_LANG">言語</str>
+		<str id="MENU_SETTINGS_AI">AI</str>
+		<str id="MENU_SETTINGS_RECORD_GROUP">録画グループ</str>
+		<str id="MENU_SETTINGS_RECORD_GROUP_DEFAULT">デフォルト</str>
+		<str id="MENU_SETTINGS_SKYPESTATUS">スカイプモード</str>
+		<str id="MENU_SETTINGS_VIDEVICE">VIデバイス</str>
+		<str id="MENU_SETTINGS_LOCK">システムのロック</str>
+		<str id="MENU_SETTINGS_UNLOCK">ロック解除</str>
+		<str id="MENU_SETTINGS_MITSAREEG">Mitsar EEG</str>
+
+		<str id="MENU_SETTINGS_MASK">ビデオマスク</str>
+		<str id="MENU_SETTINGS_MASK_LOAD">ビデオマスクの読み込み…</str>
+		<str id="MENU_SETTINGS_MASK_EXPORT">ビデオマスクの書き出し…</str>
+		<str id="MENU_SETTINGS_MASK_RESET">ビデオマスクのリセット</str>
+		<str id="MENU_SETTINGS_MASK_EDIT">編集モード</str>
+
+		<str id="MENU_SETTINGS_CAPTURE">保存画像の選択</str>
+		<str id="MENU_SETTINGS_SKIN">スキン</str>
+		<str id="MENU_SETTINGS_SKIN_DEFAULT">デフォルト表示</str>
+
+		<str id="MENU_SETTINGS_AUTOSTART">Auto start</str>
+		<str id="MENU_SETTINGS_SETPASSWORD">Set password</str>
+		<str id="MENU_SETTINGS_ENABLE_QT">Quality test</str>
+		<str id="MENU_SETTINGS_MEASURE_FAST">Fast measure</str>
+		<str id="MENU_SETTINGS_SMART_MEASURE">Smart measure</str>
+
+		<str id="MENU_ACTION">動作</str>
+		<str id="MENU_ACTION_PAUSE">一時停止</str>
+		<str id="MENU_ACTION_RESET">リセット</str>
+		<str id="MENU_ACTION_PLAY">再生</str>
+		<str id="MENU_ACTION_RESETTIMER">タイマーリセット</str>
+		<str id="MENU_ACTION_MEASUREMENT">計測</str>
+
+		<str id="MENU_ACTION_HIST">グラフ分析</str>
+		<str id="MENU_ACTION_HIST_STARTA">H開始</str>
+		<str id="MENU_ACTION_HIST_STARTA10">H開始 10秒</str>
+		<str id="MENU_ACTION_HIST_STARTF">S開始</str>
+		<str id="MENU_ACTION_HIST_STARTF10">S開始 10秒</str>
+		<str id="MENU_ACTION_HIST_STARTT">T開始</str>
+		<str id="MENU_ACTION_HIST_STARTT10">T開始 10秒</str>
+		<str id="MENU_ACTION_HIST_STOP">停止</str>
+
+		<str id="MENU_ACTION_MARKERS">マーカー</str>
+		<str id="MENU_ACTION_MARKERS_Q0">質問R</str>
+		<str id="MENU_ACTION_MARKERS_Q1">質問C</str>
+		<str id="MENU_ACTION_MARKERS_Q2">質問G</str>
+
+		<str id="MENU_ACTION_LD_START">LDブロック開始</str>
+		<str id="MENU_ACTION_LD_STOP">LDブロック停止</str>
+		<str id="MENU_ACTION_LD_CMP_START">LDブロック比較開始</str>
+		<str id="MENU_ACTION_LD_CMP_STOP">LDブロック比較停止</str>
+		<str id="MENU_ACTION_LITELOG">ログの作成</str>
+
+		<str id="MENU_LD_AUTO">オートLD </str>
+		<str id="MENU_LD_AUDIO">LDオーディオ</str>
+		<str id="MENU_LD_MANUAL">マニュアルLD</str>
+		<str id="MENU_LD_TEXT">LDテキスト</str>
+		<str id="MENU_LD_LOAD">LDテキスト読み込み…</str>
+		<str id="MENU_LD_EDIT">LDテキスト編集…</str>
+
+		<str id="MENU_HELP">ヘルプ</str>
+
+		<str id="MENU_HELP_ABOUT">Vibraimageについて</str>
+
+		<str id="MENU_HELP_HELP">ヘルプ…</str>
+		<str id="MENU_HELP_HELP_FILE">manual.pdf</str>
+
+		<str id="MENU_LD_CAPTURE_LDQ">Capture LDQ Video</str>
+		<str id="MENU_LD_SHOW_ANSWER">Answers</str>
+
+		<str id="VIDEO_FRAME_TITLE">ビデオ</str>
+		<str id="STATUS_FRAME_TITLE">ステータス</str>
+		<str id="LD_FRAME_TITLE">LD</str>
+
+		<str id="INFO_DEFAULTS">デフォルト設定</str>
+		<str id="INFO_DEFAULT_MICRO">ミクロデフォルト</str>
+		<str id="INFO_DEFAULT_MACRO">マクロデフォルト</str>
+		<str id="INFO_DEFAULT_LD">LDデフォルト</str>
+
+		<str id="INFO_V4_FRAME_RATE">フレームレート</str>
+		<str id="INFO_V4_FRAME_RATE_IN">フレーム数</str>
+		<str id="INFO_V4_FRAME_RATE_IN_FPS">フレーム数/秒</str>
+
+		<str id="INFO_V4_FRAME_RATE_OUTF">高速処理</str>
+		<str id="INFO_V4_FRAME_RATE_OUTF_FPS">フレーム数（高速）</str>
+		<str id="INFO_V4_FRAME_RATE_DROPF">ドロップフレーム（高速）</str>
+		<str id="INFO_V4_FRAME_RATE_MAXF">高速処理（ＭＡＸ）</str>
+
+		<str id="INFO_V4_FRAME_RATE_OUTR">ベース処理</str>
+		<str id="INFO_V4_FRAME_RATE_OUTR_FPS">ベース処理（高速）</str>
+		<str id="INFO_V4_FRAME_RATE_DROPR">ドロップフレーム（ベース）</str>
+		<str id="INFO_V4_FRAME_RATE_MAXR">ベース処理（ＭＡＸ）</str>
+		<str id="INFO_V4_FRAME_RATE_PERIOD">FPS処理期間</str>
+
+		<str id="INFO_V4_FRAME_TIME_VIDEO">ビデオタイマー</str>
+		<str id="INFO_V4_FRAME_TIME_AUDIO">オーディオタイマー</str>
+
+		<str id="INFO_V4_MAIN">インフォメーション</str> 
+		<str id="INFO_V4_N">N</str>
+		<str id="INFO_V4_K">K</str>
+		<str id="INFO_V4_TH">L</str>
+		<str id="INFO_V4_NDROP">ストリームエラー</str>
+		<str id="INFO_V4_MEMORY_USAGE">RAM</str>
+
+		<str id="INFO_V4_STAT">統計</str> 
+		<str id="INFO_V4_INTEGR0A">総合N （Am）</str> 
+		<str id="INFO_V4_INTEGR1A">総合10（Am）</str> 
+		<str id="INFO_V4_INTEGR2A">総合2 （Am）</str> 
+		<str id="INFO_V4_INTEGR0B">総合N （F）</str> 
+		<str id="INFO_V4_INTEGR1B">総合10（F）</str> 
+		<str id="INFO_V4_INTEGR2B">総合2 （F）</str> 
+
+		<str id="INFO_V4_ANGER">攻撃性</str> 
+		<str id="INFO_V4_STRESS">ストレス</str> 
+		<str id="INFO_V4_TENSION">緊張・不安</str> 
+		<str id="INFO_V4_SUSPICIOUS">怪しさ</str> 
+		<str id="INFO_V4_STATUS">Status</str> 
+
+		<str id="INFO_V4_AUDIO">オーディオ</str>
+		<str id="INFO_V4_AUDIO_LEVEL">レベル</str>
+		<str id="INFO_V4_AUDIO_TH">Th.</str>
+		<str id="INFO_V4_AUDIO_DELAY">遅延(秒)</str>
+		<str id="INFO_V4_AUDIO_PERIOD">期間(ms)</str>
+		<str id="INFO_V4_AVI_OVERLOAD">AVIキャプチャオーバーロード</str>
+
+		<str id="INFO_V4_SIZE_W">幅</str>
+		<str id="INFO_V4_SIZE_H">高さ</str>
+
+		<str id="INFO_AUDIO_LEVEL">オーディオ　レベル</str>
+		<str id="INFO_AUDIO_LEVEL25">オーディオレベル(25fps)</str>
+
+		<str id="INFO_CFG_MAIN">メイン</str> 
+		<str id="INFO_CFG_N">N</str> 
+		<str id="INFO_CFG_N1">N(10) </str> 
+		<str id="INFO_CFG_N2">N(2) </str> 
+		<str id="INFO_CFG_K">K </str> 
+		<str id="INFO_CFG_TH">L </str> 
+		<str id="INFO_CFG_ENGINE_THREAD_RQST">並列処理数</str> 
+		<str id="INFO_CFG_ENGINE_GPU">GPU処理</str> 
+		<str id="INFO_CFG_CORES">Cores</str> 
+		<str id="INFO_AI_LIVE">AI Corona</str> 
+
+		<str id="INFO_CFG_FLT">フィルター</str> 
+		<str id="INFO_CFG_FLT_SP">シングルポイント</str> 
+		<str id="INFO_CFG_FLT_DL">ノイズ処理</str> 
+		<str id="INFO_CFG_FLT_DLF">ノイズ処理（高速）</str> 
+		<str id="INFO_CFG_FLT_STR">スケール伸長</str> 
+		<str id="INFO_CFG_FLT_MSCONT">最大速度カウンタ</str> 
+		<str id="INFO_CFG_FLT_FPS2IN">ダウンレート</str> 
+		<str id="INFO_CFG_FLT_AM">Amスケール</str> 
+		<str id="INFO_CFG_FLT_CT">スペース</str> 
+		<str id="INFO_CFG_FLT_BTFAST">BT div</str> 
+		<str id="INFO_CFG_FLT_DIS">無効 *</str> 
+		<str id="INFO_CFG_FLT_DIS_A">Am無効</str> 
+		<str id="INFO_CFG_FLT_DIS_B">F無効</str> 
+		<str id="INFO_CFG_FLT_DIS_2X">２倍速処理を無効</str> 
+		<str id="INFO_CFG_FLT_DIS_VI0">VI(N)無効</str> 
+		<str id="INFO_CFG_FLT_DIS_VI1">VI(10)無効</str> 
+		<str id="INFO_CFG_FLT_DIS_VI2">VI(2)無効</str> 
+		<str id="INFO_CFG_FLT_DIS_FFTU">FFT無効</str> 
+		<str id="INFO_CFG_FLT_DIS_ENTR">エントロピー無効</str> 
+		<str id="INFO_CFG_FLT_DIS_AUDIO">オーディオ無効</str> 
+		<str id="INFO_CFG_FLT_DIS_PROCF">ProcF 無効</str> 
+		
+		<str id="INFO_CFG_FLT_MOTION">動作検知</str>
+		<str id="INFO_CFG_FLT_MOTION_10X">10倍速を使用</str>
+		<str id="INFO_CFG_FLT_MOTION_LEVEL">レベル</str>
+		<str id="INFO_CFG_FLT_MOTION_AUTO_RESET">オートリセット</str>
+		<str id="INFO_CFG_FLT_NSKIP">スキップフレーム</str>
+		<str id="INFO_CFG_FLT_AUTODOWNRATE">自動ダウンレート</str> 
+		<str id="INFO_CFG_FLT_CONTOUR">輪郭固定</str> 
+		<str id="INFO_CFG_FLT_CONTOUR_FACE">Face only</str> 
+		<str id="INFO_CFG_FLT_CONTOUR_FACE10">10 faces</str> 
+		<str id="INFO_CFG_FLT_CONTOUR_VIBRA">Vibra</str> 
+		<str id="INFO_CFG_FLT_STABX">Stab. X</str> 
+		<str id="INFO_CFG_FLT_STABY">Stab. Y</str> 
+		<str id="INFO_CFG_FLT_GLOBAL">グローバルフィルターの適用</str> 
+		<str id="INFO_GEOVISION_PATH">GVパス</str> 
+		<str id="INFO_STATE_LEVEL">状態レベル</str>
+		<str id="INFO_STATE_LEVEL_AG">Ag</str>
+		<str id="INFO_STATE_LEVEL_ST">St</str>
+		<str id="INFO_STATE_LEVEL_TN">Tn</str>
+		<str id="INFO_STORE_LEN">容量サイズ</str> 
+		<str id="INFO_CFG_EEG_TEST_MODE">EEGテストモード</str> 
+
+		<str id="INFO_CFG_FLT_HISTNW">Hist A</str>
+
+		<str id="INFO_CFG_MODE_COLOR">カラー画像</str>
+		<str id="INFO_CFG_FLT_CROP">トリミング</str>
+		<str id="INFO_CFG_FLT_CROPX">Xトリミング</str>
+		<str id="INFO_CFG_FLT_CROPY">Yトリミング</str>
+		<str id="INFO_CFG_FLT_CROPX_POS">トリミング位置X</str>
+		<str id="INFO_CFG_FLT_CROPY_POS">トリミング位置Y</str>
+	
+		<str id="INFO_CFG_AVG">AVGフィルター</str> 
+		<str id="INFO_CFG_AVG_ANGER">攻撃性</str> 
+		<str id="INFO_CFG_AVG_STRESS">ストレス</str> 
+		<str id="INFO_CFG_AVG_TENSION">緊張・不安</str> 
+		<str id="INFO_CFG_AVG_STATE_SRC">怪しさ</str> 
+		<str id="INFO_CFG_AVG_ENERGY">活力</str> 
+		<str id="INFO_CFG_AVG_COMPAT">相性</str> 
+		<str id="INFO_CFG_AVG_DANGER">怪しさ</str> 
+		<str id="INFO_CFG_AVG_BALANCE">安定性</str> 
+		<str id="INFO_CFG_AVG_CHARMING">カリスマ性</str> 
+		
+
+		<str id="INFO_CFG_ALERTS">警報</str> 
+		<str id="INFO_CFG_ALERT_SUSP_SND">サウンド切り替え</str> 
+		<str id="INFO_CFG_ALERT_CUST_SND">サウンド(カスタム)</str> 
+		<str id="INFO_CFG_ALERT_A_SND">サウンド(A)</str> 
+		<str id="INFO_CFG_ALERT_S_SND">サウンド(S)</str> 
+		<str id="INFO_CFG_ALERT_T_SND">サウンド(T)</str> 
+		<str id="INFO_CFG_ALERT_IMAGE">自動キャプチャイメージ</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO">自動キャプチャイメージ</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_TIME">(s)秒後に隠す</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FILE">画像ファイル保存</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FILE_XML">顔データXML保存</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FACE">顔保存</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_ORIGINAL">元画像保存</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FACE_VALIDATE">顔画像検証</str>
+		<str id="INFO_CFG_ALERT_IMAGE_COUNT">画像表示 N</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_FORMAT">画像フォーマット</str>
+ 		<str id="INFO_CFG_SND_PATH">オーディオファイル</str>
+
+		<str id="INFO_CFG_MACRO_ENABLE">マクロモード</str> 
+		<str id="INFO_CFG_MACRO_LEVEL_L">Lレベル</str> 
+		<str id="INFO_CFG_MACRO_LEVEL_S">Sレベル</str> 
+		<str id="INFO_CFG_MACRO_AURA">オーラモード</str> 
+		<str id="INFO_CFG_MACRO_FACE">マクロモード+</str> 
+
+		<str id="INFO_CFG_FACE_ENABLE">顔検知</str> 
+		<str id="INFO_CFG_FACE_QUALITY">検知品質[1..4]</str> 
+		<str id="INFO_CFG_FACE_SCALE">スケール1:X </str> 
+		<str id="INFO_CFG_FACE_QUALITY_SIZE_MIN">最小サイズ</str> 
+		<str id="INFO_CFG_FACE_QUALITY_SIZE_MAX">最大サイズ</str> 
+		<str id="INFO_CFG_FACE_DRAW">描画</str>
+		<str id="INFO_CFG_FACE_PATH">コンフィグパス</str>
+		<str id="INFO_CFG_QTEST">Quality test</str>
+		<str id="INFO_CFG_FACE_MODE_SYNC">Sync mode</str>
+
+		
+		<str id="INFO_CFG_SND">Vibraサウンド</str>
+		<str id="INFO_CFG_SND_KILL">標準サウンド無効</str>
+		<str id="INFO_CFG_SND_NONE">サウンド無効</str>
+		<str id="INFO_CFG_SND_CR">CG</str>
+		<str id="INFO_CFG_SND_CG">CR</str>
+		<str id="INFO_CFG_SND_HR">HG</str>
+		<str id="INFO_CFG_SND_HG">HR</str>
+		<str id="INFO_CFG_SND_SR">SR</str>
+		<str id="INFO_CFG_SND_SG">SG</str>
+		<str id="INFO_CFG_SND_TITLE">ブレインボイス</str>
+
+		<str id="INFO_CFG_VI_DEVICE">VIデバイス</str>
+		<str id="INFO_CFG_VI_DEVICE_INDICATION">表示</str>
+		<str id="INFO_CORRELATION_ENABLE">相関処理有効</str>
+		<str id="INFO_CORRELATION_T">期間</str>
+		<str id="INFO_CORRELATION_TAUTO">オートシフト</str>
+		<str id="INFO_CORRELATION_SORT">ソート</str>
+
+		<str id="INFO_LD_GROUP">LD（グローバル）</str>
+		<str id="INFO_LD_ENABLE">有効にする</str>
+		<str id="INFO_LD_PERIOD">統計期間(S)</str>
+		<str id="INFO_LD_PERIOD_BASE">基本期間(S)</str>
+		<str id="INFO_LD_LTH">嘘検出しきい値</str>
+		<str id="INFO_LD_AUDIO_SENSITIVITY">検出音(S)</str>
+		<str id="INFO_LD_NAME">虚言</str>
+		<str id="INFO_LD_MODE">LDモード</str>
+		<str id="INFO_LD_MODE_AUTO">オート</str>
+		<str id="INFO_LD_MODE_AUDIO">オーディオ</str>
+		<str id="INFO_LD_MODE_MANUAL">マニュアル</str>
+		<str id="INFO_LD_MODE_CMP">比較</str>
+		<str id="INFO_LD_MODE_OPPOSITE">反転モード</str>
+		<str id="INFO_LD_MODE_TEXT">テキスト</str>
+
+		<str id="INFO_AVI_GROUP">AVIキャプチャ</str>
+		<str id="INFO_AVI_SETTINGS">設定…</str>
+		<str id="INFO_AVI_CAPTURE">キャプチャ</str>
+		<str id="INFO_AVI_PATH">フォルダ書き込み</str>
+
+		<str id="INFO_GRAPH_GROUP">グラフ（グローバル）</str> 
+		<str id="INFO_GRAPH_PERIOD">期間(s)</str> 
+		<str id="INFO_GRAPH_DIF_PERIOD">比較時間(S)</str> 
+		<str id="INFO_GRAPH_HIST_PERIOD">表示時間(S)</str> 
+
+		<str id="INFO_HIST_A_PERIOD">Hist. H スムース(s)</str> 
+		<str id="INFO_HIST_F_PERIOD">Hist. S スムース(s)</str> 
+		<str id="INFO_HIST_C_PERIOD">Hist. C スムース(s)</str> 
+
+		<str id="INFO_STAT_SUB_SHOW">表示</str>
+		<str id="INFO_STAT_SUB_SHOW2">グラフ２</str>
+		<str id="INFO_STAT_SUB_CALC">計算</str>
+		<str id="INFO_STAT_SUB_DIF">Diffモード</str>
+		<str id="INFO_STAT_SUB_AUTO">auto</str>
+		<str id="INFO_STAT_SUB_VMIN">vMin</str>
+		<str id="INFO_STAT_SUB_VMAX">vMax</str>
+		<str id="INFO_STAT_SUB_GMIN">gMin</str>
+		<str id="INFO_STAT_SUB_GMAX">gMax</str>
+		<str id="INFO_STAT_SUB_RATE1">レート1 V</str>
+		<str id="INFO_STAT_SUB_RATE2">レート2 V</str>
+		<str id="INFO_STAT_SUB_RATE1V">レート1 C</str>
+		<str id="INFO_STAT_SUB_RATE2V">レート2 C</str>
+		<str id="INFO_STAT_SUB_LEVEL">レベル</str>
+		<str id="INFO_STAT_SUB_GFLTLFAVG">HF avg.</str>
+		<str id="INFO_STAT_SUB_GFLTLF">HF flt.</str>
+		<str id="INFO_STAT_SUB_GFLTHF">LF flt.</str>
+
+		<str id="INFO_STAT_COL_NAME">名前</str>
+		<str id="INFO_STAT_COL_VAR">V</str>
+		<str id="INFO_STAT_COL_CMIN">cMin</str>
+		<str id="INFO_STAT_COL_CMAX">cMax</str>
+		<str id="INFO_STAT_COL_BMIN">bMin</str>
+		<str id="INFO_STAT_COL_BMAX">bMax</str>
+
+		<str id="INFO_STATAVG_COL_NAME">名前</str>
+		<str id="INFO_STATAVG_COL_VAR">V</str>
+		<str id="INFO_STATAVG_COL_S">S</str>
+		<str id="INFO_STATAVG_COL_PI">Vi</str>
+		<str id="INFO_STATAVG_COL_CMIN">cMin</str>
+		<str id="INFO_STATAVG_COL_CMAX">cMax</str>
+		<str id="INFO_STATAVG_COL_BMIN">bMin</str>
+		<str id="INFO_STATAVG_COL_BMAX">bMax</str>
+		<str id="INFO_STATAVG_COL_NMIN">N Min</str>
+		<str id="INFO_STATAVG_COL_NMAX">N Max</str>
+		<str id="INFO_STATAVG_PROGRESS">プログレス</str>
+		<str id="INFO_STATAVG_PERIOD">期間(s)</str>
+		<str id="INFO_STATAVG_OPEN">Open result</str>
+
+
+		<str id="INFO_STAT_A1X">A1（高速）</str> 
+		<str id="INFO_STAT_A4X">A4（高速）</str> 
+
+		<str id="INFO_STAT_A1">A1</str> 
+		<str id="INFO_STAT_A2">A2</str> 
+		<str id="INFO_STAT_A3">A3</str> 
+		<str id="INFO_STAT_A4">A4</str> 
+		<str id="INFO_STAT_A5">A5</str> 
+		<str id="INFO_STAT_A6">A6</str> 
+		<str id="INFO_STAT_A7">A7</str> 
+		<str id="INFO_STAT_A8">A8</str> 
+		<str id="INFO_STAT_A9">A9</str> 
+
+		<str id="INFO_STAT_F1X">F1（高速）</str> 
+		<str id="INFO_STAT_F1D">dF1（高速）</str> 
+
+		<str id="INFO_STAT_F1">F1</str> 
+		<str id="INFO_STAT_F2">F2</str> 
+		<str id="INFO_STAT_F3">F3</str> 
+		<str id="INFO_STAT_F4">F4</str> 
+		<str id="INFO_STAT_F5XT">F5 tens.</str> 
+		<str id="INFO_STAT_F5X">F5（高速）</str> 
+		<str id="INFO_STAT_F5X_TEXT">緊張・不安(F5X)</str> 
+		<str id="INFO_STAT_F5">F5</str> 
+		<str id="INFO_STAT_F6">F6</str> 
+		<str id="INFO_STAT_F6_TEXT">抑圧(F6)</str> 
+		<str id="INFO_STAT_F7">F7</str> 
+		<str id="INFO_STAT_F8">F8</str> 
+		<str id="INFO_STAT_F9">F9</str> 
+		<str id="INFO_STAT_F9_TEXT">神経質(F9)</str> 
+
+		<str id="INFO_STAT_S1">S1</str> 
+		<str id="INFO_STAT_S2">S2</str> 
+		<str id="INFO_STAT_S3">S3</str> 
+		<str id="INFO_STAT_S4">S4</str> 
+		<str id="INFO_STAT_S5">S5</str> 
+		<str id="INFO_STAT_S6">S6</str> 
+		<str id="INFO_STAT_S7">S7</str> 
+		<str id="INFO_STAT_S8">S8</str> 
+		<str id="INFO_STAT_S9">S9</str> 
+
+		<str id="INFO_STAT_IP">P</str>
+		<str id="INFO_STAT_DP5">dP5</str>
+<str id="INFO_STAT_II2">I</str>
+<str id="INFO_STAT_IE2">E</str>
+<str id="INFO_STAT_P1">P1</str> 
+		<str id="INFO_STAT_P2">P2</str> 
+		<str id="INFO_STAT_P3">P3</str> 
+		<str id="INFO_STAT_P4">P4</str> 
+		<str id="INFO_STAT_P5">P5嘘検出</str> 
+		<str id="INFO_STAT_P6">P6ストレス</str> 
+		<str id="INFO_STAT_P6_TEXT">ストレス(P6)</str> 
+		<str id="INFO_STAT_P7">P7 怒り</str> 
+		<str id="INFO_STAT_P7_TEXT">攻撃性(P7)</str> 
+		<str id="INFO_STAT_P6A">P6A ストレス</str> 
+		<str id="INFO_STAT_P7A">P7A　怒り</str> 
+		<str id="INFO_STAT_P6F">P6F ストレス</str> 
+		<str id="INFO_STAT_P7F">P7F　怒り</str> 
+		<str id="INFO_STAT_P8">P8 活力</str> 
+		<str id="INFO_STAT_P8_TEXT">活力(P8)</str> 
+		<str id="INFO_STAT_P8A">P8A 活力</str> 
+		<str id="INFO_STAT_P8F">P8F 活力</str> 
+		<str id="INFO_STAT_P9">P9 H</str> 
+		<str id="INFO_STAT_P9A">P9A H</str> 
+		<str id="INFO_STAT_P9F">P9F H</str> 
+		<str id="INFO_STAT_P10">P10 Δ</str> 
+		<str id="INFO_STAT_P10A">P10A Δ</str> 
+		<str id="INFO_STAT_P10F">P10F Δ</str> 
+		<str id="INFO_STAT_P11">P11 ?</str> 
+		<str id="INFO_STAT_P11A">P11A ?</str> 
+		<str id="INFO_STAT_P11F">P11F ?</str> 
+		<str id="INFO_STAT_P12">P12 S</str> 
+		<str id="INFO_STAT_P12A">P12A S</str> 
+		<str id="INFO_STAT_P12F">P12F S</str> 
+		<str id="INFO_STAT_P13">P13</str> 
+		<str id="INFO_STAT_P14">P14</str> 
+		<str id="INFO_STAT_P15">P15</str> 
+		<str id="INFO_STAT_P16">P16 CN</str> 
+		<str id="INFO_STAT_P16_TEXT">安定性(P16)</str> 
+		<str id="INFO_STAT_P17">P17 CS</str> 
+		<str id="INFO_STAT_P17_TEXT">カリスマ性 (P17)</str> 
+		<str id="INFO_STAT_P18">P18 Com</str> 
+		<str id="INFO_STAT_P18_TEXT">自制心</str> 
+		<str id="INFO_STAT_P19">P19 St</str> 
+		<str id="INFO_STAT_P19_TEXT">怪しさ(P19)</str> 
+		<str id="INFO_STAT_P20">P20 LD</str> 
+		<str id="INFO_STAT_P20_TEXT">嘘検知(P20)</str> 
+		<str id="INFO_STAT_P21">P21 健康</str> 
+		<str id="INFO_STAT_P21_TEXT">健康(P21)</str> 
+		<str id="INFO_STAT_P22">P22 健康</str> 
+		<str id="INFO_STAT_P22_TEXT">健康(P22)</str> 
+		<str id="INFO_STAT_P23">P23 VibraImage集計</str> 
+		<str id="INFO_STAT_P23_TEXT">VibraImage集計(P23)</str> 
+		<str id="INFO_STAT_P24">P24 眠気</str> 
+		<str id="INFO_STAT_P24_TEXT">眠気(P24)</str> 
+		<str id="INFO_STAT_P25">P25 強い眠気</str> 
+		<str id="INFO_STAT_P25_TEXT">強い眠気 (P25)</str> 
+		<str id="INFO_STAT_P26">P26 外向性</str> 
+		<str id="INFO_STAT_P26_TEXT">外向性(P26)</str> 
+		<str id="INFO_STAT_P27">P27 情緒安定性</str> 
+		<str id="INFO_STAT_P27_TEXT">情緒安定性(P27)</str> 
+
+		<str id="INFO_STAT_P29">DP</str> 
+		<str id="INFO_STAT_P29_TEXT">Depression (P29)</str> 
+		<str id="INFO_STAT_P30">HP</str> 
+		<str id="INFO_STAT_P30_TEXT">Happiness (P30)</str> 
+		<str id="INFO_STAT_P36">AI</str> 
+		<str id="INFO_STAT_P36_TEXT">AI(P36)</str> 
+		<str id="INFO_STAT_P37">AIc</str> 
+		<str id="INFO_STAT_P37_TEXT">AI current (P36)</str> 
+		<str id="INFO_STAT_P38">AIf</str> 
+		<str id="INFO_STAT_P38_TEXT">AI final(P36)</str>
+<str id="INFO_STAT_P41">AI</str>
+ <str id="INFO_STAT_P41_TEXT">AI value(P41)</str>
+
+		<str id="INFO_STAT_C1">C1</str> 
+		<str id="INFO_STAT_C2">C2</str> 
+		<str id="INFO_STAT_C3">C3</str> 
+		<str id="INFO_STAT_C4">C4</str> 
+
+		<str id="INFO_STAT_HISTFN">HC.機能</str> 
+		<str id="INFO_STAT_SIN">sin(t*2*pi*n)</str> 
+		<str id="INFO_ENGINE_MSND">マーカー発信音</str> 
+		<str id="INFO_ENGINE_RSND">発信音リセット</str> 
+
+		<str id="INFO_CFG_FLT_F6_HI">F6 LF</str> 
+		<str id="INFO_CFG_FLT_F6_LO">F6 HF</str> 
+		<str id="INFO_CFG_FLT_F6_N">F6 N</str> 
+
+		<str id="INFO_CFG_FLT_CAMPOS">Stab.フィルタ</str> 
+
+		<str id="INFO_CFG_FLT_FPSDIV">FPS フィルタ</str> 
+		<str id="INFO_CFG_FLT_DISTORTION">Eモンスター</str> 
+		
+		<str id="INFO_CFG_FTP">Network Storage</str> 
+		<str id="INFO_CFG_FTP_ENABLE">enable FTP</str> 
+		<str id="INFO_CFG_FTP_PATH">configuration file</str> 
+		<str id="INFO_CFG_HTTP_URL">HTTP url</str>
+		
+		<str id="INFO_STAT_FN01">X1</str> 
+		<str id="INFO_STAT_FN02">X2</str> 
+		<str id="INFO_STAT_FN03">X3</str> 
+		<str id="INFO_STAT_FN04">X4</str> 
+		<str id="INFO_STAT_FN05">X5</str> 
+		<str id="INFO_STAT_FN06">X6</str> 
+		<str id="INFO_STAT_FN07">X7</str> 
+		<str id="INFO_STAT_FN08">X8</str> 
+		<str id="INFO_STAT_FN09">X9</str> 
+		<str id="INFO_STAT_FN10">X10</str> 
+
+		<str id="INFO_USER_CURRENT">選択したレコード</str>
+		<str id="INFO_USER_NEW">新規レコード…</str>
+		<str id="INFO_USER_NEW_NAME">名前</str>
+		<str id="INFO_USER_NEW_BD">年月日</str>
+		<str id="INFO_USER_NEW_ADD">コメント</str>
+		<str id="INFO_USER_DB_PATH">データベースフォルダ…</str>
+		<str id="INFO_USER_DB_MODE">DBモード</str>
+		<str id="DB_MODE_MANUAL">manual</str>
+		<str id="DB_MODE_KEY_ONLY">key only</str>
+		<str id="INFO_USER_AVI_GROUP">キャプチャ</str>
+		<str id="INFO_USER_AVI_TMAX">最大長(s)</str>
+		<str id="INFO_USER_AVI_PURGE">旧ファイルを削除(MB)</str>
+
+		<str id="INFO_USER_INFO">Personal information</str>
+		<str id="INFO_USER_INFO_NAME">名前</str>
+		<str id="INFO_USER_INFO_ID">ID</str>
+		<str id="INFO_USER_INFO_BD">年月日</str>
+		<str id="INFO_USER_INFO_GENDER">Gender</str>
+		<str id="INFO_USER_INFO_AGE">Age</str>
+		<str id="INFO_USER_INFO_COMMENTS">コメント</str>
+		
+		<str id="INFO_USER_AUTO_MARKERS_CQ">CQマーカー</str>
+		<str id="INFO_USER_AUTO_MARKERS_RQ">RQマーカー</str>
+		<str id="INFO_USER_AUTO_MARKERS_SET">セットマーカー</str>
+
+		<str id="INFO_CAPTURE_TIMER">タイマー</str>
+		<str id="INFO_CAPTURE_STOP_IN">停止時間</str>
+		<str id="INFO_CAPTURE_STOP_AT">停止時刻</str>
+		<str id="INFO_CAPTURE_START_AT">開始時刻</str>
+		<str id="INFO_CAPTURE_EXTRA_SRC">save src.</str>
+		<str id="INFO_CAPTURE_EXTRA">save extra info</str>
+		<str id="INFO_CAPTURE_XML">save XML</str>
+		<str id="INFO_CAPTURE_TXT">save TXT</str>
+		<str id="INFO_CAPTURE_DTF">save DTF</str>
+		<str id="INFO_CAPTURE_LD">save LD</str>
+		<str id="INFO_CAPTURE_HTTP">HTTPステータス</str>
+		<str id="INFO_CAPTURE_FACE_IMG">save Faces</str>
+		<str id="INFO_CAPTURE_IS">キャプチャモード</str>
+		<str id="INFO_CAPTURE_IS_AVI">AVI</str>
+		<str id="INFO_CAPTURE_IS_IMG">IMG</str>
+		<str id="INFO_CAPTURE_COM">output to COM</str>
+
+		<str id="INFO_NET_GROUP">Network service</str>
+		<str id="INFO_NET_ENABLE">ネットワークサービス</str>
+		<str id="INFO_NET_STATE_CRITICAL">クリティカルレベル %</str>
+		<str id="INFO_NET_STATE_CUSTOMER">Customer level %</str>
+		<str id="INFO_NET_STATE_CRITICAL_S">エリアの閾値 %</str>
+		<str id="INFO_NET_STATE_CRITICAL_K">エリアのレベル %</str>
+		<str id="INFO_NET_DIRECT_VIDEO">フルビデオストリーム</str>
+		<str id="INFO_NET_LOCAL_TCP">ローカルTCPポート</str>
+		<str id="INFO_NET_HOST_GR">リモートホスト</str>
+		<str id="INFO_NET_HOST_IP">IP</str>
+		<str id="INFO_NET_HOST_ENABLED">有効</str>
+		<str id="INFO_NET_PORT_TCP">TCPポート</str>
+		<str id="INFO_NET_PORT_UDP">UDPポート</str>
+		<str id="INFO_NET_COMPRESSION">コンプレッション</str>
+
+		<str id="LOGLD_LIE_DETECTED">Lie detected</str>
+		<str id="LOGLD_LIE_TIME_FROM">開始時間</str>
+		<str id="LOGLD_LIE_TIME_TO">停止時間</str>
+		<str id="LOGLD_LIE_TIME_FROM_VIDEO">ビデオタイマー（開始）</str>
+		<str id="LOGLD_LIE_TIME_TO_VIDEO">ビデオタイマー（停止）</str>
+		<str id="LOGLD_LIE_TIME">LDタイム</str>
+		<str id="LOGLD_LIE_TIME_VIDEO">LDビデオタイマー</str>
+		<str id="LOGLD_LIE_QUESTION">質問 N</str>
+
+		<str id="HINT_GRAPH_ENABLE">グラフ</str> 
+		<str id="HINT_STAT_CALC">計算</str> 
+		<str id="HINT_HIST_R">Red hist.</str> 
+		<str id="HINT_HIST_G">Green hist.</str> 
+		<str id="HINT_CORREL_ENABLE">相関</str> 
+
+		<str id="HINT_RECT_VI0">VI N(%i)</str>
+		<str id="HINT_RECT_VI1">VI 10(%i)</str>
+		<str id="HINT_RECT_VI2">VI 2(%i)</str>
+		<str id="HINT_RECT_SRC">SRC</str>
+		<str id="HINT_RECT_DELTA">DELTA</str>
+
+		<str id="HINT_RECT_VI0_A">VI N A(%i)</str>
+		<str id="HINT_RECT_VI1_A">VI 10 A(%i)</str>
+		<str id="HINT_RECT_VI2_A">VI 2 A(%i)</str>
+		<str id="HINT_RECT_SRC_A">SRC A</str>
+		<str id="HINT_RECT_DELTA_A">DELTA A</str>
+		<str id="HINT_RECT_DELTA_FA">DELTA FA</str>
+
+
+		<str id="HINT_RECT_VI0_B">VI N F(%i)</str>
+		<str id="HINT_RECT_VI1_B">VI 10 F(%i)</str>
+		<str id="HINT_RECT_VI2_B">VI 2 F(%i)</str>
+		<str id="HINT_RECT_SRC_B">SRC F</str>
+		<str id="HINT_RECT_DELTA_B">DELTA F</str>
+		<str id="HINT_RECT_DELTA_FB">DELTA FF</str>
+
+		<str id="HINT_RECT_HIST_X">Hist. X</str>
+		<str id="HINT_RECT_HIST_Y">Hist. Y</str>
+
+		<str id="MESSAGE_ERROR">エラー!</str> 
+		<str id="MESSAGE_WARNING">警告!</str> 
+
+		<str id="MESSAGE_LD_WARNING_FACE">Warning: (1) FACE !</str> 
+		<str id="MESSAGE_LD_WARNING_LIGHT">Warning: (2) LIGHT !</str> 
+		<str id="MESSAGE_LD_WARNING_FPS">Warning: (3) FPS!</str> 
+
+		<str id="MESSAGE_BROWSE_FOR_DB">データベースフォルダー</str> 
+		<str id="MESSAGE_CANT_CREATE_AVI_FILE">AVIファイルを作成できません!</str> 
+		<str id="MESSAGE_CANT_START_AVI_FILE">AVIファイルを開始できません！ \n%s </str> 
+		<str id="MESSAGE_NEED_RESTART">プログラムを再起動する必要があります!</str> 
+		<str id="MESSAGE_CANT_CREATE_FOLDER">フォルダを作成できません!\n%s </str> 
+		<str id="MESSAGE_CANT_WRITE_FILE">ファイルの書き込みエラーです！</str> 
+		<str id="MESSAGE_DELETE_SELECTED_RECORDS">選択したレコードを削除してもいいですか？</str> 
+		<str id="MESSAGE_AVI_PURGE_STOP">ディスクのスペースが足りません！ \nレコードが書き込めませんでした。 </str> 
+		<str id="MESSAGE_CANT_RECOMPRESS">再圧縮ができません！</str> 
+		<str id="MESSAGE_EXCEL_VERSION">This software requires installation of the Microsoft Excel 2010 or newer</str>
+		
+		<str id="STR_FRAME_CAPTION">Vibraimage</str>
+
+		<str id="STR_FILE_FILTER_AVI_VI">すべての形式(*.avi;*.asf;*.mp4;*.xml)|*.xml;*.avi;*.asf;*.mp4|AVIファイル(*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4| Vibraimageログファイル(*.xml)|*.xml|すべてのファイル (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_VI">Vibraimageログファイル(*.xml)|*.xml|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_AVI">AVIファイル(*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_AVI_ZIP">すべての形式(*.avi;*.asf;*.mp4;*.zip)|*.zip;*.avi;*.asf;*.mp4|AVIファイル(*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|ZIP ファイル(*.zip)|*.zip|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_HIST">VIファイル(*.xml)|*.xml|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_IMG_ALL">すべての形式(*.png;*.bmp;*.jpg;*.gif)|*.png;*.bmp;*.jpg;*.gif|PNGファイル (*.png)|*.png|BMPファイル (*.bmp)|*.bmp|JPGファイル(*.jpg)|*.jpg|GIFファイル (*.gif)|*.gif|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_ALL">すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_XML">XMLファイル(*.xml)|*.xml|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_XML_TXT">XMLファイル(*.xml)|*.xml|テキストファイル (*.txt)|*.txt|*.xml|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_TXT_AVI">テキストファイル(*.txt)|*.txt|AVIファイル (*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_XML_AVI">XMLファイル(*.xml)|*.xml|AVIファイル(*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_LDQ">嘘検出(LD)ファイル(*.ldq)|*.ldq|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_REG">登録ファイル (*.reg)|*.reg|すべてのファイル(*.*)|*.*|</str>
+		<str id="STR_UNITS_PSY">心理状態</str>
+		<str id="STR_UNITS_EKKAL">E [kcal/分]</str>
+		<str id="STR_UNITS_FPS">FPS（フレーム毎秒）</str>
+		<str id="STR_UNITS_S">秒</str>
+
+		<str id="STR_AURAVI">VIオーラ</str>
+		<str id="STR_MONSTER">VIモンスター</str>
+		<str id="STR_BIOTESTER">BioTester</str>
+		<str id="STR_SLEEPINESS">眠気</str>
+		
+		<str id="SEQ_OWNER">所有者:</str>
+		<str id="SEQ_SERIAL">シリアル:</str>
+		<str id="SEQ_TYPE">ライセンス:</str>
+		<str id="SEQ_DEMO">デモ</str>
+		<str id="SEQ_PROF">プロフェッショナル</str>
+		<str id="SEQ_LIMITED">制限付き</str>
+		<str id="SEQ_UNLIMITED">無制限</str>
+
+		<str id="NETSTATUS_IMAGE">画像</str>
+		<str id="NETSTATUS_CONFIG">設定</str>
+		<str id="NETSTATUS_CFG_MODL">モジュール</str>
+		<str id="NETSTATUS_CFG_MODL_IP">IP</str>
+		<str id="NETSTATUS_CFG_MODL_PORT_TCP">TCPポート</str>
+		<str id="NETSTATUS_CFG_LOCAL">ローカル</str>
+		<str id="NETSTATUS_CFG_LOCAL_PORT_TCP">TCPポート</str>
+		<str id="NETSTATUS_CFG_LOCAL_PORT_UDP">UDPポート</str>
+
+		<str id="NETSTATUS_CFG_ALERTS">警報</str>
+		<str id="NETSTATUS_CFG_ALERT_SOUND">サウンド</str>
+		<str id="NETSTATUS_CFG_ALERT_IMAGE">画像</str>
+
+
+		<str id="AMCAP_DLG_VIDEO_FORMAT">ビデオ形式…</str>
+		<str id="AMCAP_DLG_VIDEO_SOURCE">ビデオソースファイル…</str>
+		<str id="AMCAP_DLG_VIDEO_DISPLAY">ビデオディスプレイ…</str>
+		<str id="AMCAP_DLG_AUDIO_CAP_FILTER">オーディオキャプチャフィルタ…</str>
+		<str id="AMCAP_DLG_VIDEO_CAP_FILTER">ビデオキャプチャフィルタ…</str>
+		<str id="AMCAP_DLG_VIDEO_CAP_FORMAT">ビデオキャプチャ形式…</str>
+		<str id="AMCAP_DLG_VIDEO_PREVIEW_FORMAT">ビデオプレビュー形式…</str>
+		<str id="AMCAP_DLG_VIDEO_CROSSBAR">ビデオクロスバー…</str>
+		<str id="AMCAP_DLG_VIDEO_CROSSBAR2">セカンドクロスバー…</str>
+		<str id="AMCAP_DLG_TV_TUNER">TVチューナー…</str>
+		<str id="AMCAP_DLG_AUDIO_CAP_FORMAT">オーディオキャプチャ形式…</str>
+		<str id="AMCAP_DLG_TV_AUDIO">TVオーディオ…</str>
+
+		<str id="STR_ARCHIVE_FOLDER">アーカイブフォルダ…</str>
+
+		<str id="NETAVIS_TITLE">ネットワークAVIサーバ</str>
+
+		<str id="VI_GRAPH_AVG_ALL">パルスAVG_ALL</str>
+		<str id="VI_GRAPH_SIGMA_ALL">パルスΣ_ALL</str>
+
+		<str id="VI_GRAPH_AVG_ZONE">パルスAVG_ゾーン1</str>
+		<str id="VI_GRAPH_SIGMA_ZONE">パルスΣ_ゾーン1</str>
+
+		<str id="VI_GRAPH_AVG_ZONE2">パルスAVG_ゾーン2</str>
+		<str id="VI_GRAPH_SIGMA_ZONE2">パルスΣ_ゾーン2</str>
+
+		<str id="VI_GRAPH_AVG_LINE1">パルスAVG_ライン1</str>
+		<str id="VI_GRAPH_SIGMA_LINE1">パルスΣ_ライン1</str>
+
+		<str id="VI_GRAPH_AVG_LINE2">パルスAVG_ライン2</str>
+		<str id="VI_GRAPH_SIGMA_LINE2">パルスΣ_ライン2</str>
+
+		<str id="VI_GRAPH_AVG_LINE3">パルスAVG_ライン3</str>
+		<str id="VI_GRAPH_SIGMA_LINE3">パルスΣ_ライン3</str>
+
+		<str id="VI_GRAPH_SIN">パルスSIN</str>
+
+		<str id="VI_GRAPH_PHASE_T">パルスPHASE_T</str>
+		<str id="VI_GRAPH_PHASE_A">パルスPHASE_A</str>
+		<str id="VI_GRAPH_PULSE10">パルスPULSE10</str>
+
+		<str id="VI_GRAPH_AVG_X0">パルスAVG_x0</str>
+		<str id="VI_GRAPH_AVG_X1">パルスAVG_x1</str>
+		<str id="VI_GRAPH_AVG_X2">パルスAVG_x2</str>
+		<str id="VI_GRAPH_AVG_X3">パルスAVG_x3</str>
+		<str id="VI_GRAPH_AVG_X4">パルスAVG_x4</str>
+		<str id="VI_GRAPH_AVG_X5">パルスAVG_x5</str>
+		<str id="VI_GRAPH_AVG_X6">パルスAVG_x6</str>
+		<str id="VI_GRAPH_AVG_X7">パルスAVG_x7</str>
+		<str id="VI_GRAPH_AVG_X8">パルスAVG_x8</str>
+		<str id="VI_GRAPH_AVG_X9">パルスAVG_x9</str>
+		<str id="VI_GRAPH_SIGMA_X0">パルスΣ_x0</str>
+		<str id="VI_GRAPH_SIGMA_X1">パルスΣ_x1</str>
+		<str id="VI_GRAPH_SIGMA_X2">パルスΣ_x2</str>
+		<str id="VI_GRAPH_SIGMA_X3">パルスΣ_x3</str>
+		<str id="VI_GRAPH_SIGMA_X4">パルスΣ_x4</str>
+		<str id="VI_GRAPH_SIGMA_X5">パルスΣ_x5</str>
+		<str id="VI_GRAPH_SIGMA_X6">パルスΣ_x6</str>
+		<str id="VI_GRAPH_SIGMA_X7">パルスΣ_x7</str>
+		<str id="VI_GRAPH_SIGMA_X8">パルスΣ_x8</str>
+		<str id="VI_GRAPH_SIGMA_X9">パルスΣ_x9</str>
+
+
+		<str id="COM1">COM1</str>
+		<str id="COM2">COM2</str>
+		<str id="COM3">COM3</str>
+		<str id="COM4">COM4</str>
+		<str id="COM5">COM5</str>
+		<str id="COM6">COM6</str>
+		<str id="COM7">COM7</str>
+		<str id="COM8">COM8</str>
+		
+		<str id="ERROR_LICENSE">ライセンスの確認に失敗しました。</str>
+
+		<str id="VI_INFO_STARTUP">スタートアップ</str>
+		<str id="VI_INFO_PWD1">パスワード</str>
+		<str id="VI_INFO_PWD2">パスワード再入力</str>
+		<str id="VI_INFO_PWD_NEW">新しいパスワード</str>
+		<str id="VI_INFO_PWD0">現在のパスワード</str>
+<str id="INFO_CAMERA_LOCK">Lock camera</str>
+</config>

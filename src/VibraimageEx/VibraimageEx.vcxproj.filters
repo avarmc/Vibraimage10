@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VibraimageEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\estring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\htmlhelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\VIEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\viFrameVar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\VIVar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\VIVarTag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\Cmdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\zip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\pugiconfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\pugixml.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesPack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\fileinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VIImages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExToolBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWndProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\NewVarEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViEngineExProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWndBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViEngineExProcReg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExHist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExQT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExLD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExHistStat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExSV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\viengineexsdk_id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExLDR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\regdelete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViHTTPLicenseDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViFTPStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\resource_cnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViEngineExProcDb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\ViExFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CrushCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserIdDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExVPos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PwdDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PwdDlg2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExOverview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewVarEventVI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CViHTTPStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHTMLResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\ColorProcress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgStarter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVideoCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExAIT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VibraimageExAIV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinAppExReg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViEngineExSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgLogin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CViLogStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VibraimageEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\Cmdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\pugixpath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesPack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VIImages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExToolBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWndProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\NewVarEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViEngineExProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWndBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViEngineExProcReg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExHist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExQT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExLD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExHistStat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExSV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExLDR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViHTTPLicenseDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViFTPStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViEngineExProcDb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\ViExFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CrushCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserIdDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExVPos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PwdDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PwdDlg2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExOverview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewVarEventVI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CViHTTPStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHTMLResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\ColorProcress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgStarter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVideoCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExAIT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VibraimageExAIV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinAppExReg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViEngineExSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgLogin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CViLogStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VibraimageEx.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="ver.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Event_log_Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VibraimageExDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VibraimageEx.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mainfram.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HealthTest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\VibraimageEx.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CHTMLResult.htm" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

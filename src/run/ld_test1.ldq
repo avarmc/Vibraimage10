@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ld>
+	<nographs />
+	<answers />
+	
+	<GQ delay="10" length="7" text_delay="1" text_length="0" img="images/age.jpg">Ваш возраст старше 20 лет?</GQ>
+	<GQ delay="5" length="7" text_delay="1" text_length="0" img="images/rose.jpg">Вы женаты или замужем?</GQ>
+
+	<GQ delay="5" length="7" text_delay="1" text_length="0" img="images/Polygraph.jpg">Вы готовы правдиво отвечать на задаваемые вопросы?</GQ>
+	<CQ delay="5" length="7" text_delay="1" text_length="0" img="images/Handcuffs.jpg">Ранее Вы были осуждены за нарушения закона?</CQ>
+	<RQ delay="5" length="7" text_delay="1" text_length="0" img="images/Ter1.jpg">Вы оправдываете совершаемые террористические акты?</RQ>
+
+	<GQ delay="5" length="7" text_delay="1" text_length="0" img="images/Chess.jpg">У Вас есть увлечение, хобби?</GQ>
+	<CQ delay="5" length="7" text_delay="1" text_length="0" img="images/meditation.jpg">Вы считаете себя честным и спокойным человеком?</CQ>
+	<RQ delay="5" length="7" text_delay="1" text_length="0" img="images/Ter2.jpg">Вы готовы совершить террористический акт?</RQ>
+
+	<GQ delay="5" length="7" text_delay="1" text_length="0" img="images/relig.png">Вы верующий человек?</GQ>
+	<CQ delay="5" length="7" text_delay="1" text_length="0" img="images/money.jpg"> Вы готовы на все ради денег или близких Вам людей?</CQ>
+	<RQ delay="5" length="7" text_delay="1" text_length="0" img="images/ter3.jpg"> Вы готовы оказать поддержку террористу, если он Ваш знакомый?</RQ>
+
+	<GQ delay="5" length="1" text_delay="1" text_length="0">Спасибо, за Ваши ответы, Вы подтверждаете, что они правдивы?</GQ>
+
+</ld>

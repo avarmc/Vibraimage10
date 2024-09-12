@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<ait id="ID_INFO_WND_AIT" title="AI(t)" icon="main_info.ico"  align="right" tab="ait" size="90,300">
+		<item />
+	</ait>
+</config>

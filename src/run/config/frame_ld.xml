@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<property id="ID_INFO_WND_STAT" title="INFO_WND_LD" icon="tld.ico" tab="info" flags="hidden">
+	
+	<template tag="#">	
+		<item id="VI_VAR_STAT_RES_#" name="INFO_STAT_#" type="vlist1">
+			<item name="INFO_STAT_COL_VAR"  id="VI_INFO_STAT_VAR" id2="VI_VAR_STAT_RES_#" type="float" src="engine"  format="%0.4f" />
+			<item name="INFO_STAT_COL_CMIN" id="VI_INFO_STAT_CMIN" id2="VI_VAR_STAT_RES_#" type="float" src="engine" format="%0.4f" />
+			<item name="INFO_STAT_COL_BMIN" id="VI_INFO_STAT_BMIN" id2="VI_VAR_STAT_RES_#" type="float" src="engine" format="%0.4f" />
+			<item name="INFO_STAT_COL_CMAX" id="VI_INFO_STAT_CMAX" id2="VI_VAR_STAT_RES_#" type="float" src="engine" format="%0.4f" />
+			<item name="INFO_STAT_COL_BMAX" id="VI_INFO_STAT_BMAX" id2="VI_VAR_STAT_RES_#" type="float" src="engine" format="%0.4f" />
+			<item name=">>" description=""  expanded="false">	
+				<item name="INFO_STAT_COL_CALC" id="VI_INFO_STAT_CALC" id2="VI_VAR_STAT_RES_#" type="bool" src="engine" />
+				<item name="INFO_STAT_SUB_RATE1" id="VI_INFO_STAT_RATE1" id2="VI_VAR_STAT_RES_#" type="float" src="engine" format="%0.4f" edit="true"/>
+				<item name="INFO_STAT_SUB_RATE2" id="VI_INFO_STAT_RATE2" id2="VI_VAR_STAT_RES_#" type="float" src="engine" format="%0.4f" edit="true"/>
+				<item name="INFO_STAT_SUB_RATE1V" id="VI_INFO_STAT_RATE1V" id2="VI_VAR_STAT_RES_#" type="float" src="engine" format="%0.4f" edit="true"/>
+				<item name="INFO_STAT_SUB_RATE2V" id="VI_INFO_STAT_RATE2V" id2="VI_VAR_STAT_RES_#" type="float" src="engine" format="%0.4f" edit="true"/>
+				<item name="INFO_STAT_SUB_LEVEL" id="VI_INFO_STAT_LEVEL" id2="VI_VAR_STAT_RES_#" type="float" src="engine" format="%0.4f" scale="100" edit="true"/>
+			</item>
+		</item>
+	</template>	
+		
+	<item name="A" description=""  expanded="true">	
+		<push id="A1X"/>
+		<push id="A1" />
+		<push id="A2"/>
+		<push id="A3" />
+		<push id="A4X" />
+		<push id="A4" />
+	</item>	
+
+	<item name="F" description=""  expanded="true">	
+		<push id="F1X" />
+		<push id="F1D" />
+		<push id="F1" />
+		<push id="F2" />
+		<push id="F3" />
+		<push id="F4" />
+
+		<push id="F5X" />
+		<push id="F5" />
+		<push id="F6" />
+		<push id="F7" />
+		<push id="F8" />
+		<push id="F9" />
+	</item>
+	
+	<item name="S" description=""  expanded="true">	
+		<push id="S1" />
+		<push id="S2" />
+		<push id="S3" />
+		<push id="S4" />
+		<push id="S5" />
+		<push id="S6" />
+		<push id="S7" />
+	</item>
+
+	<item name="P" description=""  expanded="true">	
+		<push id="P1" />
+		<push id="P2" />
+		<push id="P3" />
+		<push id="P4" />
+	</item>
+
+	</property>
+</config>

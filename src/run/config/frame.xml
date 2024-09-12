@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<include>frame_v4.xml</include>
+	
+	<include>frame_hist.xml</include>
+	
+	<include>frame_m.xml</include>
+
+	<include>frame_ld.xml</include>
+
+	<include>frame_cor.xml</include>
+
+	<include>frame_gr.xml</include>
+
+	
+	<include>frame_cfg.xml</include>
+
+	<include>frame_usr.xml</include>
+
+	<include>frame_ldw.xml</include>
+
+	<include>frame_graph.xml</include>
+	<include>frame_hists.xml</include>
+
+	<include>frame_qt.xml</include>
+	<include>frame_ait.xml</include>
+	<include>frame_aiv.xml</include>
+
+
+	<include>frame_sv.xml</include>
+	<include>frame_ai.xml</include>
+	<include>frame_ldr.xml</include>
+	<include>frame_vpos.xml</include>
+	
+</config>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<property id="ID_INFO_WND_CORREL" title="INFO_WND_CORREL" icon="tc.ico" tab="info" sort_mode="DESC" sort_abs="true" sort_switch="VI_VAR_CORRELATION_SORT" onbutton="engine:2:VI_VAR_CORRELATION_X" selected="engine:2:VI_VAR_CORRELATION_X">
+
+	<item name="INFO_CORRELATION_CONFIG" description="" expanded="true">
+			<item id="VI_VAR_CORRELATION_ENABLE" name="INFO_CORRELATION_ENABLE" type="bool" src="engine" edit="true"/>
+			<item id="VI_VAR_CORRELATION_MEDIAN" name="INFO_CORRELATION_MEDIAN" type="bool" src="engine" edit="true"/>
+			<item id="VI_VAR_CORRELATION_TSTAT" name="INFO_CORRELATION_T" type="float" src="engine" edit="true"/>
+			<item id="VI_VAR_CORRELATION_TAUTO" name="INFO_CORRELATION_TAUTO" type="float" src="engine" edit="true"/>
+			<item id="VI_VAR_CORRELATION_SORT" name="INFO_CORRELATION_SORT" type="bool" src="engine" edit="true"/>
+			<item id="VI_VAR_CORRELATION_HIPASS" name="INFO_CORRELATION_HIPASS" type="float" src="engine" edit="true"/>
+			<item id="VI_VAR_CORRELATION_LOPASS" name="INFO_CORRELATION_LOPASS" type="float" src="engine" edit="true"/>
+			<item id="VI_VAR_CORRELATION_AVG" name="INFO_CORRELATION_AVG" type="float" src="engine" edit="true"/>
+	</item>
+	
+	<item name="INFO_CORRELATION" description="">
+		<template>	
+			<item id="VI_INFO_CORREL" id2="VI_VAR_STAT_%" name="INFO_V4_%" type="float"  src="engine" description="" sorted="true" button="info"/>
+		</template>	
+			
+		<push id="INTEGR2A" />
+		<push id="INTEGR1A" />
+		<push id="INTEGR0A" />
+
+		<push id="INTEGR2B" />
+		<push id="INTEGR1B" />
+		<push id="INTEGR0B" />
+
+		<template>	
+			<item id="VI_INFO_CORREL" id2="VI_VAR_STAT_RES_%" name="INFO_STAT_%" type="float"  src="engine" description=""  sorted="true" button="<<<"/>
+		</template>	
+		
+		<push id="A1X" />
+
+		<push id="A1" />
+		<push id="A2" />
+		<push id="A3" />
+		<push id="A4X" />
+		<push id="A4" />
+
+		<push id="F1X" />
+		<push id="F1D" />
+		<push id="F1" />
+		<push id="F2" />
+		<push id="F3" />
+		<push id="F4" />
+		<push id="F5X" />
+		<push id="F5" />
+		<push id="F6" />
+		<push id="F7" />
+		<push id="F8" />
+		<push id="F9" />
+
+		<push id="S1" />
+		<push id="S2" />
+		<push id="S3" />
+		<push id="S4" />
+		<push id="S5" />
+		<push id="S6" />
+		<push id="S7" />
+
+		<push id="P1" />
+		<push id="P2" />
+		<push id="P3" />
+		<push id="P4" />
+
+		<push id="P5" />
+		<push id="P7A" />
+		<push id="P6A" />
+		<push id="P7F" />
+		<push id="P6F" />
+
+		<push id="P8A" />
+		<push id="P8F" />
+
+		<push id="P9A" />
+		<push id="P9F" />
+
+		<push id="P10A" />
+		<push id="P10F" />
+
+		<push id="P11A" />
+		<push id="P11F" />
+
+		<push id="P12A" />
+		<push id="P12F" />
+
+		<push id="P13" />
+		<push id="P14" />
+		<push id="P15" />
+
+		<push id="P16" />
+		<push id="P17" />
+		<push id="P18" />
+
+		<push id="P19" />
+
+		<push id="P20" />
+
+		<push id="P21" />
+		<push id="P22" />
+		<push id="P23" />
+		<push id="P24" />
+		<push id="P25" />
+
+		<push id="P26" />
+		<push id="P27" />
+
+		<push id="P28" />
+		<push id="P29" />
+		<push id="P30" />
+
+		<push id="P41" />
+
+		<item id="VI_INFO_CORREL" id2="VI_VAR_STAT_RES_II2" name="I" type="float"  src="engine" description=""  sorted="true" button="<<<"/>
+		<item id="VI_INFO_CORREL" id2="VI_VAR_STAT_RES_IE2" name="E" type="float"  src="engine" description=""  sorted="true" button="<<<"/>
+		
+		<push id="SIN" />
+
+		<push id="C1" />
+		<push id="C1X" />
+		<push id="C2" />
+		<push id="C2X" />
+		<push id="C3" />
+		<push id="C4" />
+
+		<push id="FN01" />
+		<push id="FN02" />
+		<push id="FN03" />
+		<push id="FN04" />
+		<push id="FN05" />
+		<push id="FN06" />
+		<push id="FN07" />
+		<push id="FN08" />
+		<push id="FN09" />
+		<push id="FN10" />
+
+		<push id="P6" />
+		<push id="P7" />
+		<push id="P8" />
+		<push id="P9" />
+		<push id="P10" />
+		<push id="P11" />
+		<push id="P12" />
+
+		<template>	
+			<item id="VI_INFO_CORREL" id2="VI_VAR_STAT_PULSE_%" name="Pulse_%" type="float"  src="engine" description=""  hidden="true"  sorted="true" button="info"/>
+		</template>	
+
+		<push id="AVGALL" />
+		<push id="SIGMAALL" />
+
+		<push id="AVGZONE" />
+		<push id="SIGMAZONE" />
+
+		<push id="AVGZONE2" />
+		<push id="SIGMAZONE2" />
+
+		<push id="AVGLINE1" />
+		<push id="SIGMALINE1" />
+
+		<push id="AVGLINE2" />
+		<push id="SIGMALINE2" />
+
+		<push id="AVGLINE3" />
+		<push id="SIGMALINE3" />
+
+		<push id="SIN" />
+
+		<push id="PHASE_T" />
+		<push id="PHASE_A" />
+		<push id="PULSE10" />
+
+		<push id="AVGX0" />
+		<push id="AVGX1" />
+		<push id="AVGX2" />
+		<push id="AVGX3" />
+		<push id="AVGX4" />
+		<push id="AVGX5" />
+		<push id="AVGX6" />
+		<push id="AVGX7" />
+		<push id="AVGX8" />
+		<push id="AVGX9" />
+		<push id="SIGMAX0" />
+		<push id="SIGMAX1" />
+		<push id="SIGMAX2" />
+		<push id="SIGMAX3" />
+		<push id="SIGMAX4" />
+		<push id="SIGMAX5" />
+		<push id="SIGMAX6" />
+		<push id="SIGMAX7" />
+		<push id="SIGMAX8" />
+		<push id="SIGMAX9" />
+
+		<template>	
+			<item id="VI_INFO_CORREL" id2="VI_VAR_STAT_%" name="%" type="float"  src="engine" description=""  hidden="true" sorted="true" button="info"/>
+		</template>	
+		
+		<push id="ANDROID00" />
+		<push id="ANDROID01" />
+		<push id="ANDROID02" />
+		<push id="ANDROID03" />
+		<push id="ANDROID04" />
+		<push id="ANDROID05" />
+		<push id="ANDROID06" />
+		<push id="ANDROID07" />
+		<push id="ANDROID08" />
+		<push id="ANDROID09" />
+		<push id="ANDROID10" />
+		<push id="ANDROID11" />
+		<push id="ANDROID12" />
+		<push id="ANDROID13" />
+		<push id="ANDROID14" />
+		<push id="ANDROID15" />
+		<push id="ANDROID16" />
+		<push id="ANDROID17" />
+		<push id="ANDROID18" />
+		<push id="ANDROID19" />
+		<push id="ANDROID20" />
+		<push id="ANDROID21" />
+		<push id="ANDROID22" />
+		<push id="ANDROID23" />
+		<push id="ANDROID24" />
+		<push id="ANDROID25" />
+		<push id="ANDROID26" />
+		<push id="ANDROID27" />
+		<push id="ANDROID28" />
+		<push id="ANDROID29" />
+		<push id="ANDROID30" />
+		<push id="ANDROID31" />
+		<push id="ANDROID32" />
+		<push id="ANDROID33" />
+		<push id="ANDROID34" />
+		<push id="ANDROID35" />
+		<push id="ANDROID36" />
+		<push id="ANDROID37" />
+		<push id="ANDROID38" />
+		<push id="ANDROID39" />
+
+		<template>	
+			<item id="VI_INFO_CORREL" id2="VI_VAR_STAT_%" name="%" type="float"  src="engine" description=""  hidden="true" sorted="true" button="info"/>
+		</template>	
+
+		<push id="EEG00" />
+		<push id="EEG01" />
+		<push id="EEG02" />
+		<push id="EEG03" />
+		<push id="EEG04" />
+		<push id="EEG05" />
+		<push id="EEG06" />
+		<push id="EEG07" />
+		<push id="EEG08" />
+		<push id="EEG09" />
+		<push id="EEG10" />
+		<push id="EEG11" />
+		<push id="EEG12" />
+		<push id="EEG13" />
+		<push id="EEG14" />
+		<push id="EEG15" />
+		<push id="EEG16" />
+		<push id="EEG17" />
+		<push id="EEG18" />
+		<push id="EEG19" />
+		<push id="EEG20" />
+		<push id="EEG21" />
+		<push id="EEG22" />
+		<push id="EEG23" />
+		<push id="EEG24" />
+		<push id="EEG25" />
+		<push id="EEG26" />
+		<push id="EEG27" />
+		<push id="EEG28" />
+		<push id="EEG29" />
+		<push id="EEG30" />
+		<push id="EEG31" />
+		<push id="EEG32" />
+		<push id="EEG33" />
+		<push id="EEG34" />
+		<push id="EEG35" />
+		<push id="EEG36" />
+		<push id="EEG37" />
+		<push id="EEG38" />
+		<push id="EEG39" />
+	</item>
+	</property>
+</config>

@@ -1,0 +1,17 @@
+{  	
+		"VER": "1.0",
+		"UUID": "{UUID}",
+		"SEND_DATE": "{SEND_DATE}",
+		"MSG_CODE": "{MSG_CODE}",
+		"CAMERA_ID":"{CAMERA_ID}",
+		"DATA":
+		{
+         "IMG":"{IMG}",
+         "FILES":"{FILES}",
+         "SCORE":"{SCORE}",
+		 "PRESSURE":"{PRESSURE}",
+		 "AGGRESSIVE":"{AGGRESSIVE}",
+		 "NERVOUS":"{NERVOUS}",
+         "ALARM_DATE":"{ALARM_DATE}"
+		}
+}

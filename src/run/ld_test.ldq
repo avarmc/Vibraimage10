@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ld>
+	<nographs />
+	<answers />
+
+	<GQ delay="1" length="1" text_delay="1" text_length="0" img="images/Polygraph.jpg">Вы готовы?</GQ>
+	<CQ delay="1" length="1" text_delay="1" text_length="0" img="images/Handcuffs.jpg">Ранее Вы были?</CQ>
+	<RQ delay="1" length="1" text_delay="1" text_length="0" img="images/Ter1.jpg">Вы оправдываете?</RQ>
+
+</ld>

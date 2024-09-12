@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<aiv id="ID_INFO_WND_AIV" title="AI(v)" icon="main_info.ico"  align="bottom" tab="aiv" size="300,90">
+		<item />
+	</aiv>
+</config>

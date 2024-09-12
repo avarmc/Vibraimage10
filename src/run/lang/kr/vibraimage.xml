@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+		<lang_name>한국어 (kr)</lang_name>
+		<lang>kr</lang>
+		
+		<str id="NULL">*empty*</str>
+
+		<str id="EMPTY"></str>
+
+		<str id="BUTTON_OK">확인</str>
+		<str id="BUTTON_CANCEL">취소</str>
+		<str id="BUTTON_APPLY">적용</str>
+		<str id="BUTTON_SAVE">저장</str>
+		<str id="BUTTON_SAVE_AS">다른 이름으로 저장</str>
+		<str id="BUTTON_DELETE">삭제</str>
+		<str id="BUTTON_BROWSE">탐색기</str>
+		<str id="BUTTON_CREATE">생성</str>
+		<str id="BUTTON_CAPTURE">촬영</str>
+		<str id="BUTTON_START_READY">재시작</str>
+		<str id="BUTTON_START_LIVE">시작</str>
+		<str id="BUTTON_STOP_MEASUREMENT">실제상황</str>
+
+		<str id="BUTTON_YES">예</str>
+		<str id="BUTTON_NO">아니오</str>
+
+		<str id="BUTTON_ON">On</str>
+		<str id="BUTTON_OFF">Off</str>
+		<str id="BUTTON_HIDE">숨김</str>
+
+		<str id="BUTTON_OPEN">열기</str>
+		<str id="BUTTON_SET">설정</str>
+
+		<str id="BUTTON_RESET">리셋</str>
+		<str id="BUTTON_UNREGISTER">미등록 키</str>
+
+		<str id="BUTTON_SETTINGS">설정</str>
+		<str id="BUTTON_DEFAULTS">기본값</str>
+
+		<str id="BUTTON_0">0</str>
+		<str id="BUTTON_1">1</str>
+		<str id="BUTTON_2">2</str>
+		<str id="BUTTON_3">3</str>
+		<str id="BUTTON_4">4</str>
+		<str id="BUTTON_5">5</str>
+		<str id="BUTTON_6">6</str>
+		<str id="BUTTON_7">7</str>
+		<str id="BUTTON_8">8</str>
+		<str id="BUTTON_9">9</str>
+
+		<str id="MENU_FILE">파일</str>
+		<str id="MENU_FILE_AVI_SETTINGS">녹화영상 설정하기</str>
+		<str id="MENU_FILE_AVI_CAPTURE1">영상 녹화시작</str>
+		<str id="MENU_FILE_AVI_CAPTURE2">영상 녹화중지</str>
+		<str id="MENU_FILE_AVI_TMP_CAPTURE1">화면 캡쳐 시작</str>
+		<str id="MENU_FILE_AVI_TMP_CAPTURE2">화면 캡쳐 중지</str>
+		<str id="MENU_FILE_IMAGE_CAPTURE">화면 캡쳐</str>
+		<str id="MENU_FILE_SAVE_IMAGE">화면 저장</str>
+
+		<str id="MENU_FILE_DBFOLDER">저장 폴더</str>
+		<str id="MENU_FILE_EXIT">종료</str>
+		<str id="MENU_FILE_PRINT">인쇄</str>
+		<str id="MENU_FILE_PRINT_PREVIEW">인쇄 미리보기</str>
+		<str id="MENU_FILE_PRINT_SETUP">프린트 설정</str>
+		<str id="MENU_FILE_PAGE_SETUP">페이지 설정</str>
+		<str id="MENU_FILE_OPEN_LOG"> VI log 열기</str>
+		<str id="MENU_FILE_OPEN">열기</str>
+		<str id="MENU_FILE_SET_ARCHIVE_FOLDER">저장폴더 열기</str>
+		<str id="MENU_FILE_DELETE">삭제</str>
+		<str id="MENU_FILE_NEW_RECORD">생성</str>
+		<str id="MENU_FILE_SAVE_AS_TABLE">테이블 저장</str>
+		<str id="MENU_FILE_SAVE_SETTINGS">설정 저장</str>
+		<str id="MENU_FILE_LOAD_SETTINGS">설정 불러오기</str>
+
+		<str id="MENU_VIEW">보기</str>
+		<str id="MENU_VIEW_SIMPLE">Simple view</str>
+
+		<str id="MENU_VIEW_TOOLBAR">도구모음</str>
+		<str id="MENU_VIEW_APPLOOK">Application Look</str>
+		<str id="MENU_VIEW_STATUSBAR">상태 창</str>
+		<str id="MENU_VIEW_INFOBAR">정보 창</str>
+		<str id="MENU_VIEW_LDBAR">LD 창</str>
+		<str id="MENU_VIEW_BUTTONS">버튼</str>
+		<str id="MENU_VIEW_GRAPHS">그래프</str>
+		<str id="MENU_VIEW_HISTS">주파수 분석결과</str>
+		<str id="MENU_VIEW_HISTS_BT">바이오 테스터 결과</str>
+
+		<str id="MENU_VIEW_VIDEOWINDOW">비디오 윈도우</str>
+		<str id="MENU_VIEW_STATUSWINDOW">상태 윈도우</str>
+		<str id="MENU_VIEW_LDWINDOW">LD 윈도우</str>
+
+		<str id="MENU_VIEW_OVERVIEW">Overview</str>
+		<str id="MENU_VIEW_MODE">모드</str>
+		<str id="MENU_VIEW_MODE_TOOLBAR">도구모음</str>
+
+		<str id="MENU_VIEW_MODE_VI0A">VI (N Am)</str>
+		<str id="MENU_VIEW_MODE_VI1A">VI (10 Am)</str>
+		<str id="MENU_VIEW_MODE_VI2A">VI (2 Am)</str>
+
+		<str id="MENU_VIEW_MODE_VI0B">VI (N F)</str>
+		<str id="MENU_VIEW_MODE_VI1B">VI (10 F)</str>
+		<str id="MENU_VIEW_MODE_VI2B">VI (2 F)</str>
+
+		<str id="MENU_VIEW_MODE_SRC">SRC</str>
+		<str id="MENU_VIEW_MODE_SRC_A">SRC Am</str>
+		<str id="MENU_VIEW_MODE_SRC_B">SRC F</str>
+
+		<str id="MENU_VIEW_MODE_DELTA_A">DELTA Am</str>
+		<str id="MENU_VIEW_MODE_DELTA_B">DELTA F</str>
+		<str id="MENU_VIEW_MODE_DELTA_FA">DELTA FAm</str>
+		<str id="MENU_VIEW_MODE_DELTA_FB">DELTA FF</str>
+
+		<str id="MENU_VIEW_MODE_A">Am 모드</str>
+		<str id="MENU_VIEW_MODE_B">F 모드</str>
+		<str id="MENU_VIEW_MODE_MFN">마우스 fn.</str>
+		<str id="MENU_VIEW_MODE_MHIST">마우스 라인</str>
+		<str id="MENU_VIEW_MODE_SHIST">라인 합</str>
+
+		<str id="MENU_VIEW_MODE_SHOW">보여주기</str>
+
+		<str id="MENU_VIEW_MODE_AURA">외부바이브라</str>
+		<str id="MENU_VIEW_MODE_AURA_A">외부바이브라 A</str>
+		<str id="MENU_VIEW_MODE_AURA_B">외부바이브라 F</str>
+		<str id="MENU_VIEW_MODE_AURA_0">외부바이브라 해제</str>
+
+		<str id="MENU_VIEW_MODE_WHITEBG">하얀색 배경</str>
+		<str id="MENU_VIEW_MODE_AVITIMER">동영상 시간</str>
+		<str id="MENU_VIEW_MODE_CENTER">중심</str>
+		<str id="MENU_VIEW_MODE_TITLE">제목</str>
+
+		<str id="MENU_VIEW_PRESET">화면설정</str>
+		<str id="MENU_VIEW_PRESET_VI">VI</str>
+		<str id="MENU_VIEW_PRESET_AV">AV</str>
+		<str id="MENU_VIEW_PRESET_R">R</str>
+		<str id="MENU_VIEW_PRESET_AR">AR</str>
+		<str id="MENU_VIEW_PRESET_LD">LD</str>
+		<str id="MENU_VIEW_PRESET_RELAX">Relax</str>
+
+		<str id="MENU_VIEW_LOCK_POS">위치 록</str>
+
+		<str id="MENU_VIEW_ZOOM_IN">확대</str>
+		<str id="MENU_VIEW_ZOOM_OUT">축소</str>
+		<str id="MENU_VIEW_ZOOM_NX_IN">X [1:%i] 확대</str>
+		<str id="MENU_VIEW_ZOOM_NX_OUT">X [1:%i] 축소</str>
+		<str id="MENU_VIEW_ZOOM_Y_IN">Y 확대</str>
+		<str id="MENU_VIEW_ZOOM_Y_OUT">Y 축소</str>
+		<str id="MENU_VIEW_ZOOM_X_IN">X 확대</str>
+		<str id="MENU_VIEW_ZOOM_X_OUT">X 축소</str>
+
+
+		<str id="MENU_EDIT">편집</str>
+
+		<str id="MENU_SETTINGS">설정</str>
+		<str id="MENU_SETTINGS_VIDEO0">비디오</str>
+		<str id="MENU_SETTINGS_VIDEO0_AVI">동영상 불러오기</str>
+		<str id="MENU_SETTINGS_VIDEO0_AVI_NOSOUND">동영상(무음) 불러오기</str>
+		<str id="MENU_SETTINGS_VIDEO0_AVI_RECOMPRESS">무압축 동영상 불러오기</str>
+		<str id="MENU_SETTINGS_VIDEO0_RGB8FLT">RGB8 압축기</str>
+		<str id="MENU_SETTINGS_VIDEO0_STOP">멈춤</str>
+		<str id="MENU_SETTINGS_VIDEO0_CAPTUREMODE">캡쳐 모드</str>
+		<str id="MENU_SETTINGS_VIDEO0_ROTATE_CW">시계방향 회전</str> 
+		<str id="MENU_SETTINGS_VIDEO0_ROTATE_CCW">반시게방향 회전</str>
+		<str id="MENU_SETTINGS_VIDEO0_SAVE">Save settings</str>
+		<str id="MENU_SETTINGS_AUDIO0">음성</str>
+		<str id="MENU_SETTINGS_AUDIO0_CONFIG">설정</str>
+		<str id="MENU_SETTINGS_AUDIO0_LEVEL">임계값</str>
+		<str id="MENU_SETTINGS_AUDIO0_DISABLE">오디오 사용안함</str>
+		<str id="MENU_SETTINGS_LANG">언어</str>
+		<str id="MENU_SETTINGS_AI">AI</str>
+		<str id="MENU_SETTINGS_RECORD_GROUP">그룹 설정</str>
+		<str id="MENU_SETTINGS_RECORD_GROUP_DEFAULT">기본값</str>
+		<str id="MENU_SETTINGS_SKYPESTATUS">스카이프 모드</str>
+		<str id="MENU_SETTINGS_VIDEVICE">VI 디바이스</str>
+		<str id="MENU_SETTINGS_LOCK">시스템 록</str>
+		<str id="MENU_SETTINGS_UNLOCK">시스템 언록</str>
+		<str id="MENU_SETTINGS_MITSAREEG">Mitsar EEG</str>
+		<str id="MENU_SETTINGS_AI20">AI 20s/5s</str>
+
+		<str id="MENU_SETTINGS_MASK">비디오 마스크</str>
+		<str id="MENU_SETTINGS_MASK_LOAD">마스크 불러오기</str>
+		<str id="MENU_SETTINGS_MASK_EXPORT">마스크 저장하기</str>
+		<str id="MENU_SETTINGS_MASK_RESET">마스크 초기화</str>
+		<str id="MENU_SETTINGS_MASK_EDIT">마스크 편집하기</str>
+
+		<str id="MENU_SETTINGS_CAPTURE">채널 캡쳐</str>
+		<str id="MENU_SETTINGS_SKIN">스킨</str>
+		<str id="MENU_SETTINGS_SKIN_DEFAULT">기본값</str>
+
+		<str id="MENU_SETTINGS_AUTOSTART">Auto start</str>
+		<str id="MENU_SETTINGS_SETPASSWORD">Set password</str>
+		<str id="MENU_SETTINGS_ENABLE_QT">Quality test</str>
+		<str id="MENU_SETTINGS_MEASURE_FAST">Fast measure</str>
+		<str id="MENU_SETTINGS_SMART_MEASURE">Smart measure</str>
+
+		<str id="MENU_ACTION">실행</str>
+		<str id="MENU_ACTION_PAUSE">멈춤</str>
+		<str id="MENU_ACTION_RESET">리셋</str>
+		<str id="MENU_ACTION_PLAY">재생</str>
+		<str id="MENU_ACTION_RESETTIMER">처음으로</str>
+		<str id="MENU_ACTION_MEASUREMENT">측정</str>
+
+		<str id="MENU_ACTION_HIST">그래프 분석</str>
+		<str id="MENU_ACTION_HIST_STARTA">시작 H</str>
+		<str id="MENU_ACTION_HIST_STARTA10">시작 H 10s</str>
+		<str id="MENU_ACTION_HIST_STARTF">시작 S</str>
+		<str id="MENU_ACTION_HIST_STARTF10">시작 S 10s</str>
+		<str id="MENU_ACTION_HIST_STARTT">시작 T</str>
+		<str id="MENU_ACTION_HIST_STARTT10">시작 T 10s</str>
+		<str id="MENU_ACTION_HIST_STOP">중지</str>
+
+		<str id="MENU_ACTION_MARKERS">표식</str>
+		<str id="MENU_ACTION_MARKERS_Q0">RQ</str>
+		<str id="MENU_ACTION_MARKERS_Q1">CQ</str>
+		<str id="MENU_ACTION_MARKERS_Q2">GQ</str>
+
+		<str id="MENU_ACTION_LD_START">LD 구간 시작</str>
+		<str id="MENU_ACTION_LD_STOP">LD 구간 중지</str>
+		<str id="MENU_ACTION_LD_CMP_START">LD 구간 시작</str>
+		<str id="MENU_ACTION_LD_CMP_STOP">LD 구간 중지</str>
+		<str id="MENU_ACTION_LITELOG">로그 작성</str>
+
+		<str id="MENU_LD_AUTO">LD 자동</str>
+		<str id="MENU_LD_AUDIO">LD 오디오</str>
+		<str id="MENU_LD_MANUAL">LD 수동</str>
+		<str id="MENU_LD_TEXT">LD 문장</str>
+		<str id="MENU_LD_LOAD">LD 문장 불러오기</str>
+
+		<str id="MENU_HELP">도움말</str>
+		<str id="MENU_HELP_ABOUT">About Vibra Image</str>
+		<str id="MENU_HELP_HELP">도움말</str>
+		<str id="MENU_HELP_HELP_FILE">manual.pdf</str>
+
+		<str id="VIDEO_FRAME_TITLE">비디오</str>
+		<str id="STATUS_FRAME_TITLE">상태</str>
+		<str id="LD_FRAME_TITLE">LD</str>
+
+		<str id="INFO_DEFAULTS">기본값</str>
+		<str id="INFO_DEFAULT_MICRO">마이크로 모드</str>
+		<str id="INFO_DEFAULT_MACRO">매크로 모드</str>
+		<str id="INFO_DEFAULT_LD">LD 모드</str>
+
+		<str id="INFO_V4_FRAME_RATE">프레임레이트</str>
+		<str id="INFO_V4_FRAME_RATE_IN">초당프레임 수</str>
+		<str id="INFO_V4_FRAME_RATE_IN_FPS">Fps in</str>
+
+		<str id="INFO_V4_FRAME_RATE_OUTF">패스트 프로세싱</str>
+		<str id="INFO_V4_FRAME_RATE_OUTF_FPS">FPS FP</str>
+		<str id="INFO_V4_FRAME_RATE_DROPF">FP Drop</str>
+		<str id="INFO_V4_FRAME_RATE_MAXF">패스트 프로세싱</str>
+
+		<str id="INFO_V4_FRAME_RATE_OUTR">베이스 프로세싱</str>
+		<str id="INFO_V4_FRAME_RATE_OUTR_FPS">FPS BP</str>
+		<str id="INFO_V4_FRAME_RATE_DROPR">BP Drop</str>
+		<str id="INFO_V4_FRAME_RATE_MAXR">베이스 프로세싱</str>
+		<str id="INFO_V4_FRAME_RATE_PERIOD">FPS 처리 기간</str>
+
+		<str id="INFO_V4_FRAME_TIME_VIDEO">비디오 시간</str>
+		<str id="INFO_V4_FRAME_TIME_AUDIO">오디오 시간</str>
+
+		<str id="INFO_V4_MAIN">정보</str> 
+		<str id="INFO_V4_N">N</str>
+		<str id="INFO_V4_K">K</str>
+		<str id="INFO_V4_TH">L</str>
+
+		<str id="INFO_V4_NDROP">스트림 에러</str>
+		<str id="INFO_V4_MEMORY_USAGE">RAM</str>
+
+		<str id="INFO_V4_STAT">통계</str> 
+		<str id="INFO_V4_INTEGR0A">IntegratedN(Am)</str> 
+		<str id="INFO_V4_INTEGR1A">Integrated10(Am)</str> 
+		<str id="INFO_V4_INTEGR2A">Integrated2(Am)</str> 
+		<str id="INFO_V4_INTEGR0B">IntegratedN(F)</str> 
+		<str id="INFO_V4_INTEGR1B">Integrated10(F)</str> 
+		<str id="INFO_V4_INTEGR2B">Integrated2(F)</str> 
+
+		<str id="INFO_V4_ANGER">공격성</str> 
+		<str id="INFO_V4_STRESS">스트레스</str> 
+		<str id="INFO_V4_TENSION">불안</str> 
+		<str id="INFO_V4_SUSPICIOUS">의심</str> 
+		<str id="INFO_V4_STATUS">Status</str> 
+
+		<str id="INFO_V4_AUDIO">오디오</str>
+		<str id="INFO_V4_AUDIO_LEVEL">레벨</str>
+		<str id="INFO_V4_AUDIO_TH">임계값</str>
+		<str id="INFO_V4_AUDIO_DELAY">딜레이 (s)</str>
+		<str id="INFO_V4_AUDIO_PERIOD">오디오 시간(ms)</str>
+		<str id="INFO_V4_AVI_OVERLOAD">영상  오버로드</str>
+
+		<str id="INFO_V4_SIZE_W">가로</str>
+		<str id="INFO_V4_SIZE_H">세로</str>
+
+		<str id="INFO_AUDIO_LEVEL">오디오 레벨</str>
+		<str id="INFO_AUDIO_LEVEL25">오디오 레벨 (25fps)</str>
+
+		<str id="INFO_CFG_MAIN">메인</str> 
+		<str id="INFO_CFG_N">N</str> 
+		<str id="INFO_CFG_N1">N(10)</str> 
+		<str id="INFO_CFG_N2">N(2)</str> 
+		<str id="INFO_CFG_K">K</str> 
+		<str id="INFO_CFG_TH">L</str> 
+		<str id="INFO_CFG_ENGINE_THREAD_RQST">병렬 처리</str> 
+		<str id="INFO_CFG_ENGINE_GPU">GPU 가속</str> 
+		<str id="INFO_CFG_CORES">Cores</str> 
+		<str id="INFO_AI_LIVE">AI Corona</str> 
+
+		<str id="INFO_CFG_FLT">필터</str> 
+		<str id="INFO_CFG_FLT_SP">싱글 포인트</str> 
+		<str id="INFO_CFG_FLT_DL">확장</str> 
+		<str id="INFO_CFG_FLT_DLF">확장 (fast)</str> 
+		<str id="INFO_CFG_FLT_STR">늘림</str> 
+		<str id="INFO_CFG_FLT_MSCONT">최대속도 콘투어</str> 
+		<str id="INFO_CFG_FLT_FPS2IN">다운레이트</str> 
+		<str id="INFO_CFG_FLT_AM">Am 크기</str> 
+		<str id="INFO_CFG_FLT_CT">공간</str> 
+		<str id="INFO_CFG_FLT_BTFAST">BT div</str> 
+
+		<str id="INFO_CFG_FLT_DIS_A">Am 사용 </str> 
+		<str id="INFO_CFG_FLT_DIS_B">F 사용안함</str> 
+		<str id="INFO_CFG_FLT_DIS_2X">2x(fast) 사용안함</str> 
+		<str id="INFO_CFG_FLT_DIS_VI0">VI(N) 사용안함</str> 
+		<str id="INFO_CFG_FLT_DIS_VI1">VI(10) 사용안함</str> 
+		<str id="INFO_CFG_FLT_DIS_VI2">VI(2) 사용안함</str> 
+		<str id="INFO_CFG_FLT_DIS_FFTU">FFT 사용안함</str> 
+		<str id="INFO_CFG_FLT_DIS_ENTR">엔트로피 사용안함</str> 
+		<str id="INFO_CFG_FLT_DIS_AUDIO">오디오 사용안함</str> 
+		<str id="INFO_CFG_FLT_DIS_PROCF">ProcF 사용안함</str> 
+		
+		<str id="INFO_CFG_FLT_MOTION">움직임 탐지</str>
+		<str id="INFO_CFG_FLT_MOTION_10X">10x 사용</str>
+		<str id="INFO_CFG_FLT_MOTION_LEVEL">레벨</str>
+		<str id="INFO_CFG_FLT_MOTION_AUTO_RESET">자동 초기화</str>
+		<str id="INFO_CFG_FLT_NSKIP">프레임 스킵</str>
+		<str id="INFO_CFG_FLT_AUTODOWNRATE">자동 다운레이트</str> 
+		<str id="INFO_CFG_FLT_CONTOUR">외곽선 고정</str> 
+		<str id="INFO_CFG_FLT_CONTOUR_FACE">Face only</str> 
+		<str id="INFO_CFG_FLT_CONTOUR_FACE10">10 faces</str> 
+		<str id="INFO_CFG_FLT_CONTOUR_VIBRA">Vibra</str> 
+		<str id="INFO_CFG_FLT_STABX">Stab. X</str> 
+		<str id="INFO_CFG_FLT_STABY">Stab. Y</str> 
+		<str id="INFO_CFG_FLT_GLOBAL">글로벌 필터 적용</str> 
+		<str id="INFO_GEOVISION_PATH">GV 패스</str> 
+		<str id="INFO_STATE_LEVEL">레벨 상태</str>
+		<str id="INFO_STATE_LEVEL_AG">Ag</str>
+		<str id="INFO_STATE_LEVEL_ST">St</str>
+		<str id="INFO_STATE_LEVEL_TN">Tn</str>
+		<str id="INFO_STORE_LEN">사이즈 저장</str> 
+		<str id="INFO_CFG_EEG_TEST_MODE">EEG 테스트 모드</str> 
+
+		<str id="INFO_CFG_FLT_HISTNW">Hist A</str>
+
+		<str id="INFO_CFG_MODE_COLOR">컬러 이미지</str>
+		<str id="INFO_CFG_FLT_CROPX">crop X</str>
+		<str id="INFO_CFG_FLT_CROPY">crop Y</str>
+		<str id="INFO_CFG_FLT_CROPX_POS">crop X pos</str>
+		<str id="INFO_CFG_FLT_CROPY_POS">crop Y pos</str>
+
+		<str id="INFO_CFG_AVG">AVG 필터</str> 
+		<str id="INFO_CFG_AVG_ANGER">공격성</str> 
+		<str id="INFO_CFG_AVG_STRESS">스트레스</str> 
+		<str id="INFO_CFG_AVG_TENSION">불안</str> 
+		<str id="INFO_CFG_AVG_STATE_SRC">의심</str> 
+		<str id="INFO_CFG_AVG_ENERGY">에너지</str> 
+		<str id="INFO_CFG_AVG_COMPAT">친화성</str> 
+		<str id="INFO_CFG_AVG_DANGER">의심</str> 
+		<str id="INFO_CFG_AVG_BALANCE">밸런스</str> 
+		<str id="INFO_CFG_AVG_CHARMING">매력</str> 
+
+		<str id="INFO_CFG_ALERTS">경고</str> 
+		<str id="INFO_CFG_ALERT_SUSP_SND">사운드 (의심)</str> 
+		<str id="INFO_CFG_ALERT_CUST_SND">사운드 (Cust)</str> 
+		<str id="INFO_CFG_ALERT_A_SND">사운드 (공격성)</str> 
+		<str id="INFO_CFG_ALERT_S_SND">사운드 (스트레스)</str> 
+		<str id="INFO_CFG_ALERT_T_SND">사운드 (불안)</str> 
+		<str id="INFO_CFG_ALERT_IMAGE">이미지 자동 저장</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO">이미지 자동 저장 (초)</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_TIME">Hide after (s)</str> 
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FILE">Save image files</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FILE_XML">Save face XML</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_FACE">Save faces</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_PRINT">Print suspect</str>		
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_GROUP_BY">Group by state%</str>
+		<str id="INFO_CFG_ALERT_IMAGE_AUTO_ORIGINAL">Save original</str>
+		<str id="INFO_CFG_ALERT_IMAGE_COUNT">보이는 이미지 수 </str> 
+		<str id="INFO_CFG_ALERT_IMAGE_FORMAT">Image format</str>
+		<str id="INFO_CFG_SND_PATH">Audio file</str>
+
+		<str id="INFO_CFG_MACRO_ENABLE">매크로 모드</str> 
+		<str id="INFO_CFG_MACRO_LEVEL_L">L 레벨</str> 
+		<str id="INFO_CFG_MACRO_LEVEL_S">S 레벨</str> 
+		<str id="INFO_CFG_MACRO_AURA">외부바이브라 모드</str> 
+		<str id="INFO_CFG_MACRO_FACE">매크로 모드+</str> 
+		<str id="INFO_CFG_MACRO_FACE1">Full body</str> 
+		<str id="INFO_CFG_MACRO_FACE2">Face only</str> 
+
+		<str id="INFO_CFG_FACE_ENABLE">얼굴인식</str> 
+		<str id="INFO_CFG_FACE_QUALITY">인식 정확도 [1..4]</str> 
+		<str id="INFO_CFG_FACE_SCALE">확대 1:X</str> 
+		<str id="INFO_CFG_FACE_QUALITY_SIZE_MIN">최소 크기</str> 
+		<str id="INFO_CFG_FACE_QUALITY_SIZE_MAX">최대 크기</str> 
+		<str id="INFO_CFG_FACE_DRAW">체크박스그리기</str>
+		<str id="INFO_CFG_FACE_PATH">인식알고리즘선택</str>
+		<str id="INFO_CFG_FACE_MODE_SYNC">Sync mode</str>
+
+		<str id="INFO_CFG_SND">소리</str>
+		<str id="INFO_CFG_SND_KILL">기본값 사용안함</str>
+		<str id="INFO_CFG_SND_NONE">소리 없음</str>
+		<str id="INFO_CFG_SND_CR">CG</str>
+		<str id="INFO_CFG_SND_CG">CR</str>
+		<str id="INFO_CFG_SND_HR">HG</str>
+		<str id="INFO_CFG_SND_HG">HR</str>
+		<str id="INFO_CFG_SND_SR">SR</str>
+		<str id="INFO_CFG_SND_SG">SG</str>
+		<str id="INFO_CFG_SND_TITLE">브레인 보이스</str>
+
+		<str id="INFO_CFG_VI_DEVICE">VI 디바이스</str>
+		<str id="INFO_CFG_VI_DEVICE_INDICATION">표시</str>
+
+		<str id="INFO_CORRELATION_ENABLE">상관성 가능</str>
+		<str id="INFO_CORRELATION_T">기간</str>
+		<str id="INFO_CORRELATION_TAUTO">자동 시프트</str>
+		<str id="INFO_CORRELATION_SORT">어레인지</str>
+
+		<str id="INFO_LD_GROUP">LD 설정</str>
+		<str id="INFO_LD_ENABLE">사용함</str>
+		<str id="INFO_LD_PERIOD">분석기간(초)</str>
+		<str id="INFO_LD_PERIOD_BASE">베이스 기간(초)</str>
+		<str id="INFO_LD_LTH">임계값</str>
+		<str id="INFO_LD_AUDIO_SENSITIVITY">음성 민감도 (초)</str>
+		<str id="INFO_LD_NAME">거짓말</str>
+		<str id="INFO_LD_MODE">LD 모드</str>
+		<str id="INFO_LD_MODE_AUTO">자동</str>
+		<str id="INFO_LD_MODE_AUDIO">오디오</str>
+		<str id="INFO_LD_MODE_MANUAL">수동</str>
+		<str id="INFO_LD_MODE_CMP">비교</str>
+		<str id="INFO_LD_MODE_OPPOSITE">비교분석 모드</str>
+		<str id="INFO_LD_MODE_TEXT">텍스트</str>
+
+		<str id="INFO_AVI_GROUP">동영상 캡쳐</str>
+		<str id="INFO_AVI_SETTINGS">설정...</str>
+		<str id="INFO_AVI_CAPTURE">캡쳐</str>
+		<str id="INFO_AVI_PATH">폴더에 저장</str>
+
+		<str id="INFO_GRAPH_GROUP">그래프</str> 
+		<str id="INFO_GRAPH_PERIOD">기간(초)</str> 
+		<str id="INFO_GRAPH_DIF_PERIOD">Diff 시간(초)</str> 
+		<str id="INFO_GRAPH_HIST_PERIOD">Hist 시간(초)</str> 
+
+		<str id="INFO_HIST_A_PERIOD">Hist. H smooth (초)</str> 
+		<str id="INFO_HIST_F_PERIOD">Hist. S smooth (초)</str> 
+		<str id="INFO_HIST_C_PERIOD">Hist. C smooth (초)</str> 
+
+		<str id="INFO_STAT_SUB_SHOW">보기</str>
+		<str id="INFO_STAT_SUB_SHOW2">그래프2</str>
+		<str id="INFO_STAT_SUB_CALC">계산</str>
+		<str id="INFO_STAT_SUB_DIF">Diff 모드</str>
+
+		<str id="INFO_STAT_SUB_VMIN">v최소값</str>
+		<str id="INFO_STAT_SUB_VMAX">v최대값</str>
+		<str id="INFO_STAT_SUB_GMIN">g최소값</str>
+		<str id="INFO_STAT_SUB_GMAX">g최대값</str>
+		<str id="INFO_STAT_SUB_RATE1">레이트1 V</str>
+		<str id="INFO_STAT_SUB_RATE2">레이트2 V</str>
+		<str id="INFO_STAT_SUB_RATE1V">레이트1 C</str>
+		<str id="INFO_STAT_SUB_RATE2V">레이트2 C</str>
+		<str id="INFO_STAT_SUB_LEVEL">레벨</str>
+		<str id="INFO_STAT_SUB_GFLTLFAVG">HF 평균</str>
+		<str id="INFO_STAT_SUB_GFLTLF">HF 필터</str>
+		<str id="INFO_STAT_SUB_GFLTHF">LF 필터</str>
+
+		<str id="INFO_STAT_COL_NAME">이름</str>
+		<str id="INFO_STAT_COL_VAR">V</str>
+		<str id="INFO_STAT_COL_CMIN">c최소값</str>
+		<str id="INFO_STAT_COL_CMAX">c최대값</str>
+		<str id="INFO_STAT_COL_BMIN">b최대값</str>
+		<str id="INFO_STAT_COL_BMAX">b최대값</str>
+
+		<str id="INFO_STATAVG_COL_NAME">이름</str>
+		<str id="INFO_STATAVG_COL_VAR">V</str>
+		<str id="INFO_STATAVG_COL_S">S</str>
+		<str id="INFO_STATAVG_COL_PI">Vi</str>
+		<str id="INFO_STATAVG_COL_CMIN">c최소값</str>
+		<str id="INFO_STATAVG_COL_CMAX">c최대값</str>
+		<str id="INFO_STATAVG_COL_BMIN">b최소값</str>
+		<str id="INFO_STATAVG_COL_BMAX">b최대값</str>
+		<str id="INFO_STATAVG_COL_NMIN">N 최소값</str>
+		<str id="INFO_STATAVG_COL_NMAX">N 최대값</str>
+		<str id="INFO_STATAVG_PROGRESS">프로그레스</str>
+		<str id="INFO_STATAVG_PERIOD">기간 (초)</str>
+		<str id="INFO_STATAVG_OPEN">Open result</str>
+
+		<str id="INFO_STAT_A1X">A1 (fast)</str> 
+		<str id="INFO_STAT_A4X">A4 (fast)</str> 
+
+		<str id="INFO_STAT_A1">A1</str> 
+		<str id="INFO_STAT_A2">A2</str> 
+		<str id="INFO_STAT_A3">A3</str> 
+		<str id="INFO_STAT_A4">A4</str> 
+		<str id="INFO_STAT_A5">A5</str> 
+		<str id="INFO_STAT_A6">A6</str> 
+		<str id="INFO_STAT_A7">A7</str> 
+		<str id="INFO_STAT_A8">A8</str> 
+		<str id="INFO_STAT_A9">A9</str> 
+
+		<str id="INFO_STAT_F1X">F1 (fast)</str> 
+
+		<str id="INFO_STAT_F1">F1</str> 
+		<str id="INFO_STAT_F2">F2</str> 
+		<str id="INFO_STAT_F3">F3</str> 
+		<str id="INFO_STAT_F4">F4</str> 
+		<str id="INFO_STAT_F5XT">F5 tens.</str> 
+		<str id="INFO_STAT_F5X">F5 (fast)</str> 
+		<str id="INFO_STAT_F5X_TEXT">불안 (F5X)</str> 
+		<str id="INFO_STAT_F5">F5</str> 
+		<str id="INFO_STAT_F6">F6</str> 
+		<str id="INFO_STAT_F6_TEXT">억제 (F6)</str> 
+		<str id="INFO_STAT_F7">F7</str> 
+		<str id="INFO_STAT_F8">F8</str> 
+		<str id="INFO_STAT_F9">F9</str> 
+		<str id="INFO_STAT_F9_TEXT">신경증 (F9)</str> 
+
+		<str id="INFO_STAT_S1">S1</str> 
+		<str id="INFO_STAT_S2">S2</str> 
+		<str id="INFO_STAT_S3">S3</str> 
+		<str id="INFO_STAT_S4">S4</str> 
+		<str id="INFO_STAT_S5">S5</str> 
+		<str id="INFO_STAT_S6">S6</str> 
+		<str id="INFO_STAT_S7">S7</str> 
+		<str id="INFO_STAT_S8">S8</str> 
+		<str id="INFO_STAT_S9">S9</str> 
+
+		<str id="INFO_STAT_IP">P</str>
+		<str id="INFO_STAT_DP5">dP5</str>
+<str id="INFO_STAT_II2">I</str>
+<str id="INFO_STAT_IE2">E</str>
+<str id="INFO_STAT_P1">P1</str> 
+		<str id="INFO_STAT_P2">P2</str> 
+		<str id="INFO_STAT_P3">P3</str> 
+		<str id="INFO_STAT_P4">P4</str> 
+		<str id="INFO_STAT_P5">P5</str> 
+		<str id="INFO_STAT_P6">P6</str> 
+		<str id="INFO_STAT_P6_TEXT">스트레스 (P6)</str> 
+		<str id="INFO_STAT_P7">P7</str> 
+		<str id="INFO_STAT_P7_TEXT">공격성 (P7)</str> 
+		<str id="INFO_STAT_P6A">P6A</str> 
+		<str id="INFO_STAT_P7A">P7A</str> 
+		<str id="INFO_STAT_P6F">P6F</str> 
+		<str id="INFO_STAT_P7F">P7F</str> 
+		<str id="INFO_STAT_P8">P8</str> 
+		<str id="INFO_STAT_P8_TEXT">에너지 (P8)</str> 
+		<str id="INFO_STAT_P8A">P8A</str> 
+		<str id="INFO_STAT_P8F">P8F</str> 
+		<str id="INFO_STAT_P9">P9</str> 
+		<str id="INFO_STAT_P9A">P9A</str> 
+		<str id="INFO_STAT_P9F">P9F</str> 
+		<str id="INFO_STAT_P10">P10</str> 
+		<str id="INFO_STAT_P10A">P10A</str> 
+		<str id="INFO_STAT_P10F">P10F</str> 
+		<str id="INFO_STAT_P11">P11</str> 
+		<str id="INFO_STAT_P11A">P11A</str> 
+		<str id="INFO_STAT_P11F">P11F</str> 
+		<str id="INFO_STAT_P12">P12</str> 
+		<str id="INFO_STAT_P12A">P12A</str> 
+		<str id="INFO_STAT_P12F">P12F</str> 
+		<str id="INFO_STAT_P13">P13</str> 
+		<str id="INFO_STAT_P14">P14</str> 
+		<str id="INFO_STAT_P15">P15</str> 
+		<str id="INFO_STAT_P16">P16</str> 
+		<str id="INFO_STAT_P16_TEXT">밸런스 (P16)</str> 
+		<str id="INFO_STAT_P17">P17</str> 
+		<str id="INFO_STAT_P17_TEXT">매력 (P17)</str> 
+		<str id="INFO_STAT_P18">P18</str> 
+		<str id="INFO_STAT_P18_TEXT">자기조절 (P18)</str> 
+		<str id="INFO_STAT_P19">P19</str> 
+		<str id="INFO_STAT_P19_TEXT">의심 (P19)</str> 
+		<str id="INFO_STAT_P20">P20</str> 
+		<str id="INFO_STAT_P20_TEXT">LD (P20)</str> 
+		<str id="INFO_STAT_P21">P21 헬스</str> 
+		<str id="INFO_STAT_P21_TEXT">헬스 (P21)</str> 
+		<str id="INFO_STAT_P22">P22 헬스'</str> 
+		<str id="INFO_STAT_P22_TEXT">헬스' (P22)</str> 
+		<str id="INFO_STAT_P23">P23 ΣVi</str> 
+		<str id="INFO_STAT_P23_TEXT">ΣVi (P23)</str> 
+		<str id="INFO_STAT_P24">P24 Slp</str> 
+		<str id="INFO_STAT_P24_TEXT">Sleepiness (P24)</str> 
+		<str id="INFO_STAT_P25">P25 VSlp</str> 
+		<str id="INFO_STAT_P25_TEXT">VSlp (P25)</str> 
+		<str id="INFO_STAT_P26">P26 외향성</str> 
+		<str id="INFO_STAT_P26_TEXT">외향성 (P26)</str> 
+		<str id="INFO_STAT_P27">P27 심리안정성</str> 
+		<str id="INFO_STAT_P27_TEXT">심리안정성 (P27)</str> 
+
+		<str id="INFO_STAT_P29">DP</str> 
+		<str id="INFO_STAT_P29_TEXT">Depression (P29)</str> 
+		<str id="INFO_STAT_P30">HP</str> 
+		<str id="INFO_STAT_P30_TEXT">Happiness (P30)</str> 
+		<str id="INFO_STAT_P36">AI</str> 
+		<str id="INFO_STAT_P36_TEXT">AI(P36)</str> 
+		<str id="INFO_STAT_P37">AIc</str> 
+		<str id="INFO_STAT_P37_TEXT">AI current (P36)</str> 
+		<str id="INFO_STAT_P38">AIf</str> 
+		<str id="INFO_STAT_P38_TEXT">AI final(P36)</str>
+<str id="INFO_STAT_P41">AI</str>
+ <str id="INFO_STAT_P41_TEXT">AI value(P41)</str>
+
+		<str id="INFO_STAT_C1">C1</str> 
+		<str id="INFO_STAT_C2">C2</str> 
+		<str id="INFO_STAT_C3">C3</str> 
+		<str id="INFO_STAT_C4">C4</str> 
+
+		<str id="INFO_STAT_HISTFN">HC. 기능</str> 
+		<str id="INFO_STAT_SIN">sin(t*2*pi*n)</str> 
+		<str id="INFO_ENGINE_MSND">표시효과음</str> 
+		<str id="INFO_ENGINE_RSND">초기화 효과음</str> 
+
+		<str id="INFO_CFG_FLT_F6_HI">F6 LF</str> 
+		<str id="INFO_CFG_FLT_F6_LO">F6 HF</str> 
+		<str id="INFO_CFG_FLT_F6_N">F6 N</str> 
+
+		<str id="INFO_CFG_FLT_CAMPOS">Stab. 필터</str> 
+
+		<str id="INFO_CFG_FLT_FPSDIV">FPS 필터</str> 
+		<str id="INFO_CFG_FLT_DISTORTION">E-Monster</str> 
+		
+		<str id="INFO_CFG_FTP">Network Storage</str> 
+		<str id="INFO_CFG_FTP_ENABLE">enable FTP</str> 
+		<str id="INFO_CFG_FTP_PATH">configuration file</str> 
+		<str id="INFO_CFG_HTTP_URL">HTTP url</str>
+		
+		<str id="INFO_STAT_FN01">X1</str> 
+		<str id="INFO_STAT_FN02">X2</str> 
+		<str id="INFO_STAT_FN03">X3</str> 
+		<str id="INFO_STAT_FN04">X4</str> 
+		<str id="INFO_STAT_FN05">X5</str> 
+		<str id="INFO_STAT_FN06">X6</str> 
+		<str id="INFO_STAT_FN07">X7</str> 
+		<str id="INFO_STAT_FN08">X8</str> 
+		<str id="INFO_STAT_FN09">X9</str> 
+		<str id="INFO_STAT_FN10">X10</str> 
+
+		<str id="INFO_USER_CURRENT">선택된 기록</str>
+		<str id="INFO_USER_NEW">새로운 기록</str>
+		<str id="INFO_USER_NEW_NAME">이름</str>
+		<str id="INFO_USER_NEW_BD">생일</str>
+		<str id="INFO_USER_NEW_ADD">설명</str>
+		<str id="INFO_USER_DB_PATH">저장 폴더</str>
+		<str id="INFO_USER_DB_MODE">DB mode</str>
+		<str id="DB_MODE_MANUAL">manual</str>
+		<str id="DB_MODE_KEY_ONLY">key only</str>
+		<str id="INFO_USER_AVI_GROUP">캡쳐</str>
+		<str id="INFO_USER_AVI_TMAX">최대 길이(초)</str>
+		<str id="INFO_USER_AVI_PURGE">기존 파일을 정리함 (Mb)</str>
+
+		<str id="INFO_USER_INFO">Personal information</str>
+		<str id="INFO_USER_INFO_NAME">이름</str>
+		<str id="INFO_USER_INFO_ID">ID</str>
+		<str id="INFO_USER_INFO_BD">생일</str>
+		<str id="INFO_USER_INFO_GENDER">Gender</str>
+		<str id="INFO_USER_INFO_AGE">Age</str>
+		<str id="INFO_USER_INFO_COMMENTS">설명</str>
+		
+		<str id="INFO_USER_AUTO_MARKERS_CQ">CQ 마커</str>
+		<str id="INFO_USER_AUTO_MARKERS_RQ">RQ 마커</str>
+		<str id="INFO_USER_AUTO_MARKERS_SET">Set 마커</str>
+
+		<str id="INFO_CAPTURE_TIMER">타이머</str>
+		<str id="INFO_CAPTURE_STOP_IN">뒤에 정지</str>
+		<str id="INFO_CAPTURE_STOP_AT">에서 정지</str>
+		<str id="INFO_CAPTURE_START_AT">에서 시작</str>
+		<str id="INFO_CAPTURE_EXTRA_SRC">사진 추가 저장</str>
+		<str id="INFO_CAPTURE_EXTRA">사진 추가 정보 저장</str>
+		<str id="INFO_CAPTURE_XML">XML 저장</str>
+		<str id="INFO_CAPTURE_TXT">TXT 저장</str>
+		<str id="INFO_CAPTURE_DTF">DTF 저장</str>
+		<str id="INFO_CAPTURE_LD">LD 저장</str>
+		<str id="INFO_CAPTURE_HTTP">HTTP 상태</str>
+		<str id="INFO_CAPTURE_FACE_IMG">얼굴 저장</str>
+		<str id="INFO_CAPTURE_IS">촬영 모드</str>
+		<str id="INFO_CAPTURE_IS_AVI">AVI</str>
+		<str id="INFO_CAPTURE_IS_IMG">이미지</str>
+
+		<str id="INFO_NET_ENABLE">네트워크</str>
+		<str id="INFO_NET_STATE_CRITICAL">의심도 설정값 %</str>
+		<str id="INFO_NET_STATE_CUSTOMER">Customer level %</str>
+		<str id="INFO_NET_STATE_CRITICAL_S">지역 임계값 %</str>
+		<str id="INFO_NET_STATE_CRITICAL_K">지역 레벨 %</str>
+		<str id="INFO_NET_DIRECT_VIDEO">풀 비디오 스트림</str>
+		<str id="INFO_NET_LOCAL_TCP">로컬 TCP 포트</str>
+		<str id="INFO_NET_HOST_GR">서버 접속.</str>
+		<str id="INFO_NET_HOST_IP">IP</str>
+		<str id="INFO_NET_HOST_ENABLED">가능함</str>
+		<str id="INFO_NET_PORT_TCP">TCP 포트</str>
+		<str id="INFO_NET_PORT_UDP">UDP 포트</str>
+		<str id="INFO_NET_COMPRESSION">압축</str>
+
+		<str id="LOGLD_LIE_DETECTED">거짓 탐지</str>
+		<str id="LOGLD_LIE_TIME_FROM">시작 시간</str>
+		<str id="LOGLD_LIE_TIME_TO">정지 시간</str>
+		<str id="LOGLD_LIE_TIME_FROM_VIDEO">비디오 타이머(시작)</str>
+		<str id="LOGLD_LIE_TIME_TO_VIDEO">비디오 타이머 (정지)</str>
+		<str id="LOGLD_LIE_TIME">LD 시간</str>
+		<str id="LOGLD_LIE_TIME_VIDEO">LD 비디오 타이머</str>
+		<str id="LOGLD_LIE_QUESTION">질문 N</str>
+
+		<str id="HINT_GRAPH_ENABLE">그래프</str> 
+		<str id="HINT_STAT_CALC">계산</str> 
+		<str id="HINT_HIST_R">적색 히스토그램</str> 
+		<str id="HINT_HIST_G">녹색 히스토그램</str> 
+		<str id="HINT_CORREL_ENABLE">상관성</str> 
+
+		<str id="HINT_RECT_VI0">VI N(%i)</str>
+		<str id="HINT_RECT_VI1">VI 10(%i)</str>
+		<str id="HINT_RECT_VI2">VI 2(%i)</str>
+		<str id="HINT_RECT_SRC">SRC</str>
+		<str id="HINT_RECT_DELTA">DELTA</str>
+
+		<str id="HINT_RECT_VI0_A">VI N A(%i)</str>
+		<str id="HINT_RECT_VI1_A">VI 10 A(%i)</str>
+		<str id="HINT_RECT_VI2_A">VI 2 A(%i)</str>
+		<str id="HINT_RECT_SRC_A">SRC A</str>
+		<str id="HINT_RECT_DELTA_A">DELTA A</str>
+		<str id="HINT_RECT_DELTA_FA">DELTA FA</str>
+
+
+		<str id="HINT_RECT_VI0_B">VI N F(%i)</str>
+		<str id="HINT_RECT_VI1_B">VI 10 F(%i)</str>
+		<str id="HINT_RECT_VI2_B">VI 2 F(%i)</str>
+		<str id="HINT_RECT_SRC_B">SRC F</str>
+		<str id="HINT_RECT_DELTA_B">DELTA F</str>
+		<str id="HINT_RECT_DELTA_FB">DELTA FF</str>
+
+		<str id="HINT_RECT_HIST_X">Hist. X</str>
+		<str id="HINT_RECT_HIST_Y">Hist. Y</str>
+
+		<str id="MESSAGE_ERROR">오류!</str> 
+		<str id="MESSAGE_WARNING">경고!</str> 
+		<str id="MESSAGE_BROWSE_FOR_DB">저장 폴더</str> 
+		<str id="MESSAGE_CANT_CREATE_AVI_FILE">영상파일을 만들 수 없습니다.</str> 
+		<str id="MESSAGE_CANT_START_AVI_FILE">파일을 재생할 수 없습니다.\n%s</str> 
+		<str id="MESSAGE_NEED_RESTART">프로그램을 다시 시작하여 주십시요.</str> 
+		<str id="MESSAGE_CANT_CREATE_FOLDER">폴더를 만들 수 없습니다.\n%s</str> 
+		<str id="MESSAGE_CANT_WRITE_FILE">파일 저장 에러!</str> 
+		<str id="MESSAGE_DELETE_SELECTED_RECORDS">선택된 기록을 삭제하시겠습니까?</str> 
+		<str id="MESSAGE_AVI_PURGE_STOP">저장공간이 부족합니다!\n녹화가 중지됨</str> 
+		<str id="MESSAGE_CANT_RECOMPRESS">재압축을 할 수 없습니다.</str> 
+		<str id="MESSAGE_EXCEL_VERSION">This software requires installation of the Microsoft Excel 2010 or newer</str>
+
+		<str id="STR_FRAME_CAPTION">바이브라이미지</str>
+
+		<str id="STR_FILE_FILTER_AVI_VI">모든 형태 (*.avi;*.asf;*.mp4;*.xml)|*.xml;*.avi;*.asf;*.mp4|AVI 파일 (*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|VI log 파일 (*.xml)|*.xml|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_VI">VI log 파일 (*.xml)|*.xml|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_AVI">AVI 파일 (*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_AVI_ZIP">모든 형태 (*.avi;*.asf;*.mp4;*.zip)|*.zip;*.avi;*.asf;*.mp4|AVI 파일 (*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|ZIP 파일 (*.zip)|*.zip|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_HIST">VI 파일 (*.xml)|*.xml|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_IMG_ALL">모든 형태 (*.png;*.bmp;*.jpg;*.gif)|*.png;*.bmp;*.jpg;*.gif|PNG 파일 (*.png)|*.png|BMP 파일 (*.bmp)|*.bmp|JPG 파일 (*.jpg)|*.jpg|GIF파일 (*.gif)|*.gif|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_ALL">모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_XML">XML 파일 (*.xml)|*.xml|파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_XML_TXT">XML 파일 (*.xml)|*.xml|Text 파일 (*.txt)|*.txt|*.xml|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_TXT_AVI">Text 파일 (*.txt)|*.txt|AVI 파일 (*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_XML_AVI">XML 파일 (*.xml)|*.xml|AVI 파일 (*.avi;*.asf;*.mp4)|*.avi;*.asf;*.mp4|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_LDQ">LD 파일 (*.ldq)|*.ldq|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_FILE_FILTER_REG">Reg 파일 (*.reg)|*.reg|모든 파일 (*.*)|*.*|</str>
+		<str id="STR_UNITS_PSY">Psy</str>
+		<str id="STR_UNITS_EKKAL">E [kcal/min]</str>
+		<str id="STR_UNITS_FPS">Fps</str>
+		<str id="STR_UNITS_S">초</str>
+
+		<str id="STR_AURAVI">외부바이브라 VI</str>
+		<str id="STR_MONSTER">Monster VI</str>
+		<str id="STR_BIOTESTER">바이오 테스터</str>
+		<str id="STR_SLEEPINESS">Sleepiness</str>
+
+		<str id="SEQ_OWNER">소유자:</str>
+		<str id="SEQ_SERIAL">시리얼 번호:</str>
+		<str id="SEQ_TYPE">라이센스:</str>
+		<str id="SEQ_DEMO">데모</str>
+		<str id="SEQ_PROF">전문가용</str>
+		<str id="SEQ_LIMITED">제한</str>
+		<str id="SEQ_UNLIMITED">무제한</str>
+
+		<str id="NETSTATUS_IMAGE">이미지</str>
+		<str id="NETSTATUS_CONFIG">설정</str>
+		<str id="NETSTATUS_CFG_MODL">모듈</str>
+		<str id="NETSTATUS_CFG_MODL_IP">IP</str>
+		<str id="NETSTATUS_CFG_MODL_PORT_TCP">TCP 포트</str>
+		<str id="NETSTATUS_CFG_LOCAL">로컬</str>
+		<str id="NETSTATUS_CFG_LOCAL_PORT_TCP">TCP 포트</str>
+		<str id="NETSTATUS_CFG_LOCAL_PORT_UDP">UDP 포트</str>
+
+		<str id="NETSTATUS_CFG_ALERTS">경고</str>
+		<str id="NETSTATUS_CFG_ALERT_SOUND">소리</str>
+		<str id="NETSTATUS_CFG_ALERT_IMAGE">이미지</str>
+
+		<str id="AMCAP_DLG_VIDEO_FORMAT">비디오 포멧</str>
+		<str id="AMCAP_DLG_VIDEO_SOURCE">비디오 소스</str>
+		<str id="AMCAP_DLG_VIDEO_DISPLAY">비디오 디스플레이</str>
+		<str id="AMCAP_DLG_AUDIO_CAP_FILTER">오디오 캡쳐 필터</str>
+		<str id="AMCAP_DLG_VIDEO_CAP_FILTER">비디오 캡쳐 필터</str>
+		<str id="AMCAP_DLG_VIDEO_CAP_FORMAT">비디오 캡쳐 포멧</str>
+		<str id="AMCAP_DLG_VIDEO_PREVIEW_FORMAT">비디오 미리보기 포멧</str>
+		<str id="AMCAP_DLG_VIDEO_CROSSBAR">비디오 크로스바</str>
+		<str id="AMCAP_DLG_VIDEO_CROSSBAR2">두번째 크로스바</str>
+		<str id="AMCAP_DLG_TV_TUNER">TV 튜너</str>
+		<str id="AMCAP_DLG_AUDIO_CAP_FORMAT">오디오 캡쳐 포멧...</str>
+		<str id="AMCAP_DLG_TV_AUDIO">TV 오디오</str>
+
+		<str id="STR_ARCHIVE_FOLDER">폴더 설정..</str>
+
+		<str id="NETAVIS_TITLE">Net AVI 서버</str>
+		<str id="VI_GRAPH_AVG_ALL">Pulse AVG_ALL</str>
+		<str id="VI_GRAPH_SIGMA_ALL">Pulse SIGMA_ALL</str>
+
+		<str id="VI_GRAPH_AVG_ZONE">Pulse AVG_ZONE1</str>
+		<str id="VI_GRAPH_SIGMA_ZONE">Pulse SIGMA_ZONE1</str>
+
+		<str id="VI_GRAPH_AVG_ZONE2">Pulse AVG_ZONE2</str>
+		<str id="VI_GRAPH_SIGMA_ZONE2">Pulse SIGMA_ZONE2</str>
+
+		<str id="VI_GRAPH_AVG_LINE1">Pulse AVG_LINE1</str>
+		<str id="VI_GRAPH_SIGMA_LINE1">Pulse SIGMA_LINE1</str>
+
+		<str id="VI_GRAPH_AVG_LINE2">Pulse AVG_LINE2</str>
+		<str id="VI_GRAPH_SIGMA_LINE2">Pulse SIGMA_LINE2</str>
+
+		<str id="VI_GRAPH_AVG_LINE3">Pulse AVG_LINE3</str>
+		<str id="VI_GRAPH_SIGMA_LINE3">Pulse SIGMA_LINE3</str>
+
+		<str id="VI_GRAPH_SIN">Pulse SIN</str>
+
+		<str id="VI_GRAPH_PHASE_T">Pulse PHASE_T</str>
+		<str id="VI_GRAPH_PHASE_A">Pulse PHASE_A</str>
+		<str id="VI_GRAPH_PULSE10">Pulse PULSE10</str>
+
+		<str id="VI_GRAPH_AVG_X0">Pulse AVG_X0</str>
+		<str id="VI_GRAPH_AVG_X1">Pulse AVG_X1</str>
+		<str id="VI_GRAPH_AVG_X2">Pulse AVG_X2</str>
+		<str id="VI_GRAPH_AVG_X3">Pulse AVG_X3</str>
+		<str id="VI_GRAPH_AVG_X4">Pulse AVG_X4</str>
+		<str id="VI_GRAPH_AVG_X5">Pulse AVG_X5</str>
+		<str id="VI_GRAPH_AVG_X6">Pulse AVG_X6</str>
+		<str id="VI_GRAPH_AVG_X7">Pulse AVG_X7</str>
+		<str id="VI_GRAPH_AVG_X8">Pulse AVG_X8</str>
+		<str id="VI_GRAPH_AVG_X9">Pulse AVG_X9</str>
+		<str id="VI_GRAPH_SIGMA_X0">Pulse SIGMA_X0</str>
+		<str id="VI_GRAPH_SIGMA_X1">Pulse SIGMA_X1</str>
+		<str id="VI_GRAPH_SIGMA_X2">Pulse SIGMA_X2</str>
+		<str id="VI_GRAPH_SIGMA_X3">Pulse SIGMA_X3</str>
+		<str id="VI_GRAPH_SIGMA_X4">Pulse SIGMA_X4</str>
+		<str id="VI_GRAPH_SIGMA_X5">Pulse SIGMA_X5</str>
+		<str id="VI_GRAPH_SIGMA_X6">Pulse SIGMA_X6</str>
+		<str id="VI_GRAPH_SIGMA_X7">Pulse SIGMA_X7</str>
+		<str id="VI_GRAPH_SIGMA_X8">Pulse SIGMA_X8</str>
+		<str id="VI_GRAPH_SIGMA_X9">Pulse SIGMA_X9</str>
+
+		<str id="MESSAGE_LD_WARNING_FACE">주의: 저품질 (1) !</str> 
+		<str id="MESSAGE_LD_WARNING_LIGHT">주의: 저품질 (2) !</str> 
+		<str id="MESSAGE_LD_WARNING_FPS">주의: 저품질 (3) !</str> 
+
+		<str id="INFO_CORRELATION_MEDIAN">중간 상관관계</str>
+		<str id="INFO_CORRELATION_HIPASS">하이패스 필터</str>
+		<str id="INFO_CORRELATION_LOPASS">로우패스 필터</str>
+		<str id="INFO_CORRELATION_AVG">평균 필터</str>
+
+		<str id="VI_INFO_STARTUP">Startup</str>
+		<str id="VI_INFO_PWD1">Password</str>
+		<str id="VI_INFO_PWD2">Retype password</str>
+		<str id="VI_INFO_PWD_NEW">New password</str>
+		<str id="VI_INFO_PWD0">Current password</str>
+<str id="INFO_CAMERA_LOCK">Lock camera</str>
+</config>
